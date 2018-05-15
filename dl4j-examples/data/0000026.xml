@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>UNITED SAVINGS ASSN reports earnings for Qtr to Sept 30</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="44" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="26"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">COMPANY REPORTS</classifier>
+        <classifier class="online_producer" type="types_of_material">Statistics</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="general_descriptor">Company Reports</classifier>
+        <classifier class="online_producer" type="general_descriptor">Corporations</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D05E0D7113BF932A35752C0A961948260" item-length="74" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>UNITED SAVINGS ASSN reports earnings for Qtr to Sept 30</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD:</p>
+        <p>*3*** COMPANY REPORTS **</p>
+        <p>*3*UNITED SAVINGS ASSN</p>
+        <p>Qtr to Sept 30</p>
+        <p>1986</p>
+        <p>1985</p>
+        <p>Net inc</p>
+        <p>b125,580</p>
+        <p>14,421</p>
+        <p>Share earns</p>
+        <p>.16</p>
+        <p>.04</p>
+        <p>Yr rev</p>
+        <p>6,640,808</p>
+        <p>2,515,358</p>
+        <p>Net inc</p>
+        <p>315,046</p>
+        <p>c145,978</p>
+        <p>Share earns</p>
+        <p>.45</p>
+        <p>-</p>
+        <p>b-Includes a gain of $42,978 from a tax credit.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD:</p>
+        <p>*3*** COMPANY REPORTS **</p>
+        <p>*3*UNITED SAVINGS ASSN</p>
+        <p>Qtr to Sept 30</p>
+        <p>1986</p>
+        <p>1985</p>
+        <p>Net inc</p>
+        <p>b125,580</p>
+        <p>14,421</p>
+        <p>Share earns</p>
+        <p>.16</p>
+        <p>.04</p>
+        <p>Yr rev</p>
+        <p>6,640,808</p>
+        <p>2,515,358</p>
+        <p>Net inc</p>
+        <p>315,046</p>
+        <p>c145,978</p>
+        <p>Share earns</p>
+        <p>.45</p>
+        <p>-</p>
+        <p>b-Includes a gain of $42,978 from a tax credit.</p>
+        <p>*3*** COMPANY REPORTS **</p>
+        <p>*3*UNITED SAVINGS ASSN</p>
+        <p>Qtr to Sept 30</p>
+        <p>1986</p>
+        <p>1985</p>
+        <p>Net inc</p>
+        <p>b125,580</p>
+        <p>14,421</p>
+        <p>Share earns</p>
+        <p>.16</p>
+        <p>.04</p>
+        <p>Yr rev</p>
+        <p>6,640,808</p>
+        <p>2,515,358</p>
+        <p>Net inc</p>
+        <p>315,046</p>
+        <p>c145,978</p>
+        <p>Share earns</p>
+        <p>.45</p>
+        <p>-</p>
+        <p>b-Includes a gain of $42,978 from a tax credit.</p>
+        <p>c-Net loss  The prior year results include certain pre-opening expenses allocated to the association's first fiscal year.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

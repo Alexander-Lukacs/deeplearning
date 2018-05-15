@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>WTC INTERNATIONAL reports earnings for Qtr to Nov 30</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="44" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="32"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">COMPANY REPORTS</classifier>
+        <classifier class="online_producer" type="types_of_material">Statistics</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="general_descriptor">Company Reports</classifier>
+        <classifier class="online_producer" type="general_descriptor">Corporations</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D05E0D7153AF932A35752C0A961948260" item-length="50" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>WTC INTERNATIONAL reports earnings for Qtr to Nov 30</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD:</p>
+        <p>*3*** COMPANY REPORTS **</p>
+        <p>*3*WTC INTERNATIONAL (AMEX)</p>
+        <p>Qtr to Nov 30</p>
+        <p>1986</p>
+        <p>1985</p>
+        <p>Revenue</p>
+        <p>55,812,000</p>
+        <p>47,258,000</p>
+        <p>Net inc</p>
+        <p>1,349,000</p>
+        <p>164,000</p>
+        <p>Share earns</p>
+        <p>.16</p>
+        <p>.02</p>
+        <p>9mo rev</p>
+        <p>148,839,000</p>
+        <p>132,311,000</p>
+        <p>Net inc</p>
+        <p>901,000</p>
+        <p>1,282,000</p>
+        <p>Share earns</p>
+        <p>.11</p>
+        <p>.15</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD:</p>
+        <p>*3*** COMPANY REPORTS **</p>
+        <p>*3*WTC INTERNATIONAL (AMEX)</p>
+        <p>Qtr to Nov 30</p>
+        <p>1986</p>
+        <p>1985</p>
+        <p>Revenue</p>
+        <p>55,812,000</p>
+        <p>47,258,000</p>
+        <p>Net inc</p>
+        <p>1,349,000</p>
+        <p>164,000</p>
+        <p>Share earns</p>
+        <p>.16</p>
+        <p>.02</p>
+        <p>9mo rev</p>
+        <p>148,839,000</p>
+        <p>132,311,000</p>
+        <p>Net inc</p>
+        <p>901,000</p>
+        <p>1,282,000</p>
+        <p>Share earns</p>
+        <p>.11</p>
+        <p>.15</p>
+        <p>*3*** COMPANY REPORTS **</p>
+        <p>*3*WTC INTERNATIONAL (AMEX)</p>
+        <p>Qtr to Nov 30</p>
+        <p>1986</p>
+        <p>1985</p>
+        <p>Revenue</p>
+        <p>55,812,000</p>
+        <p>47,258,000</p>
+        <p>Net inc</p>
+        <p>1,349,000</p>
+        <p>164,000</p>
+        <p>Share earns</p>
+        <p>.16</p>
+        <p>.02</p>
+        <p>9mo rev</p>
+        <p>148,839,000</p>
+        <p>132,311,000</p>
+        <p>Net inc</p>
+        <p>901,000</p>
+        <p>1,282,000</p>
+        <p>Share earns</p>
+        <p>.11</p>
+        <p>.15</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>
