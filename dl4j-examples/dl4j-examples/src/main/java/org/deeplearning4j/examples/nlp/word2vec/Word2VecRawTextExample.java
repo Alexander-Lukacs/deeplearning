@@ -33,14 +33,16 @@ public class Word2VecRawTextExample {
     private void start() {
         int i = 0;
         File file;
-        while (i<=38) {
+        while (i<=231) {
             try {
             if (i <=9) {
                 file = new File("data/000000" + i + ".xml");
             }
-            else {
+            else if (i <=99) {
                 file = new File("data/00000" + i + ".xml");
-            }
+            }else {
+                    file = new File("data/00000" + i + ".xml");
+                }
                 System.out.println(file.getAbsolutePath());
                 word2Vec(parser.parseNYTCorpusDocumentFromFile(file, false));
             } catch (Exception e) {
