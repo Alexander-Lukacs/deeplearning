@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>RAJ NARAIN, 69, INDIAN SOCIALIST: HELPED DEFEAT TWO GOVERNMENTS</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Obituary" name="dsk"/>
+    <meta content="56" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Obituaries" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="168"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">DEATHS</classifier>
+        <classifier class="indexing_service" type="descriptor">POLITICS AND GOVERNMENT</classifier>
+        <location class="indexing_service">INDIA</location>
+        <person class="indexing_service">NARAIN, RAJ</person>
+        <person class="indexing_service">HAZARIKA, SANJOY</person>
+        <person class="indexing_service">NARAIN, RAJ (BIOGRAPHICAL SKETCH)</person>
+        <classifier class="online_producer" type="types_of_material">Obituary</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Obituaries</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Asia</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Asia/India</classifier>
+        <classifier class="online_producer" type="general_descriptor">Politics and Government</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE1DE113FF932A35752C0A961948260" item-length="434" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>RAJ NARAIN, 69, INDIAN SOCIALIST: HELPED DEFEAT TWO GOVERNMENTS</hl1>
+      </hedline>
+      <byline class="print_byline">By SANJOY HAZARIKA, Special to the New York Times</byline>
+      <byline class="normalized_byline">HAZARIKA, SANJOY</byline>
+      <dateline>NEW DELHI, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Raj Narain, a colorful Socialist leader who defeated Prime Minister Indira Gandhi in a parliamentary election and played a key role in the fall of a successor, died of a heart attack here Tuesday night. He was 69 years old.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Raj Narain, a colorful Socialist leader who defeated Prime Minister Indira Gandhi in a parliamentary election and played a key role in the fall of a successor, died of a heart attack here Tuesday night. He was 69 years old.</p>
+        <p>Raj Narain, a colorful Socialist leader who defeated Prime Minister Indira Gandhi in a parliamentary election and played a key role in the fall of a successor, died of a heart attack here Tuesday night. He was 69 years old.</p>
+        <p>Mr. Narain was active in the independence movement against Britain and was later imprisoned scores of times for his leadership of opposition movements.</p>
+        <p>First elected to India's upper house of Parliament in 1966, Mr. Narian became known for his antics and rowdy behavior. He was sometimes asked to leave the chamber and on several occasions had to be carried out by parliamentary officers.</p>
+        <p>In 1975 a high court upheld Mr. Narain's charges of electoral fraud against Mrs. Gandhi. The charges concerned a 1971 election for the lower house that Mr. Narain, who often wore a green bandana around his head, had lost by more than 100,000 votes.</p>
+        <p>The verdict led to the authoritarian state of emergency that Mrs. Gandhi declared soon after, arresting thousands of critics, including Mr. Narain, and imposing news censorship. Defeated Mrs. Gandhi</p>
+        <p>Nearly two years later, when Mrs. Gandhi called new elections and freed her critics, Mr. Narain and his colleagues rode a popular wave of unrest to defeat her and her Government. He won decisively in the Prime Minister's home constituency of Rae Bareli.</p>
+        <p>In the new Government of Prime Minister Morarji R. Desai, an ascetic follower of Mohandas K. Gandhi, Mr. Narain was appointed Health Minister. He set about changing the policy on family planning and renounced forced sterilizations.</p>
+        <p>Mr. Desai dismissed Mr. Narain and his chief ally, Home Affairs Minister Charan Singh, for working against his Janata Party Government. The governing party then comprised four opposition groups, including the Socialists, that had merged in 1977 to oppose Mrs. Gandhi.</p>
+        <p>Although there was a brief reconciliation in the Janata Party, Mr. Narain later led a fierce party revolt that toppled Mr. Desai in the summer of 1979 and replaced him with Mr. Singh as Prime Minister. The new Government collapsed when Mrs. Gandhi withdrew a pledge of support, and in elections at the beginning of 1980 she swept back to power with a landslide. Mrs. Gandhi was assassinated in 1984 and was succeeded by her son, Rajiv.</p>
+        <p>Mr. Narain fell out with Mr. Singh after the 1980 opposition debacle and finally founded his own Socialist Party, which had few followers.</p>
+        <p>He recently completed a Hindi-language movie in which he played the part of Manu, the deity who is revered as a lawmaker by pious Hindus.</p>
+        <p>Mr. Narain is survived by his wife and four children.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

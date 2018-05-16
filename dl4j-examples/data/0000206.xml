@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>HOTEL FIRES: MAJOR DISASTERS</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="National Desk" name="dsk"/>
+    <meta content="7" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="U.S." name="online_sections"/>
+    <docdata>
+      <doc-id id-string="206"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">FIRES AND FIREMEN</classifier>
+        <classifier class="indexing_service" type="descriptor">HOTELS AND MOTELS</classifier>
+        <classifier class="online_producer" type="types_of_material">List</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S.</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Hospitality, Restaurant and Travel</classifier>
+        <classifier class="online_producer" type="general_descriptor">Hotels and Motels</classifier>
+        <classifier class="online_producer" type="general_descriptor">Fires and Firefighters</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4DA1E3FF932A35752C0A961948260" item-length="194" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>HOTEL FIRES: MAJOR DISASTERS</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The blaze in San Juan, P.R., yesterday was among the most devastating hotel fires in history. Other major hotel fires include these:</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The blaze in San Juan, P.R., yesterday was among the most devastating hotel fires in history. Other major hotel fires include these:</p>
+        <p>The blaze in San Juan, P.R., yesterday was among the most devastating hotel fires in history. Other major hotel fires include these:</p>
+        <p>Sept. 7, 1943: The Gulf Hotel in Houston; the death toll was 55 people.</p>
+        <p>June 5, 1946: The La Salle in Chicago; the toll was 61.</p>
+        <p>Dec. 7, 1946: The Winecoff Hotel in Atlanta; the toll was 119.</p>
+        <p>Dec. 20, 1970: The Pioneer International Hotel in Tucson, Ariz. The fire that raced through the upper stories killed 28.</p>
+        <p>Feb. 25, 1977: The 6,000-bed Hotel Rossiya in Moscow; at least 45 died.</p>
+        <p>July 12, 1979: The Hotel Corona de Aragon in Saragossa, Spain. The fire started when a pastry machine exploded, killing 72.</p>
+        <p>Sept. 29, 1979: The Am Augarten Hotel in Vienna; the toll was 25.</p>
+        <p>Nov. 21, 1980: The MGM Grand Hotel in Las Vegas, Nev.; the toll was 84.</p>
+        <p>Dec. 4, 1980: The Stouffer's Inn conference center in Harrison, N.Y. The flash fire killed 26.</p>
+        <p>Oct. 25, 1984: The Pines Hotel, Baguio, the Philippines; the toll was 17, including nine Americans visting for the 40th Anniversary of Gen. Douglas MacArthur's return to the Philippines in World War II.</p>
+        <p>Jan. 24, 1986: The Siddarth Continental, New Delhi; the toll was 38.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

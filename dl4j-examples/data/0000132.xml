@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Funds Up; C.D.'s Rise</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="53" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="132"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="CONSUMER RATES"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">BANKS AND BANKING</classifier>
+        <classifier class="indexing_service" type="descriptor">CERTIFICATES OF DEPOSIT</classifier>
+        <classifier class="indexing_service" type="descriptor">MONEY MARKET ACCOUNTS</classifier>
+        <classifier class="indexing_service" type="descriptor">INTEREST (MONEY)</classifier>
+        <org class="indexing_service">DONOGHUE'S MONEY FUND REPORT</org>
+        <org class="indexing_service">BANK RATE MONITOR</org>
+        <person class="indexing_service">HURTADO, ROBERT</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Money Market Accounts</classifier>
+        <classifier class="online_producer" type="general_descriptor">Money Market Accounts</classifier>
+        <classifier class="online_producer" type="general_descriptor">Banks and Banking</classifier>
+        <classifier class="online_producer" type="general_descriptor">Stocks and Bonds</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE7D8173FF932A35752C0A961948260" item-length="339" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Funds Up; C.D.'s Rise</hl1>
+      </hedline>
+      <byline class="print_byline">By ROBERT HURTADO</byline>
+      <byline class="normalized_byline">HURTADO, ROBERT</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Yields on money market mutual funds continued to move higher in the week ended yesterday, fueled by a surge in the Federal funds rate, which is the rate that banks charge one another for overnight loans.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Yields on money market mutual funds continued to move higher in the week ended yesterday, fueled by a surge in the Federal funds rate, which is the rate that banks charge one another for overnight loans.</p>
+        <p>Yields on money market mutual funds continued to move higher in the week ended yesterday, fueled by a surge in the Federal funds rate, which is the rate that banks charge one another for overnight loans.</p>
+        <p>The impact of short-term borrowings has had minimal effect on yields offered by banks and thrift institutions for certificates of deposit and money market accounts.</p>
+        <p>Rates on repurchase agreements, short-term loans backed by government securities, have been influenced by the Federal funds rate, which in turn has exerted upward pressure on yields of money market mutual funds. Repurchase agreements are a common practice among large investing institutions, banks and securities dealers.</p>
+        <p>At the Treasury's weekly bill auction, the average discount rate for a three-month bill rose one basis point, to 5.68 percent, its highest level since last August. Six-month bills increased by 12 basis points, also to 5.68 percent. A basis point is one-hundredth of a percentage point.</p>
+        <p>The Bank Rate Monitor's national index showed the average yield for a six-month certificate of deposit up two basis points, to 5.92 percent, and the average yield of a bank money market account, which competes with money market mutual funds, unchanged at 5.44 percent. One-Year C.D. at 6.17%</p>
+        <p>Yields on one-year and five-year C.D.'s were up one basis point, to 6.17 percent and 7.15 percent, respectively. The average yield for a two-and-a-half year C.D. was up two basis points, to 6.61 percent.</p>
+        <p>In the funds market this week, Donoghue's Money Fund Report said, the seven-day taxable, compounded average yield for money market mutual funds increased by 10 basis points, to 5.63 percent, while the 30-day compounded average yield rose 6 basis points, to 5.48 percent. Analysts said the rise in yields may not last more than a week or two, at the most.</p>
+        <p>The average maturity of securities held by the money market funds fell to 48 days, from 50 days, as portfolio managers apparently shortened maturities to take advantage of the higher rates.</p>
+        <p>CONSUMER RATES</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

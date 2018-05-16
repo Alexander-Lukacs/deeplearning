@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Steel Unit Bid</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="43" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="229"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="COMPANY NEWS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Terms not available</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEEDD163EF932A35752C0A961948260" item-length="60" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Steel Unit Bid</hl1>
+      </hedline>
+      <byline class="print_byline">Reuters</byline>
+      <dateline>STERLING, Ill., Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The Northwestern Steel and Wire Company said it had reviewed the $22-a-share cash and preferred stock takeover bid from Bennett Lebow and that there were still terms in the bid that must be negotiated. It said any approval was subject to a favorable opinion from its financial adviser, the First Boston Corporation.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The Northwestern Steel and Wire Company said it had reviewed the $22-a-share cash and preferred stock takeover bid from Bennett Lebow and that there were still terms in the bid that must be negotiated. It said any approval was subject to a favorable opinion from its financial adviser, the First Boston Corporation.</p>
+        <p>The Northwestern Steel and Wire Company said it had reviewed the $22-a-share cash and preferred stock takeover bid from Bennett Lebow and that there were still terms in the bid that must be negotiated. It said any approval was subject to a favorable opinion from its financial adviser, the First Boston Corporation. The bid was valued at about $165 million.</p>
+        <p>COMPANY NEWS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

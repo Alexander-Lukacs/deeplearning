@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>The Editorial Notebook; Naming You-Know-What</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Editorial Desk" name="dsk"/>
+    <meta content="26" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Opinion" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="117"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">UNITED STATES INTERNATIONAL RELATIONS</classifier>
+        <classifier class="indexing_service" type="descriptor">EDITORIALS</classifier>
+        <classifier class="indexing_service" type="descriptor">HOSTAGES</classifier>
+        <location class="indexing_service">IRAN</location>
+        <location class="indexing_service">NICARAGUA</location>
+        <person class="indexing_service">MEYER, KARL E</person>
+        <classifier class="online_producer" type="types_of_material">Editorial</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion/Editorials</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Central and South America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Central and South America/Nicaragua</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Middle East</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Middle East/Iran</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States International Relations</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States International Relations</classifier>
+        <classifier class="online_producer" type="general_descriptor">Hostages</classifier>
+        <classifier class="online_producer" type="general_descriptor">International Relations</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States Politics and Government</classifier>
+        <classifier class="online_producer" type="general_descriptor">Politics and Government</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEEDD163FF932A35752C0A961948260" item-length="384" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>The Editorial Notebook; Naming You-Know-What</hl1>
+      </hedline>
+      <byline class="print_byline">By Karl E. Meyer</byline>
+      <byline class="normalized_byline">MEYER, KARL E</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Every wordsmith in America has plundered the thesaurus in quest of a catchy term for you-know-what. Time calls it ''Iranscam,'' and The Economist favors ''Iranagua.'' A New Republic contest awarded the prize to ''Iranamok.'' Others put the emphasis on Latin America, proposing ''Contra-Diction,'' ''Contra Mundo'' and the inevitable ''Contragate.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Every wordsmith in America has plundered the thesaurus in quest of a catchy term for you-know-what. Time calls it ''Iranscam,'' and The Economist favors ''Iranagua.'' A New Republic contest awarded the prize to ''Iranamok.'' Others put the emphasis on Latin America, proposing ''Contra-Diction,'' ''Contra Mundo'' and the inevitable ''Contragate.</p>
+        <p>Every wordsmith in America has plundered the thesaurus in quest of a catchy term for you-know-what. Time calls it ''Iranscam,'' and The Economist favors ''Iranagua.'' A New Republic contest awarded the prize to ''Iranamok.'' Others put the emphasis on Latin America, proposing ''Contra-Diction,'' ''Contra Mundo'' and the inevitable ''Contragate.'' America's best-known Marine colonel is immortalized in ''Olliewood,'' ''Oliver's Twist'' and ''Ollie's Follies.'' Then there's the sniggering ''Deep Gloat'' and ''Gipperloo.''</p>
+        <p>All these nominations make good sport but poor titles. A look at history helps explain why.</p>
+        <p>Generally speaking, tags for past fiascos fall into three categories: places, people and jargon. Examples of the first start with the South Sea Bubble (1720), a financial scandal that claimed fortunes and reputations in Georgian England. Teapot Dome (1924) was named after the Wyoming oilfields whose corrupt leasing forever tarred Warren Harding. Suez (1956) is synonymous with the collusive and aborted attempt by Britain, France and Israel to reclaim the Suez Canal and depose President Nasser of Egypt. Closer to home is the Bay of Pigs (1961), the swamp in Cuba that swallowed up John F. Kennedy's exile army - and, of course, Watergate (1972), the Potomac complex in which the Nixon scandal begin to twist, slowly, in the wind.</p>
+        <p>People's names are as rich a source. France's Third Republic was nearly sundered by the Dreyfus Affair (1894), stirred by a military conspiracy to frame Alfred Dreyfus, a Jew, on treason charges. In Britain, where scandals usually involve sexual misbehavior, the most celebrated bears the name of John Profumo (1963), a Minister of the Crown whose dalliances hurried the resignation of Prime Minister Harold Macmillan.</p>
+        <p>Finally, there's bureaucratic shorthand, as in Abscam (1980), the F.B.I. sting operation in which agents in Arab garb offered bribes to susceptible members of Congress.</p>
+        <p>The problem with trying to name the present White House crisis is that it involves too much geography and too many people for any single, easy label. Russell Baker proposes, in the Sherlockian spirit, ''The Poindexter Affair.'' Clever, but no cigar. Neither Doyle nor Roget's offer shorthand long enough. It remains, for short, the Iran-contra arms scandal.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

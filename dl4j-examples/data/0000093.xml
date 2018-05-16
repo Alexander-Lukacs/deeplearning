@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>REHNQUIST URGES RAISES FOR JUDGES</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="National Desk" name="dsk"/>
+    <meta content="8" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="U.S." name="online_sections"/>
+    <docdata>
+      <doc-id id-string="93"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">COURTS</classifier>
+        <classifier class="indexing_service" type="descriptor">JUDGES</classifier>
+        <classifier class="indexing_service" type="descriptor">WAGES AND SALARIES</classifier>
+        <classifier class="indexing_service" type="descriptor">FEDERAL DISTRICT COURTS</classifier>
+        <location class="indexing_service">UNITED STATES</location>
+        <person class="indexing_service">REHNQUIST, WILLIAM H (CHIEF JUSTICE)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S.</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="general_descriptor">Courts</classifier>
+        <classifier class="online_producer" type="general_descriptor">Judges</classifier>
+        <classifier class="online_producer" type="general_descriptor">Wages and Salaries</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEFDF1E3CF932A35752C0A961948260" item-length="377" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>REHNQUIST URGES RAISES FOR JUDGES</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>WASHINGTON, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Chief Justice William H. Rehnquist supports a proposal to give most Federal judges at least a $50,000-a-year raise, saying the pay increase is needed to draw ''first-rate talent.''</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Chief Justice William H. Rehnquist supports a proposal to give most Federal judges at least a $50,000-a-year raise, saying the pay increase is needed to draw ''first-rate talent.''</p>
+        <p>Chief Justice William H. Rehnquist supports a proposal to give most Federal judges at least a $50,000-a-year raise, saying the pay increase is needed to draw ''first-rate talent.''</p>
+        <p>In his first year-end statement on the Federal court system, Chief Justice Rehnquist called on President Reagan and Congress today ''to make realistic salary adjustments for judges.''</p>
+        <p>The annual pay that takes effect Thursday is $81,100 a year for Federal trial judges, $85,700 for appellate judges and $107,200 for Associate Justices of the Supreme Court. The Chief Justice's annual salary is $111,700.</p>
+        <p>A Federal advisory commission recently urged higher salaries for all top Federal officials. Among the commission's proposals were annual salaries of $130,000 for trial judges, $135,000 for appellate judges, $165,000 for Associate Justices and $175,000 for the Chief Justice.</p>
+        <p>Chief Justice Rehnquist noted that some people felt the commission's recommendations were excessive because Federal judges already earn far more than most Americans. Other Lawyers' Income</p>
+        <p>''If Federal judges were drawn from a cross-section of occupations this would be a valid criticism,'' he said. ''The relevant comparison is not with salaries and wages throughout the economy but with the income of other lawyers.</p>
+        <p>''In 1985, the median income of a 50-year-old partner in a law firm was $164,000. We must be able to attract this kind of person, among others, to the Federal judiciary if we are to maintain its tradition of excellence.''</p>
+        <p>''We will always have men and women available to fill vacancies in the Federal judiciary,'' he said, ''but if salaries are not made comparable to the average in private practice, fewer of these candidates will possess the first-rate talent which has always been a hallmark of the Federal bench.''</p>
+        <p>Chief Justice Rehnquist, a member of the Supreme Court since 1972, was promoted to Chief Justice this year to replace Warren E. Burger. In his year-end statement, he praised his predecessor's efforts to improve the administration of justice. ''He forced us to realize that the Congress, the executive and the judiciary cannot move in splendid isolation from one another, any more than can the Federal and state courts,'' Chief Justice Rehnquist said.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

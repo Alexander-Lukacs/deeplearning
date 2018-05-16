@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>STATE'S LEADERS ARE SWORN IN ON EVE OF '87</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="31" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="196"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">POLITICS AND GOVERNMENT</classifier>
+        <classifier class="indexing_service" type="descriptor">LIEUTENANT GOVERNORS (US)</classifier>
+        <classifier class="indexing_service" type="descriptor">GOVERNORS (US)</classifier>
+        <location class="indexing_service">NEW YORK STATE</location>
+        <person class="indexing_service">CUOMO, MARIO M (GOV)</person>
+        <person class="indexing_service">WACHTLER, SOL (CHIEF JUDGE)</person>
+        <person class="indexing_service">LUNDINE, STANLEY N (LT GOV)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Mid-Atlantic</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Government, Philanthropy and NGO</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York</classifier>
+        <classifier class="online_producer" type="general_descriptor">Governors (US)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Politics and Government</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE6DC1E3FF932A35752C0A961948260" item-length="285" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>STATE'S LEADERS ARE SWORN IN ON EVE OF '87</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>ALBANY, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Governor Cuomo, with a possible Presidential campaign waiting in the wings, took the oath of office New Year's Eve for a second term as New York's chief executive.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Governor Cuomo, with a possible Presidential campaign waiting in the wings, took the oath of office New Year's Eve for a second term as New York's chief executive.</p>
+        <p>Governor Cuomo, with a possible Presidential campaign waiting in the wings, took the oath of office New Year's Eve for a second term as New York's chief executive.</p>
+        <p>The official oath was administered to Mr. Cuomo by Sol Wachtler, Chief Judge of New York State, during a private ceremony tonight at the Governor's Mansion.</p>
+        <p>''What we have to do now is spend four more years trying to provide other people in this state with the kind of magnificent opportunities that we've had,'' Mr. Cuomo told a small group of friends and relatives after taking his oath. ''We worked very hard the last four years, we'll work even harder in the four years ahead.''</p>
+        <p>Before taking his oath of office, Mr. Cuomo, a licensed notary public, swore in his new lieutenant governor, Stan Lundine.</p>
+        <p>While the two Democrats took their official oaths of office on New Year's Eve to meet requirements of the state constitution, a public inauguration ceremony was to be held on New Year's Day at the Empire State Plaza adjacent to the State Capitol.</p>
+        <p>State workers were busy today putting up the last of the red, white and blue bunting for the event. Mr. Cuomo spent some time in the Convention Center hall practicing his speech.</p>
+        <p>Mr. Cuomo said a few days after his re-election that he was going to begin thinking about running for President. He has yet to announce any decision. Nonetheless, just before the ceremony tonight, aides to the Governor said that he would be traveling to five other states, including Iowa, in the next several months. Iowa is the site of the nation's first Presidential party caucuses.</p>
+        <p>Cuomo also plans to travel to California, Florida, Louisiana and North Carolina, said a spokesman, Martin Steadman.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

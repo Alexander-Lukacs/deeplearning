@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>LINK OF FAT TO BREAST CANCER DISPUTED</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="National Desk" name="dsk"/>
+    <meta content="6" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Health; U.S." name="online_sections"/>
+    <docdata>
+      <doc-id id-string="118"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">CANCER</classifier>
+        <classifier class="indexing_service" type="descriptor">RESEARCH</classifier>
+        <classifier class="indexing_service" type="descriptor">BREAST</classifier>
+        <classifier class="indexing_service" type="descriptor">FOOD</classifier>
+        <classifier class="indexing_service" type="descriptor">OILS AND FATS</classifier>
+        <classifier class="indexing_service" type="descriptor">DIET AND NUTRITION</classifier>
+        <classifier class="indexing_service" type="descriptor">WOMEN</classifier>
+        <person class="indexing_service">WILLETT, WALTER C (DR)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S.</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Health/Diseases, Conditions, and Health Topics/Breast Cancer</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Health/Diseases, Conditions, and Health Topics/Cancer</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Food and Wine</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Health/Diseases, Conditions, and Health Topics/Diet</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Health</classifier>
+        <classifier class="online_producer" type="general_descriptor">Cancer</classifier>
+        <classifier class="online_producer" type="general_descriptor">Research</classifier>
+        <classifier class="online_producer" type="general_descriptor">Breast</classifier>
+        <classifier class="online_producer" type="general_descriptor">Oils and Fats</classifier>
+        <classifier class="online_producer" type="general_descriptor">Diet and Nutrition</classifier>
+        <classifier class="online_producer" type="general_descriptor">Women</classifier>
+        <classifier class="online_producer" type="general_descriptor">Food</classifier>
+        <classifier class="online_producer" type="general_descriptor">Diseases and Conditions</classifier>
+        <classifier class="online_producer" type="general_descriptor">Medicine and Health</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE0DB163FF932A35752C0A961948260" item-length="852" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>LINK OF FAT TO BREAST CANCER DISPUTED</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>BOSTON, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Low-fat diets, widely recommended as a means of preventing breast cancer, fail to protect women from this common killer, a major new study concludes.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Low-fat diets, widely recommended as a means of preventing breast cancer, fail to protect women from this common killer, a major new study concludes.</p>
+        <p>Low-fat diets, widely recommended as a means of preventing breast cancer, fail to protect women from this common killer, a major new study concludes.</p>
+        <p>The finding means there is apparently no practical way for women to protect themselves from breast cancer, a disease that strikes one of every 11 American women. The researcher cautioned, however, that women who have already reduced their fat intake should not revert to a high-fat diet on the basis of these findings.</p>
+        <p>''Within this study, there is really no support for an association between dietary fat and breast cancer,'' said Dr. Walter C. Willett of Harvard Medical School.</p>
+        <p>Dr. Willett's study, based on the eating habits of nearly 90,000 nurses, found that those on relatively high-fat diets had less breast cancer than those whose eating habits mirrored the low-fat recommendations of the National Cancer Institute and other organizations. Other Reasons to Avoid Fat</p>
+        <p>However, Dr. Willett said, even if a low-fat diet does not stop breast cancer, avoiding fat is still wise because this can reduce the risk of heart disease. ''Furthermore, the possibility exists that a moderate reduction in fat may reduce the risk of cancer at sites other than the breast,'' he said. ''However, this remains to be established.''</p>
+        <p>He said an ''important implication'' of this finding was that alternative methods to reduce the risk of breast cancer must be found. He stressed the importance of routine breast self-examination and mammography, or X-rays of the breast, to detect the disease early. But ''at this point,'' he said, ''there is little that a woman can do to reduce her risk of breast cancer with any degree of confidence.''</p>
+        <p>Although some suggest that a more drastic reduction in fat consumption to 20 percent of total calories will prevent breast cancer, Dr. Willett said his study neither disproved nor supported that theory.</p>
+        <p>Dr. Daniel Nixon of Emory University, a proponent of the diet cancer theory, said the new research ''flies in the face of animal studies,'' which show that dietary fat promotes breast cancer in laboratory animals. But he said the large size of the Harvard study made it ''hard to argue with.'' Contrary to Common Belief</p>
+        <p>Dr. Willett's research, published in the latest issue of The New England Journal of Medicine, disputes an idea that has been widely repeated in recent years.</p>
+        <p>The National Cancer Institute, the American Cancer Society and the National Academy of Sciences, among others, have recommended diets intended to ward off breast cancer and other forms of cancer. In general, they propose that women restrict their fat consumption to 30 percent of their total calories, rather than the more common 40 percent.</p>
+        <p>Dietary fat has been implicated in other forms of cancer. In last week's issue of The New England Journal of Medicine, two European studies provided circumstantial evidence that high-fat diets might contribute to colon cancer.</p>
+        <p>In Dr. Willett's study, 89,538 nurses from around the United States kept track of their daily consumption of a variety of nutrients, including fat. After four years, 601 of them had got breast cancer. Those on low-fat diets were not spared the disease.</p>
+        <p>In fact, those whose fat consumption averaged 44 percent of their daily calories had an 18 percent lower risk of cancer than did those who ate 32 percent of their calories as fat. However, this difference was not statistically meaningful. Not the Final Word</p>
+        <p>Several experts said that the Harvard study was unlikely to be the last word on this issue.</p>
+        <p>''This is a good study, but it's not the only one,'' said Dr. Peter Greenwald, director of the cancer institute's division of cancer protection. He said the institute would continue to recommend that Americans cut back on fat and total calories while increasing their consumption of fruits, vegetables, whole-grain cereals and starches.</p>
+        <p>Dr. Johanna Dwyer of the New England Medical Center said, ''Maybe Dr. Willett feels he has annihilated the N.C.I. guidelines, but I think we'll have a lot of different studies before that happens.''</p>
+        <p>Dr. Willett said there appeared to be little a woman could do to reduce her risk of breast cancer. ''The best method is to have many children and have them early,'' he said. ''That, unfortunately, is impractical.''</p>
+        <p>An estimated 123,000 new cases of breast cancer were diagnosed in the United States in 1986, and 40,200 women died from it. Among factors known to increase the risk of the disease are a family history of breast cancer, never having children or having a first child after the age of 30.</p>
+        <p>Dr. Willett said no one knew why women in some parts of the world had a better chance of escaping breast cancer. However, he said, one explanation might be restriction of food intake in childhood or adolescence. Such food deprivation probably has to be severe enough to stunt children's growth.</p>
+        <p>''If that's true, it's in a way unfortunate, because it doesn't lead to any practical intervention,'' he said. ''We're certainly not going to hold back food from our kids so much that they'll grow shorter.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

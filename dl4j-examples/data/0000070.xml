@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Poland Cites Debt Problem</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="47" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="70"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ECONOMIC CONDITIONS AND TRENDS</classifier>
+        <classifier class="indexing_service" type="descriptor">CREDIT</classifier>
+        <classifier class="indexing_service" type="descriptor">INTEREST (MONEY)</classifier>
+        <location class="indexing_service">POLAND</location>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/Poland</classifier>
+        <classifier class="online_producer" type="general_descriptor">Credit</classifier>
+        <classifier class="online_producer" type="general_descriptor">Economic Conditions and Trends</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE0DA103CF932A35752C0A961948260" item-length="191" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Poland Cites Debt Problem</hl1>
+      </hedline>
+      <byline class="print_byline">Reuters</byline>
+      <dateline>WARSAW, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Poland will be unable to meet interest repayments to Western creditors next year and its hard currency debt is expected to reach more than $35 billion, according to official statistics published today.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Poland will be unable to meet interest repayments to Western creditors next year and its hard currency debt is expected to reach more than $35 billion, according to official statistics published today.</p>
+        <p>Poland will be unable to meet interest repayments to Western creditors next year and its hard currency debt is expected to reach more than $35 billion, according to official statistics published today.</p>
+        <p>An economic plan for 1987 cited by the official P.A.P. press agency sees a trade surplus with the West of $1 billion, virtually unchanged from this year.</p>
+        <p>The revenues are needed primarily to service the debt, but the agency said that ''Poland will continue to lack enough currency to fully pay interest on foreign debt, which means that full indebtedness will grow to more than $35 billion.''</p>
+        <p>Poland has fallen behind in paying interest due for at least two years, and negotiations with the Paris Club of 17 Western creditor nations on rescheduling 1986 repayments have failed to reach agreement.</p>
+        <p>Finance Minister Bazyli Samojlik told reporters recently that Poland would repay less than $2 billion in 1986, but would not disclose how much needed to be rescheduled. Diplomats estimate that $550 million could be lacking, a similar amount to 1985. Mr. Samojlik said Poland's debt was likely to reach $33.4 billion by the end of 1986.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

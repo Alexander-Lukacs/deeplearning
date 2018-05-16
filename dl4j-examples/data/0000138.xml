@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>SUSPECT IS NAMED IN MURDER OF SON OF EX-AIDE TO CUOMO</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="32" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="138"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MURDERS AND ATTEMPTED MURDERS</classifier>
+        <location class="indexing_service">SUFFOLK COUNTY (NY)</location>
+        <location class="indexing_service">FIRE ISLAND (NY)</location>
+        <person class="indexing_service">MAY, CLIFFORD D</person>
+        <person class="indexing_service">CUOMO, MARIO M (GOV)</person>
+        <person class="indexing_service">ROMEO, ANTHONY</person>
+        <person class="indexing_service">STARKEY, JOHN</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Mid-Atlantic</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/Long Island</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/Long Island/Fire Island</classifier>
+        <classifier class="online_producer" type="general_descriptor">Murders and Attempted Murders</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEFDD143FF932A35752C0A961948260" item-length="751" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>SUSPECT IS NAMED IN MURDER OF SON OF EX-AIDE TO CUOMO</hl1>
+      </hedline>
+      <byline class="print_byline">By CLIFFORD D. MAY, Special to the New York Times</byline>
+      <byline class="normalized_byline">MAY, CLIFFORD D</byline>
+      <dateline>RIVERHEAD, L.I., Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: After 13 months of investigations, the Suffolk County police and prosecutors have named a suspect in the murder of John Starkey, a 25-year-old student who is the son of a former aide to Governor Cuomo.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: After 13 months of investigations, the Suffolk County police and prosecutors have named a suspect in the murder of John Starkey, a 25-year-old student who is the son of a former aide to Governor Cuomo.</p>
+        <p>After 13 months of investigations, the Suffolk County police and prosecutors have named a suspect in the murder of John Starkey, a 25-year-old student who is the son of a former aide to Governor Cuomo.</p>
+        <p>Mr. Starkey was found shot to death on Nov. 9, 1985, at his parents' gray-shingled cottage in the exclusive resort community of Saltaire on Fire Island.</p>
+        <p>In court papers filed Tuesday, Steven J. Wilutis, the chief prosecutor for the Suffolk County District Attorney's office, charged that the suspect, Anthony Romeo of Locust Valley, L.I., ''has committed the crime of murder and that his revolver was the murder weapon.'' No motive was cited in the court papers.</p>
+        <p>Mr. Romeo has so far not been arrested or formally indicted. His lawyer, Steven Scaring, has instructed him not to speak about the case.</p>
+        <p>Mr. Scaring said today that his client had ''absolutely'' no involvement in the murder. Hair Samples Sought</p>
+        <p>The prosecutor, Mr. Wilutis, asked the court to order Mr. Romeo to provide samples of his hair and blood for examination by police laboratory investigators. Mr. Starkey was found ''clutching 12 brown head hairs,'' the roots of which showed traces of blood, according to Mr. Wilutis.</p>
+        <p>An affidavit filed by a homicide detective, Sgt. Robert Misegades, said it was ''reasonable to assume'' that Mr. Starkey ''grabbed the hair of the person who shot him or someone else within arm's reach of him just before, during or immediately after he was shot.''</p>
+        <p>Mr. Wilutis told the court that if laboratory analysis of Mr. Romeo's hair and blood matched that caught in Mr. Starkey's grip, it would indicate that he had been present during the murder.</p>
+        <p>Mr. Scaring has told the police they should have ''no further contact whatsoever'' with his client and he said today that he would probably oppose the motion requesting hair and blood samples.</p>
+        <p>A County Court judge is to issue a decision on Jan. 12. Fired at Close Range</p>
+        <p>According to the affidavit submitted by Sergeant Misegades, Mr. Starkey was killed by four .38-caliber bullets fired at close range.</p>
+        <p>Mr. Romeo possessed a pistol permit for a .357-Magnum Smith &amp; Wesson revolver, which is capable of firing .38-caliber bullets, Mr. Wilutis said.</p>
+        <p>''Microscopic examination and comparison'' of that revolver revealed that the bullets that caused Mr. Starkey's death ''were fired from Romeo's revolver,'' he added. Tests by police laboratory technicians also found traces of Mr. Starkey's blood under the grip of the weapon, he said.</p>
+        <p>The police came into possession of the revolver last July 31, when Mr. Romeo's father, Ronald, surrendered it to Nassau police officials, explaining that he ''did not believe that Anthony had the emotional capacity to have guns around the house,'' Mr. Wilutis told the court.</p>
+        <p>When told of these charges, Mr. Scaring said: ''Why has it taken them so many months to come up with these results? Ballistics tests don't take that long.''</p>
+        <p>The Starkey killing profoundly shocked Saltaire, the summer home of many wealthy and well-known people. Mr. Starkey's father, Richard J. Starkey, is a friend and former aide to Governor Cuomo. A Buried Deer</p>
+        <p>Several aspects of the case remain unexplained.</p>
+        <p>For example, 10 days after the discovery of Mr. Starkey's body, a deer was found buried behind a neighbor's house. The bullets that killed the deer also came from Mr. Romeo's gun, the police now charge, but why the deer might have been killed was unclear. Based on testimony from a neighbor who heard shots fired, the police believe the deer was slain on Oct. 30 or 31.</p>
+        <p>According to affidavits filed by Mr. Wilutis and Sergeant Misegades, Mr. Romeo has given conflicting testimony about his whereabouts at the time of the murder.</p>
+        <p>In the days just before the body was discovered, Mr. Starkey's mother, Elizabeth, telephoned Mr. Romeo to ask whether he had seen her son, according to the court documents. At first, Mr. Romeo denied that he had seen him. Later, however, he said he had been with Mr. Starkey on Fire Island, the documents state.</p>
+        <p>Mr. Romeo told detectives that he visited Fire Island in October and November, but contended that his guns had been safely locked away in Locust Valley then.</p>
+        <p>Mr. Scaring said his client ''was not on Fire Island at the time of the murder, which the lawyer said ''took place at least two days after he left.''</p>
+        <p>Mr. Romeo is 22 or 23 years old and ''employed, though I don't know in exactly what capacity,'' Mr. Scaring said. ''He lives with his parents.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>SPORTS TODAY</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Sports Desk" name="dsk"/>
+    <meta content="18" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Sports" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="58"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ATHLETICS AND SPORTS</classifier>
+        <classifier class="online_producer" type="types_of_material">Schedule</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Sports</classifier>
+        <classifier class="online_producer" type="general_descriptor">Athletics and Sports</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEFDB123CF932A35752C0A961948260" item-length="118" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>SPORTS TODAY</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: FOOTBALL FLORIDA CITRUS BOWL, U.S.C. vs. Auburn, at Orlando, Fla., Noon (TV - Channel 7, Noon) COTTON BOWL, Texas A. M. vs. Ohio State, at Dallas, 1:30 P.M. (TV - Channel 2, 1:30 P.M.) SUGAR BOWL, Nebraska vs. L.S.U., at New Orleans, 3:30 P.M. (TV -Channel 7, 3:30 P.M. Radio -WNEW 1130, 3:10 P.M.) ROSE BOWL, Arizona State vs.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: FOOTBALL FLORIDA CITRUS BOWL, U.S.C. vs. Auburn, at Orlando, Fla., Noon (TV - Channel 7, Noon) COTTON BOWL, Texas A. M. vs. Ohio State, at Dallas, 1:30 P.M. (TV - Channel 2, 1:30 P.M.) SUGAR BOWL, Nebraska vs. L.S.U., at New Orleans, 3:30 P.M. (TV -Channel 7, 3:30 P.M. Radio -WNEW 1130, 3:10 P.M.) ROSE BOWL, Arizona State vs.</p>
+        <p>FOOTBALL FLORIDA CITRUS BOWL, U.S.C. vs. Auburn, at Orlando, Fla., Noon (TV - Channel 7, Noon) COTTON BOWL, Texas A. M. vs. Ohio State, at Dallas, 1:30 P.M. (TV - Channel 2, 1:30 P.M.) SUGAR BOWL, Nebraska vs. L.S.U., at New Orleans, 3:30 P.M. (TV -Channel 7, 3:30 P.M. Radio -WNEW 1130, 3:10 P.M.) ROSE BOWL, Arizona State vs. Michigan, at Pasadena, Calif., 5 P.M. (TV - Channel 4, P.M.) ORANGE BOWL, Oklahoma vs. Arkansas, at Miami, 8:30 P.M. (TV -Channel 4, 8:30 P.M.) OTHER EVENTS HARNESS RACING: Yonkers, 8P.M. TENNIS: International Junior Tournament, at Port Washington Tennis Academy, Port Washington, L.I. THOROUGHBRED RACING: Aqueduct, 12:30 P.M. (TV - SportsChannel, 6:30 P.M. and 11:15 P.M.)</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

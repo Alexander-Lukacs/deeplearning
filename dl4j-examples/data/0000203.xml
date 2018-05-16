@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>NEW MEXICO INDIANS PICK FIRST WOMAN GOVERNOR</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="National Desk" name="dsk"/>
+    <meta content="7" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="U.S." name="online_sections"/>
+    <docdata>
+      <doc-id id-string="203"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">INDIANS, AMERICAN</classifier>
+        <classifier class="indexing_service" type="descriptor">ELECTIONS</classifier>
+        <classifier class="indexing_service" type="descriptor">WOMEN</classifier>
+        <location class="indexing_service">NEW MEXICO</location>
+        <location class="indexing_service">ISLETA PUEBLO (NEW MEXICO)</location>
+        <person class="indexing_service">WILLIAMSON, VERNA</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Mexico</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S.</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New Mexico</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Southwest</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Washington/Campaign 2004/States/New Mexico</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New Mexico</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Mexico</classifier>
+        <classifier class="online_producer" type="general_descriptor">Indians, American</classifier>
+        <classifier class="online_producer" type="general_descriptor">Women</classifier>
+        <classifier class="online_producer" type="general_descriptor">Culture</classifier>
+        <classifier class="online_producer" type="general_descriptor">Elections</classifier>
+        <classifier class="online_producer" type="general_descriptor">Politics and Government</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4DB1E3FF932A35752C0A961948260" item-length="452" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>NEW MEXICO INDIANS PICK FIRST WOMAN GOVERNOR</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>ISLETA PUEBLO, N.M., Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The Pueblo of Isleta has elected its first woman as governor after the tribal council first decided to cancel the election, saying the village's constitution denied women the right to hold office.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The Pueblo of Isleta has elected its first woman as governor after the tribal council first decided to cancel the election, saying the village's constitution denied women the right to hold office.</p>
+        <p>The Pueblo of Isleta has elected its first woman as governor after the tribal council first decided to cancel the election, saying the village's constitution denied women the right to hold office.</p>
+        <p>The governor, Verna Williamson, urged all residents to work together despite an ousted official's charge that candidates used ''strong-arm tactics'' to force the election.</p>
+        <p>Ms. Williamson became the first woman elected as an official in this pueblo of about 3,000 people, situated 20 miles south of Albuquerque. She received 277 votes Tuesday while the other candidates, Juan B. Abeita and Alvino Lucero, who had been governor, got 208 and 109 votes.</p>
+        <p>Under the pueblo's constitution, Mr. Abeita now becomes president of the tribal council and Mr. Lucero will be the council's vice president.</p>
+        <p>Ms. Williamson said her first official act would be to name four council members, at least one of whom will be a woman. Most Vocal Opponent</p>
+        <p>The former council president, Ernest Jaramillo, was the most vocal opponent to Ms. Williamson's candidacy. He said he and others would meet with lawyers to determine if the election was legal.</p>
+        <p>Mr. Jaramillo said the election began when three candidates forced their way into the election room, opened the ballot box and forced the tribal secretary to begin accepting ballots.</p>
+        <p>''It's like a mob mob rule with the law on their side,'' Mr. Jaramillo said. ''They used the police officer to manhandle my councilmen.''</p>
+        <p>Ms. Williamson, 36 years old, who runs a counseling program on substance abuse, received enough votes in the tribal primary election Dec. 6 and 7 to become one of three finalists for office.</p>
+        <p>But the council voted Dec. 16 to void the primary.</p>
+        <p>Lorenzo R. Jojola, a judge of the tribal court, then ruled that the election should proceed. Mr. Jaramillo said the council, acting in its role as an appellate court, voted to stay the judge's order.</p>
+        <p>Ms. Williamson called the election ''a truly great victory,'' adding, ''They have spoken loud and clear that they want a more open and representative government. We intend to give them that.''</p>
+        <p>''Now's the time for all our people to come together,'' she continued. ''We have been through a tumultuous election, but for the first time since this present form of government was established we have had an open election.''</p>
+        <p>Ms. Williamson said, ''I want to see open council meetings and I want to see the people involved in the decision-making process.''</p>
+        <p>She said she wanted the pueblo to take a closer look at social issues.</p>
+        <p>''The women think more about social issues and the men have always thought more about economic issues,'' she said. ''We need to have a better balance of concerns than we have now.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

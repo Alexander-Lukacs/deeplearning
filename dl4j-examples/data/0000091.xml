@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>FIRST-TIME GIVERS TO NEEDIEST HOPING TO BEGIN A TRADITION</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="32" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="91"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">NEW YORK TIMES NEEDIEST CASES FUND</classifier>
+        <classifier class="indexing_service" type="descriptor">FINANCES</classifier>
+        <person class="indexing_service">ENNIS, THOMAS W</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE1D6113CF932A35752C0A961948260" item-length="198" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>FIRST-TIME GIVERS TO NEEDIEST HOPING TO BEGIN A TRADITION</hl1>
+      </hedline>
+      <byline class="print_byline">By THOMAS W. ENNIS</byline>
+      <byline class="normalized_byline">ENNIS, THOMAS W</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: First-time contributors to The New York Times Neediest Cases Fund hope to make giving to the fund a tradition.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: First-time contributors to The New York Times Neediest Cases Fund hope to make giving to the fund a tradition.</p>
+        <p>First-time contributors to The New York Times Neediest Cases Fund hope to make giving to the fund a tradition.</p>
+        <p>Karen Price of Manhattan, who gave $10 to the fund's 75th annual appeal, said: ''I've been reading about the Neediest Cases Fund for the past few weeks, and although I realize the fund has been in existence for many years, this is the first year I've ever heard of it. So I'd like to start an annual tradition for myself by contributing to the fund this year.''</p>
+        <p>The partners fund of Morgan Stanley &amp; Company, investment bankers, sent $1,000. ''We expect this first donation to be the start of a long-term trend,'' company officials said.</p>
+        <p>''This is my first contribution to the fund,'' said Alice M. White of Manhattan, who gave $75. ''Heavens knows why it took me so long, but it won't be the last.'' Contribution Is Doubled</p>
+        <p>''Because the problems only seem to get more difficult for the needy people of New York, we felt we had to double our contribution this time around,'' said Edith and Fred Danzig of Eastchester, N.Y., in a note accompanying their $300 gift.  Recorded yesterday: $66,118.00  Previously recorded: 1,922,495.20  Total: $1,988,613.20</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

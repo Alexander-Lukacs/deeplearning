@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>7 Injured at Columbia In a Fraternity Fire</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="32" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="102"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="METRO DATELINES"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">FIRES AND FIREMEN</classifier>
+        <classifier class="indexing_service" type="descriptor">FRATERNITIES AND SORORITIES</classifier>
+        <classifier class="indexing_service" type="descriptor">RESCUES</classifier>
+        <location class="indexing_service">NEW YORK CITY</location>
+        <org class="indexing_service">COLUMBIA UNIVERSITY</org>
+        <org class="indexing_service">FIRE DEPARTMENT (NYC)</org>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Mid-Atlantic</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/New York City</classifier>
+        <classifier class="online_producer" type="general_descriptor">Fraternities and Sororities</classifier>
+        <classifier class="online_producer" type="general_descriptor">Rescues</classifier>
+        <classifier class="online_producer" type="general_descriptor">Fires and Firefighters</classifier>
+        <classifier class="online_producer" type="general_descriptor">Colleges and Universities</classifier>
+        <classifier class="online_producer" type="general_descriptor">Education and Schools</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE1D91E3CF932A35752C0A961948260" item-length="150" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>7 Injured at Columbia In a Fraternity Fire</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>MANHATTAN</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Seven people were injured yesterday when fire rose through a fraternity house at Columbia University, sending one group of students onto a third-floor ledge to be rescued with ladders, the Fire Department said.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Seven people were injured yesterday when fire rose through a fraternity house at Columbia University, sending one group of students onto a third-floor ledge to be rescued with ladders, the Fire Department said.</p>
+        <p>Seven people were injured yesterday when fire rose through a fraternity house at Columbia University, sending one group of students onto a third-floor ledge to be rescued with ladders, the Fire Department said.</p>
+        <p>Two firefighters and five people who were inside the Iota Epsilon Pi fraternity house were treated at St. Luke's Hospital for smoke inhalation and released, fire officials said. One also was treated for a sprained ankle.</p>
+        <p>Among the injured were two girls, 10 and 11 years of age, who were staying with their sister at the co-ed fraternity, according to a Columbia spokesman, Henry Fuhrman.</p>
+        <p>The fire broke out in the basement of the four-story brownstone at 534 West 114th Street at 1:07 A.M. Although the cause remains under investigation, a department spokesman said it appeared the blaze began with an electrical short circuit in the basement and spread upward into the building.</p>
+        <p>METRO DATELINES</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

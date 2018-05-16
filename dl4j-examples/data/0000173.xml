@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Editors' Note</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="3" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Corrections; Editors' Notes; New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="173"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <org class="indexing_service">CAPE COD CO</org>
+        <org class="indexing_service">ANHEUSER-BUSCH COMPANIES INC</org>
+        <classifier class="online_producer" type="types_of_material">Editors' Note</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Editors' Notes</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Corrections</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE0DC113FF932A35752C0A961948260" item-length="92" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Editors' Note</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: An article in Business Day on Friday about the Cape Cod Company, a potato chip maker, portrayed it as a fledgling entrepreneurial venture that had begun to expand nationally.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: An article in Business Day on Friday about the Cape Cod Company, a potato chip maker, portrayed it as a fledgling entrepreneurial venture that had begun to expand nationally.</p>
+        <p>An article in Business Day on Friday about the Cape Cod Company, a potato chip maker, portrayed it as a fledgling entrepreneurial venture that had begun to expand nationally.</p>
+        <p>The company described itself as a small local business that employed old-fashioned techniques to make an increasingly popular product. But in fact since 1985 Cape Cod has been a division of Eagle Snacks, which is owned by the Anheuser-Busch Companies, the nation's largest brewing concern.</p>
+        <p>The article left a misleading impression by failing to mention the new ownership.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

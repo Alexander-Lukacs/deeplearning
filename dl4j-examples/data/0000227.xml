@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>A.T.&amp;T. Payment To Alascom Ends</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="44" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="227"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Terms not available</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4DD163EF932A35752C0A961948260" item-length="87" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>A.T.&amp;T. Payment To Alascom Ends</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>WASHINGTON, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The American Telephone and Telegraph Company has been relieved of a $1.25 million monthly payment that the Federal Communications Commission had ordered it to pay to Alascom Inc., Alaska's major long-distance telephone company. The fee was imposed on A.T.&amp;T. in 1981 as a way to ease the transition as Alaska was integrated into the nationwide telephone payments pool that partially equalizes the cost of telephone service in areas that are cheap to serve with those where distances make providing service expensive.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The American Telephone and Telegraph Company has been relieved of a $1.25 million monthly payment that the Federal Communications Commission had ordered it to pay to Alascom Inc., Alaska's major long-distance telephone company. The fee was imposed on A.T.&amp;T. in 1981 as a way to ease the transition as Alaska was integrated into the nationwide telephone payments pool that partially equalizes the cost of telephone service in areas that are cheap to serve with those where distances make providing service expensive.</p>
+        <p>The American Telephone and Telegraph Company has been relieved of a $1.25 million monthly payment that the Federal Communications Commission had ordered it to pay to Alascom Inc., Alaska's major long-distance telephone company. The fee was imposed on A.T.&amp;T. in 1981 as a way to ease the transition as Alaska was integrated into the nationwide telephone payments pool that partially equalizes the cost of telephone service in areas that are cheap to serve with those where distances make providing service expensive.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

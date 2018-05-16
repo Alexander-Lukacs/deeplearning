@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Kathleen McNamara Weds J. S. Spears</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Society Desk" name="dsk"/>
+    <meta content="16" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Style" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="48"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">WEDDINGS AND ENGAGEMENTS</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Style</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Style/Fashion and Style</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Style/Fashion and Style/Weddings and Celebrations</classifier>
+        <classifier class="online_producer" type="general_descriptor">Weddings and Engagements</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4D9143CF932A35752C0A961948260" item-length="211" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Kathleen McNamara Weds J. S. Spears</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Kathleen McNamara, a daughter of Robert S. McNamara of Washington and the late Margaret McNamara, was married yesterday to John Stephen Spears, a son of the late Mr. and Mrs. Arthur John Spears of Shrewsbury, Shropshire, England. The Rev. Greg Anderson performed a Christian service at the Prince of Peace Chapel in Aspen,</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Kathleen McNamara, a daughter of Robert S. McNamara of Washington and the late Margaret McNamara, was married yesterday to John Stephen Spears, a son of the late Mr. and Mrs. Arthur John Spears of Shrewsbury, Shropshire, England. The Rev. Greg Anderson performed a Christian service at the Prince of Peace Chapel in Aspen,</p>
+        <p>Kathleen McNamara, a daughter of Robert S. McNamara of Washington and the late Margaret McNamara, was married yesterday to John Stephen Spears, a son of the late Mr. and Mrs. Arthur John Spears of Shrewsbury, Shropshire, England. The Rev. Greg Anderson performed a Christian service at the Prince of Peace Chapel in Aspen, Colo.</p>
+        <p>The bride, a graduate of the Sidwell Friends School and Chatham College, received a master's degree in forest sciences from the Yale School of Forest and Environmental Studies. She is a forester with the World Bank in Washington, where her husband is a senior forestry adviser.</p>
+        <p>Her father, a former president of the Ford Motor Company, was the Secretary of Defense under Presidents John F. Kennedy and Lyndon B. Johnson and president of the World Bank for 13 years until his retirement in 1981. He is the author of the recently published book ''Blundering Into Disaster: Surviving the First Century of the Nuclear Age,'' published by Pantheon Books.</p>
+        <p>Mr. Spears graduated from the University of Wales, studied at Oxford University and received a master's degree in forestry economics from the University of British Columbia. His father served as an inspector of local schools after his retirement as a colonel in the British Army.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

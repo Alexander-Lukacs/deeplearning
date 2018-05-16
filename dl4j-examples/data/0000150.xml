@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Protesters Arrested in Washington</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="National Desk" name="dsk"/>
+    <meta content="6" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <docdata>
+      <doc-id id-string="150"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">UNITED STATES ARMAMENT AND DEFENSE</classifier>
+        <classifier class="indexing_service" type="descriptor">DEMONSTRATIONS AND RIOTS</classifier>
+        <location class="indexing_service">WHITE HOUSE (WASHINGTON, DC)</location>
+        <org class="indexing_service">ATLANTIC LIFE COMMUNITY</org>
+        <classifier class="online_producer" type="types_of_material">Caption</classifier>
+        <classifier class="online_producer" type="general_descriptor">Demonstrations and Riots</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States Armament and Defense</classifier>
+        <classifier class="online_producer" type="general_descriptor">Armament, Defense and Military Forces</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE6D9153FF932A35752C0A961948260" item-length="54" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Protesters Arrested in Washington</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: National Park Service officers carrying an antiwar protester outside the White House. A member of a group called the Atlantic Life Community joined a tour and then threw what was said to be human blood onto two pillars on the North Portico. He and four others, who demonstrated outside the fence, were arrested.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: National Park Service officers carrying an antiwar protester outside the White House. A member of a group called the Atlantic Life Community joined a tour and then threw what was said to be human blood onto two pillars on the North Portico. He and four others, who demonstrated outside the fence, were arrested.</p>
+        <p>National Park Service officers carrying an antiwar protester outside the White House. A member of a group called the Atlantic Life Community joined a tour and then threw what was said to be human blood onto two pillars on the North Portico. He and four others, who demonstrated outside the fence, were arrested. (AP)</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

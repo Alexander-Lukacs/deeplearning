@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>COLUMN ONE: Clean Air; U.S. Presses City To Cut Pollutants</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="29" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="178"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">AIR POLLUTION</classifier>
+        <classifier class="indexing_service" type="descriptor">ROADS AND TRAFFIC</classifier>
+        <classifier class="indexing_service" type="descriptor">FINANCES</classifier>
+        <location class="indexing_service">NEW YORK CITY</location>
+        <org class="indexing_service">ENVIRONMENTAL PROTECTION AGENCY (EPA)</org>
+        <person class="indexing_service">BOORSTIN, ROBERT O</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Mid-Atlantic</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/New York City</classifier>
+        <classifier class="online_producer" type="general_descriptor">Environment</classifier>
+        <classifier class="online_producer" type="general_descriptor">Air Pollution</classifier>
+        <classifier class="online_producer" type="general_descriptor">Roads and Traffic</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEFDB113FF932A35752C0A961948260" item-length="829" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>COLUMN ONE: Clean Air; U.S. Presses City To Cut Pollutants</hl1>
+      </hedline>
+      <byline class="print_byline">By ROBERT O. BOORSTIN</byline>
+      <byline class="normalized_byline">BOORSTIN, ROBERT O</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Welcome to 1987, the year that New York's traffic and environmental planners must clear the air or face the Federal music.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Welcome to 1987, the year that New York's traffic and environmental planners must clear the air or face the Federal music.</p>
+        <p>Welcome to 1987, the year that New York's traffic and environmental planners must clear the air or face the Federal music.</p>
+        <p>The refrain that the Federal Environmental Protection Agency plans to sound this year is familiar but unpleasant. New York City violates Federal Clean Air Act standards for two primary pollutants, ozone and carbon monoxide, both of which have been linked to respiratory and cardiovascular ailments. Bring down levels of the pollutants by the Dec. 31, 1987, deadline or suffer the consequences.</p>
+        <p>On paper, those consequences are serious: more than $300 million in Federal highway funds can be withheld, in addition to critical financing for sewage treatment plants and other capital projects. Whether the E.P.A. will actually impose the sanctions, however, is doubtful. Even the most optimistic officials say New York and about 30 other cities nationwide have little or no chance of meeting the deadline.</p>
+        <p>The best bet, according to city, state and Federal officials, is that the E.P.A. will require the city only to produce a plan showing that deadlines will eventually be met. The Commissioner of the city's Department of Environmental Protection, Harvey W. Schultz, said that meeting that goal will require many studies and long hours. ''It's not going to be an easy year,'' said Mr. Schultz. 'Menu of Options'</p>
+        <p>Perhaps the most unsavory task has fallen to the city's Transportation Commissioner, Ross Sandler. Mr. Sandler has been put in charge of devising ways to cut traffic in the city and thus bring down the emissions that cause high levels of carbon monoxide.</p>
+        <p>Having carted around his ''menu of options'' for reducing congestion through the city, Mr. Sandler now says his department will make its choices by the end of the month. Drastic options like banning private cars have been dropped, but these are among a long list of remedies remaining in the running:</p>
+        <p>* ''Congestion pricing.'' Requiring drivers to pay daily or monthly fees for using their cars in Manhattan south of 60th Street during busy hours.</p>
+        <p>* Restricted license plate entry. Those cars with license plates ending in odd and even numbers would be alternately allowed to enter Manhattan.</p>
+        <p>* Banning single-occupant vehicles from entering Manhattan.</p>
+        <p>* Tougher restrictions on trucks, double parking and delivery times.</p>
+        <p>* Heavier reliance on traffic agents to speed traffic. Mr. Sandler and others argue that reducing the number of cars with idling engines will eliminate the city's 80 carbon-monoxide hot spots. Opponents, such as the director of the Clean Air Campaign, Marcy Benstock, disagree: ''The more traffic you move rapidly,'' she said, ''the more you encourage to come in.'' Developers' Anxiety</p>
+        <p>New York's real-estate developers, whose buildings generate traffic, are also approaching the Clean Air deadlines with some anxiety.</p>
+        <p>According to Mr. Schultz, three projects in downtown Brooklyn, the proposed Citicorp development in Queens, and elements of the Times Square redevelopment plan have all been slowed by the requirements of environmental studies. Late last year the regional administrator of the E.P.A., Christopher J. Daggett, fired his first warning shot when he rejected guarantees that a new hotel complex in downtown Brooklyn, the Renaissance Plaza, would meet clean air standards sometime in the 1990's. Mr. Daggett sent the developers back to the drawing board to conduct further studies.</p>
+        <p>Members of the powerful New York Real Estate Board, meanwhile, worry that community activists might find a useful weapon in the approaching deadlines. ''The statute,'' said Warren Wechsler, the board's vice president, ''could be used by parties that are resisting development rather than interested in air quality.'' Ms. Benstock of the Clean Air Campaign counters that developers should only be allowed to build in areas with easy access to mass transit. A Court Action</p>
+        <p>The city's environmental advocates, meanwhile, are not waiting for the deadline to come and go. The leading watchdog group, the Natural Resources Defense Council, will go to court later this month, charging that the city, state and Federal authorities are failing to follow state plans for reducing pollutants.</p>
+        <p>According to the council's senior attorney, Eric Goldstein, state plans to reduce the levels of ozone - formed when gas vapors and other hydrocarbons react with sunlight and heat -have not been followed. Top on the forgotten list, he says, is a plan to control the release of gasoline vapors at service stations. He also knocks the state for failing to finish studies on the impact of industrial sources of ozone production, such as auto painting shops and commercial solvent producers.</p>
+        <p>State and city officials reject Mr. Goldstein's assertions, but Mr. Daggett, the regional E.P.A. administrator, acknowledges that timetables have slipped. But as 1986 gives way to 1987, he promised, the E.P.A. will not hesitate ''to turn the screws tighter.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

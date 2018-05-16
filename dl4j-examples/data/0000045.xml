@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>How to Test the Temperature of the Economy</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Editorial Desk" name="dsk"/>
+    <meta content="26" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Opinion" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="45"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">UNITED STATES ECONOMY</classifier>
+        <classifier class="indexing_service" type="descriptor">LEADING ECONOMIC INDICATORS</classifier>
+        <person class="indexing_service">SHAMEER, ALAN E</person>
+        <classifier class="online_producer" type="types_of_material">Letter</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion/Letters</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States Economy</classifier>
+        <classifier class="online_producer" type="general_descriptor">Leading Economic Indicators</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEFD81F3DF932A35752C0A961948260" item-length="549" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>How to Test the Temperature of the Economy</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: To the Editor:</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: To the Editor:</p>
+        <p>To the Editor:</p>
+        <p>Your Dec. 3 report that the Government's index of leading economic indicators was up by .6 percent for October (Business Day), stated, ''Most analysts, however, took little comfort in the latest figures, asserting that they most likely pointed to a continuation of lackluster economic growth in the months ahead.''</p>
+        <p>We believe that such an interpretation of the near-term prospects for the United States economy is misleading if it is based on the October 1986 data in the Department of Commerce composite index of leading indicators.</p>
+        <p>The composite index is part of a system of three composite indexes of leading, coincident and lagging indicators. Each indicator in this system has been carefully subjected to a sophisticated statistical program of standardization, weighting and averaging with other indicators in the process of constructing the composite indexes.</p>
+        <p>The resulting composite indexes represent summary measures designed to signal changes in the direction of aggregate economic activity, e.g., the gross national product. They are not designed to estimate magnitude of change. Therefore, it is inappropriate to state that the October figures ''most likely pointed to a continuation of lackluster economic growth.''</p>
+        <p>The system of indexes of leading indicators is described in the Department of Commerce's Handbook of Cyclical Indicators (1984), which states clearly (page 65) that ''Each index measures the average behavior of a group of economic time series that show similar timing at business cycle turns but represent widely differing activities or sectors of the economy.''</p>
+        <p>The 12 indexes that tend to lead at business cycle turns are combined and classified as leading indicators, the 4 indicators that tend to coincide with the cyclical peak are classified as coincident indicators, and the 6 that tend to lag are classified as lagging indicators. A fourth measure, the ratio of coincident to lagging indicators, is added to confirm the movement in the composite index of leading indicators.</p>
+        <p>While this system of indicators has performed well in the last 40 years in foreshadowing turning points in the general economy, it requires professional experience to interpret the monthly movements in the underlying data and a sophisticated analysis to apply such data to the near-term outlook for various industries or sectors in the economy.</p>
+        <p>Monthly movements in the composites of the leading indicators, the coincident indicators, the lagging indicators and the ratio of coincident to lagging indicators should be interpreted together with other factors in the system, such as monetary policy, fiscal policy and the international economy before the analyst can venture an opinion on the rate of the economy's growth in the months ahead.</p>
+        <p>One month's worth of statistics for a volatile, complex series such as the composite index of leading indicators does not suffice to establish a new trend in either direction. It takes at least six months of data to identify a trend with a high degree of confidence. Accepting one month of such statistical data always leads to misleading information and erroneous conclusions about the future course of the economy. ALAN E. SHAMEER  Senior Industry Economist  Rinfret Associates  New York, Dec. 9, 1986</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

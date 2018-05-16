@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Greece Finds New Site For Statue of Truman</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Foreign Desk" name="dsk"/>
+    <meta content="56" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="World" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="64"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">BOMBS AND BOMB PLOTS</classifier>
+        <location class="indexing_service">GREECE</location>
+        <person class="indexing_service">TRUMAN, HARRY S (1884-1972)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Greece</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/Greece</classifier>
+        <classifier class="online_producer" type="general_descriptor">Bombs and Explosives</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEED8133CF932A35752C0A961948260" item-length="195" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Greece Finds New Site For Statue of Truman</hl1>
+      </hedline>
+      <byline class="print_byline">Special to the New York Times</byline>
+      <dateline>ATHENS, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The Greek Government said Tuesday that a statue of Harry S. Truman, blown off its pedestal by a bomb in March, had been repaired and would be re-erected next month.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The Greek Government said Tuesday that a statue of Harry S. Truman, blown off its pedestal by a bomb in March, had been repaired and would be re-erected next month.</p>
+        <p>The Greek Government said Tuesday that a statue of Harry S. Truman, blown off its pedestal by a bomb in March, had been repaired and would be re-erected next month.</p>
+        <p>But the 12-foot bronze statue will be placed in the courtyard of the Athens War Museum, and not in the downtown square where it had stood, the Interior Ministry said.</p>
+        <p>President Truman's memory is a vivid symbol here because of the help he sent to anti-Communist forces in the civil war of the late 1940's.</p>
+        <p>The leftist-dominated Athens City Council had voted against the restoration of the statue, which was damaged before an official visit by Secretary of State George P. Shultz. Conservative council members accused the leftists of essentially condoning the bomb attack.</p>
+        <p>After complaints from the conservative opposition and from Greek-Americans, who had provided the money to put up the statue in the early 1960's, the Socialist Government said it was repairing the damage and was looking for a spot for its relocation.</p>
+        <p>It apparently decided to resolve the issue quickly after Greek-American organizations announced that they were arriving here in March to erect the statue in a formal ceremony.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

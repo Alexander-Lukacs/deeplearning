@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>TV: 'MUSICAL KIDS,' ON PHILADELPHIA YOUTH</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="54" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="60"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">TELEVISION</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <org class="indexing_service">WNET (TV STATION) (NYC)</org>
+        <person class="indexing_service">CORRY, JOHN</person>
+        <object.title class="indexing_service">MUSICAL KIDS (TV PROGRAM)</object.title>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Television</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Television/Reviews</classifier>
+        <classifier class="online_producer" type="general_descriptor">Television</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4D8123CF932A35752C0A961948260" item-length="305" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>TV: 'MUSICAL KIDS,' ON PHILADELPHIA YOUTH</hl1>
+      </hedline>
+      <byline class="print_byline">By JOHN CORRY</byline>
+      <byline class="normalized_byline">CORRY, JOHN</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: ''Musical Kids'' is subtitled ''A Celebration of Philadelphia's Settlement Music School,'' and why not? The school, as seen in the 30-minute film on Channel 13 at 10:30 tonight, is an admirable place - dead serious, and at the same time a home to deep pleasure. A celebration does seem in order.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: ''Musical Kids'' is subtitled ''A Celebration of Philadelphia's Settlement Music School,'' and why not? The school, as seen in the 30-minute film on Channel 13 at 10:30 tonight, is an admirable place - dead serious, and at the same time a home to deep pleasure. A celebration does seem in order.</p>
+        <p>''Musical Kids'' is subtitled ''A Celebration of Philadelphia's Settlement Music School,'' and why not? The school, as seen in the 30-minute film on Channel 13 at 10:30 tonight, is an admirable place - dead serious, and at the same time a home to deep pleasure. A celebration does seem in order.</p>
+        <p>The school, founded in 1908 as part of the settlement-house movement, now teaches some 3,000 students. ''Musical Kids,'' produced and directed by Peggy Daniel, visits classes. No one, apparently, forces the young people to attend. They make music because they want to.</p>
+        <p>Meanwhile, we get a sense of an amiable autocracy at work. Students may indeed look rapt and happy, but the teachers are in charge. ''Good students should be able to read music like a novel,'' a teacher says firmly. A student says the teacher is trying to cram four years of theory into less than one year. The system seems to work.</p>
+        <p>''Musical Kids'' notes, as evidence, that graduates of the Settlement Music School include 30 present or former members of the Philadelphia Orchestra, composers who have won Pulitzer Prizes and Oscars, Chubby Checker and Clamma Dale. On the other hand, the school doesn't exist only to train professionals; it exists because it's in the great tradition of settlement houses. It fills a social need.</p>
+        <p>''Musical Kids'' doesn't come down too heavily here, and it doesn't succumb to sentimentality. But it does show us young people of all kinds making music and enriching and widening their lives. The executive director, Robert Capanna, says the school wants to involve everyone in the community.</p>
+        <p>We can't tell how successful it is at doing this, although the film, presented on public television by WHYY of Philadelphia, indicates that the school does try. ''Musical Kids'' is a beguiling film about an enchanting institution.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

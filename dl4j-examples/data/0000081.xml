@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>POPE NAMES CALIFORNIA BISHOP</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="National Desk" name="dsk"/>
+    <meta content="56" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="U.S." name="online_sections"/>
+    <docdata>
+      <doc-id id-string="81"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">APPOINTMENTS AND EXECUTIVE CHANGES</classifier>
+        <location class="indexing_service">ORANGE (CALIF)</location>
+        <org class="indexing_service">ROMAN CATHOLIC CHURCH</org>
+        <person class="indexing_service">POPE (JOHN PAUL II)</person>
+        <person class="indexing_service">MCFARLAND, NORMAN F (BISHOP)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S.</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/California</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./West</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/California</classifier>
+        <classifier class="online_producer" type="general_descriptor">Appointments and Executive Changes</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE3DD113CF932A35752C0A961948260" item-length="171" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>POPE NAMES CALIFORNIA BISHOP</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>ORANGE, Calif., Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Pope John Paul II has named Bishop Norman F. McFarland of Nevada as the new Bishop of the Roman Catholic Diocese of Orange.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Pope John Paul II has named Bishop Norman F. McFarland of Nevada as the new Bishop of the Roman Catholic Diocese of Orange.</p>
+        <p>Pope John Paul II has named Bishop Norman F. McFarland of Nevada as the new Bishop of the Roman Catholic Diocese of Orange.</p>
+        <p>Bishop McFarland, 64 years old, who has headed the Reno-Las Vegas Diocese for 10 years, succeeds Bishop William R. Johnson, who died July 28. He was the first Bishop of Orange, the second-largest diocese in California, serving 500,000 Catholics.</p>
+        <p>The Pope also named three Auxiliary Bishops for the Archdiocese of Los Angeles on Monday. They are the Rev. Patrick Ziemann, 45, of Los Angeles; the Rev. Armando Ochoa, 43, of Los Angeles, and the Rev. P. Carl Fisher, 41, of Baltimore.</p>
+        <p>Father Fisher's appointment makes him the first black Bishop in the Western United States. Archbishop Roger Mahony said he had asked the Pope to appoint a black Auxiliary Bishop ''because Los Angeles has the third-highest overall black population among all the dioceses and archdioceses of the United States.''</p>
+        <p>The archdiocese estimates that a million blacks live in its boundaries, about 50,000 of them Catholic.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

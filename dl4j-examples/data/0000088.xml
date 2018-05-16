@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Josh Parker, Options Trader, Is New York Player of Year</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="54" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="88"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="BRIDGE"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">BRIDGE (CARD GAME)</classifier>
+        <classifier class="indexing_service" type="descriptor">AWARDS, DECORATIONS AND HONORS</classifier>
+        <person class="indexing_service">TRUSCOTT, ALAN</person>
+        <person class="indexing_service">PARKER, JOHN</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Crossword and Games/Bridge</classifier>
+        <classifier class="online_producer" type="general_descriptor">Bridge (Card Game)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Awards, Decorations and Honors</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE0D7113CF932A35752C0A961948260" item-length="288" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Josh Parker, Options Trader, Is New York Player of Year</hl1>
+      </hedline>
+      <byline class="print_byline">By ALAN TRUSCOTT</byline>
+      <byline class="normalized_byline">TRUSCOTT, ALAN</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The most successful New York City player in 1986 was Josh Parker, a young man who recently abandoned the profession of law to join the small army of bridge experts trading options on the American Stock Exchange.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The most successful New York City player in 1986 was Josh Parker, a young man who recently abandoned the profession of law to join the small army of bridge experts trading options on the American Stock Exchange.</p>
+        <p>The most successful New York City player in 1986 was Josh Parker, a young man who recently abandoned the profession of law to join the small army of bridge experts trading options on the American Stock Exchange.</p>
+        <p>By winning the Reisinger Knockout Team Championship, placing second in the Von Zedtwitz Double Knockout Team Championship and the Big Apple Swiss Teams, together with high finishes in several other events, Parker won two titles: New York Player of the Year and New York Team Player of the Year.</p>
+        <p>In the diagramed deal played at the Cavendish Club, Parker overcame a bad trump break in his four-spade contract. The cue bid of four diamonds was a strong raise to four spades, and South rejected the slam invitation.</p>
+        <p>West took two diamond winners and shifted to a trump. South took dummy's three winners, leaving the jack at large. He then led four rounds of clubs, and East refused to ruff. The position was now this:</p>
+        <p>The routine play of taking a heart finesse would have failed. But Parker saw a way to give himself an extra chance. East had played high-low in diamonds, indicating a doubleton, so the distribution was clear: East had to have three hearts together with the spade jack.</p>
+        <p>East was therefore given the lead with a trump and was forced to lead hearts. This preserved the normal finesse of the jack, but also provided for the actual layout. East led the ten, covered around the table by the jack, queen and king. Then the eight was finessed to make the game. If East had instead led the seven, South would have played the eight.</p>
+        <p>Yesterday's bridge column erroneously credited a line from ''Promises, Promises'' to Burt Bacharach. The lyricist was Hal David, with music by Mr. Bacharach.</p>
+        <p>BRIDGE</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

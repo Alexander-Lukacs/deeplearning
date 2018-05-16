@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Mark Liebl As a Free Man</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Sports Desk" name="dsk"/>
+    <meta content="21" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Sports" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="122"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="SCOUTING"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">BASEBALL</classifier>
+        <classifier class="indexing_service" type="descriptor">COCAINE</classifier>
+        <classifier class="indexing_service" type="descriptor">DRUG ADDICTION AND ABUSE</classifier>
+        <classifier class="indexing_service" type="descriptor">DRUG TRAFFIC</classifier>
+        <person class="indexing_service">LIEBL, MARK</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Sports</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Sports/Baseball</classifier>
+        <classifier class="online_producer" type="general_descriptor">Cocaine and Crack Cocaine</classifier>
+        <classifier class="online_producer" type="general_descriptor">Drug Abuse and Traffic</classifier>
+        <classifier class="online_producer" type="general_descriptor">Baseball</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE3D6163FF932A35752C0A961948260" item-length="425" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Mark Liebl As a Free Man</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: He was born in Dodge City, Kan., and as a teen-ager drove a stagecoach for tourists around Boot Hill. It never occurred to Mark Liebl that he would grow up to be a real-life desperado. Or a bit of baseball trivia.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: He was born in Dodge City, Kan., and as a teen-ager drove a stagecoach for tourists around Boot Hill. It never occurred to Mark Liebl that he would grow up to be a real-life desperado. Or a bit of baseball trivia.</p>
+        <p>He was born in Dodge City, Kan., and as a teen-ager drove a stagecoach for tourists around Boot Hill. It never occurred to Mark Liebl that he would grow up to be a real-life desperado. Or a bit of baseball trivia.</p>
+        <p>Liebl is the man authorities tabbed as the kingpin in the first prosecution of a cocaine case involving a group of major league players. His frequent companions included many members of the 1983 Kansas City Royals, four of whom - Vida Blue, Willie Wilson, Willie Aikens and Jerry Martin -were ultimately imprisoned as a result of an investigation that centered on him. Except for Blue, who was sentenced for cocaine possession, the players all pleaded guity to reduced charges of attempts to possess, after calls they made to Liebl's house were intercepted by Federal agents.</p>
+        <p>Blue, Wilson, Aikens and Martin served only 90 days each, plus brief suspensions from baseball, before resuming their careers. Liebl, who pleaded guilty of distribution, served nearly two and a half years in the Fort Worth Correctional Institute. He was released in October and is still feeling some wonder at the day-to-day pleasantries of life as a free man.</p>
+        <p>''Just being able to go running or swimming or buy a candy bar any time I feel like it,'' he told a caller yesterday, speaking of the moments he finds both thrilling and odd. ''All the little things you take for granted.''</p>
+        <p>Now 36, he feels only ''shame'' at his past as a drug supplier, but believes his arrest allowed him to survive his own cocaine addiction. His parole requires him to attend weekly drug counseling sessions and to submit to regular urinalysis, conditions he is happy to comply with. He spent his first free Christmas with his girlfriend in Arlington, Tex., where he now lives, and planned a quiet dinner for New Year's Eve. ''I'm not ready yet for all that traffic,'' he said.</p>
+        <p>His arrest cost him his Kansas City liquor business and $25,000 in legal fees, but Liebl is hoping to open a restaurant soon. He is now working in his brother's furniture business.</p>
+        <p>As for baseball, prison didn't cool his passion. ''I'm looking forward to seeing a lot of Ranger games this year,'' he said. ''But I'm still a Royals fan at heart, and always will be.''</p>
+        <p>Liebl has seen Aikens and Wilson once since getting out of prison and, far from being bitter at the difference in sentences, still calls them good friends. The conversations centered mostly on reminiscence. ''We talked about the past,'' he said, ''realized how we made mistakes. We all just said we want to continue on.''  SCOUTING</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

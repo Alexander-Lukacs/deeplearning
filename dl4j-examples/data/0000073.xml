@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Pullman Halts Offer to Joy</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="43" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="73"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="COMPANY NEWS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MERGERS, ACQUISITIONS AND DIVESTITURES</classifier>
+        <org class="indexing_service">JOY MANUFACTURING CO</org>
+        <org class="indexing_service">PULLMAN-PEABODY CO</org>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="general_descriptor">Mergers, Acquisitions and Divestitures</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE0D8103CF932A35752C0A961948260" item-length="222" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Pullman Halts Offer to Joy</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>PRINCETON, N.J., Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The Pullman-Peabody Company said today that it had dropped its unsolicited bid to acquire the Joy Manufacturing Company, which has agreed instead to be purchased by an investor group for $35 a share, or $620 million.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The Pullman-Peabody Company said today that it had dropped its unsolicited bid to acquire the Joy Manufacturing Company, which has agreed instead to be purchased by an investor group for $35 a share, or $620 million.</p>
+        <p>The Pullman-Peabody Company said today that it had dropped its unsolicited bid to acquire the Joy Manufacturing Company, which has agreed instead to be purchased by an investor group for $35 a share, or $620 million.</p>
+        <p>Pullman-Peabody had started a $31-a-share tender offer for Joy on Dec. 2, and later proposed to sweeten the bid to $34 a share. But Joy rejected both offers as inadequate and accepted the investor group's bid on Dec. 22. Under its agreement with</p>
+        <p>Joy, Pullman-Peabody said it would tender the nearly one million Joy common shares it already owned to the investor group, which was formed by Adler &amp; Shaykin, a New York investment firm that specializes in leveraged buyouts.</p>
+        <p>The agreement also calls for litigation between the companies to be dropped, and for Joy to pay $750,000 to Pullman-Peabody to help cover Pullman-Peabody's expenses in connection with its failed offer.</p>
+        <p>Pittsburgh-based Joy is a maker of oilfield and petroleum equipment and coal-mining machinery. Pullman-Peabody, based in Princeton, supplies material-handling and food service equipment, and makes components for the aerospace and communications industries.</p>
+        <p>The investor group's tender offer for Joy's stock is due to expire Jan. 26. Joy's stock closed at $34.75 a share today, unchanged, in New York Stock Exchange trading.</p>
+        <p>COMPANY NEWS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Authorities May Release Banned Czech Activists</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="9" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="111"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">CENSORSHIP</classifier>
+        <location class="indexing_service">CZECHOSLOVAKIA</location>
+        <person class="indexing_service">HUNAT, CESTMIR</person>
+        <person class="indexing_service">KRIVANEK, TOMAS</person>
+        <person class="indexing_service">DRDA, VLASTIMIL</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="general_descriptor">Censorship</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE1DB1F3CF932A35752C0A961948260" item-length="150" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Authorities May Release Banned Czech Activists</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>VIENNA, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Czechoslovak authorities ordered Tuesday that three members of a banned cultural group who were arrested in September be released, but they remained in custody pending an appeal of the order, an emigre source said.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Czechoslovak authorities ordered Tuesday that three members of a banned cultural group who were arrested in September be released, but they remained in custody pending an appeal of the order, an emigre source said.</p>
+        <p>Czechoslovak authorities ordered Tuesday that three members of a banned cultural group who were arrested in September be released, but they remained in custody pending an appeal of the order, an emigre source said.</p>
+        <p>The source identified the three as Cestmir Hunat, Tomas Krivanek and Vlastimil Drda, members of the defunct Czech Musicians Union's Jazz Section, which opposes state censorship of the arts.</p>
+        <p>Seven Jazz Section activists were arrested in September on suspicion of conducting illegal business, mainly publishing unauthorized works.</p>
+        <p>Two of the group were released Sunday because of ill health. The source, who spoke on condition of anonymity, said authorities did not revoke investigative custody for the remaining two.</p>
+        <p>Founded in 1971, the Jazz Section's nationwide membership of about 7,000 advocates freedom in the arts and opposes controls exerted by the Communist authorities.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

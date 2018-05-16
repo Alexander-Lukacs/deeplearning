@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>COMPANY BRIEFS</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="53" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="2" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="139"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">COMPANY BRIEFS (NYT COLUMN)</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE6DC143FF932A35752C0A961948260" item-length="285" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>COMPANY BRIEFS</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: * Carter Hawley Hale Stores Inc., Los Angeles, said it had completed the sale of its subsidiary John Wanamaker to Woodward &amp; Lothrop Inc.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: * Carter Hawley Hale Stores Inc., Los Angeles, said it had completed the sale of its subsidiary John Wanamaker to Woodward &amp; Lothrop Inc.</p>
+        <p>* Carter Hawley Hale Stores Inc., Los Angeles, said it had completed the sale of its subsidiary John Wanamaker to Woodward &amp; Lothrop Inc.</p>
+        <p>* Coopervision Inc., Palo Alto, Calif., said it had completed the sale of its ophthalmic pharmaceutical business to Johnson &amp; Johnson for about $260 million in cash.</p>
+        <p>* Goodyear Tire and Rubber Co., Akron, Ohio, said it had agreed to sell its Motor Wheel Corp. unit to a group led by Goodyear management for an undisclosed amount.</p>
+        <p>* Household International Inc. said it had completed the sale of its National Car Rental System unit for $459 million to an investor group led by Paine Webber Capital Inc., a subsidiary of Paine Webber Group Inc.</p>
+        <p>* K Mart Corp., Troy, Mich., said it had completed the sale of Furr's Cafeterias and Bishop Buffets to Cavalcade holdings for $237.5 million.</p>
+        <p>* Marriott Corp., Washington, said it had acquired the 424-room Mandalay Four Seasons Hotel in Irving, Tex., for an undisclosed price.</p>
+        <p>* Stanley Works, New Britain, Conn., said it had purchased selected assets of National Hand Tool Corp. for about $80 million.</p>
+        <p>* Sun Chemical Corp. said it had completed the sale of its Graphic Arts Materials Group to Dainippon Ink and Chemicals Inc. for about $550 million in cash.</p>
+        <p>* Texas American Bancshares Inc., Fort Worth, said it had signed an agreement to sell its credit card portfolio of about $50 million and 130,000 accounts to Republicbank Delaware, a unit of Republicbank Corp.</p>
+        <p>* Williams Cos., Tulsa, Okla., said it had completed the sale of nearly all assets of its Williams Exploration Co. and Northwest Exploration Co. subsidiaries to Fina Oil and Chemical Co. and American Cometra Inc. for about $150 million.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>STOCKS: UP YEAR ENDS ON DOWN NOTE</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="41" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="142"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">STOCKS AND BONDS</classifier>
+        <classifier class="indexing_service" type="descriptor">STOCK PRICES AND TRADING VOLUME</classifier>
+        <classifier class="indexing_service" type="descriptor">DOW JONES STOCK AVERAGE</classifier>
+        <person class="indexing_service">WIGGINS, PHILLIP H</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Prices (Fares, Fees and Rates)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Dow Jones Stock Average</classifier>
+        <classifier class="online_producer" type="general_descriptor">Stocks and Bonds</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE1D8143FF932A35752C0A961948260" item-length="703" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>STOCKS: UP YEAR ENDS ON DOWN NOTE</hl1>
+      </hedline>
+      <byline class="print_byline">By PHILLIP H. WIGGINS</byline>
+      <byline class="normalized_byline">WIGGINS, PHILLIP H</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The stock market finished a banner year yesterday on a weak note.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The stock market finished a banner year yesterday on a weak note.</p>
+        <p>The stock market finished a banner year yesterday on a weak note.</p>
+        <p>The Dow Jones industrial average showed a gain of 349.14 points - or 22.6 percent - over the year. It reached an all-time peak of 1,955.57 on Dec. 2, when it soared 43.03 points, the third-largest gain in the indicator's history.</p>
+        <p>Yesterdy was another story, with the Dow falling 12.66 points, to slip below 1,900, at 1,895.95.</p>
+        <p>That was the lowest point since Nov. 21, when it stood at 1,893.56.</p>
+        <p>Analysts attributed yesterday's disappointing performance to tax-related selling and continued worries about the economy.</p>
+        <p>''There was a lot of tax-selling, the little folks who waited until the last minute to take their capital gains,'' said Alfred E. Goldman, an analyst at the A.G. Edwards &amp; Sons Inc. securities firm in St. Louis.</p>
+        <p>Under new tax regulations that take effect today, capital gains will be taxed at higher rates than under the current law. Dollar Continues to Fall</p>
+        <p>Meanwhile, the dollar continued to fall sharply on world currency markets, encouraging fears of resurgent inflation and concern that the Federal Reserve would not be lowering interest rates soon.</p>
+        <p>''Nineteen eighty-six started with a bang,'' said Gene Seagle, director of technical research at Gruntal Inc. ''A rise from the January low of 1,491 to the March 1,850 high - a 24 percent straight line advance - was the best gain of the year, before the market's momentum stalled with April's Libya bombing.''</p>
+        <p>Mr. Seagle said the market kept within a basic trading range between 1,740 and 1,920 as it was buffeted by the Levine and Boesky affairs along with the Reagan Adminsitration's Iranian and Nicaraguan crises. He said that the 14 percent rally by the Dow from September to December lifted it to a new intra-day high of 1,970, exceeding the 1,955.57 record for a day's close.</p>
+        <p>Analysts said that 1987, with the new tax program and the addition to option buying and selling negated the usual year-end upswing, which was reflected in yesterday's pre-holiday weakness.</p>
+        <p>They added that there was some reason for optimism next year. ''Nineteen eighty-seven looks like a big year for the bulls,'' Mr. Seagle said. ''It should be remembered that the third year of any Administration has not been a 'downer' since 1939.''</p>
+        <p>''The year's high point of the program-trading phenomenon on the stock market was reflected in the 86.61-point drop on the Dow on Sept. 11,'' Mr. Seagle said. ''Buy and sell programs have brought instability and insecurtiy to the marketplace.''</p>
+        <p>Declines on the New York Stock Exchange yesterday led advances by 842 to 799 as volume rose to 139.2 million shares, from 126.2 million shares on Tuesday. Broader-Based Indicators</p>
+        <p>Broader-based indicators than the Dow showed fractional drops. The Standard &amp; Poor's 500-stock index slipped 1.20 points, to 242.17, while the New York Stock Exchange composite index edged down 0.54, to 138.58.</p>
+        <p>Among individual issues, BellSouth led the New York Stock Exchange most-active list, down 3/8, to 57 3/4, on a volume of more than 6.4 million shares. Most other issues among the actives showed only fractional gains or losses.</p>
+        <p>Bigger point decliners among the blue chips were Merck, which fell 2 1/4, to 123 7/8; General Motors H, which fell 2 1/8, to 38 5/8; Digital Equipment, which fell 1 3/8, to 104 3/4, and G.E., which lost a point, to 86.</p>
+        <p>In economic news, New York gold futures for February delivery jumped $14.50 to end at $406.90 an ounce. The action in gold also reflected the revival of inflation concerns with the jump in oil prices. Also, spot February crude oil climbed 29 cents a barrel, to $17.94, and spot trading reached as high as $18 for the first time in 11 months.</p>
+        <p>In response to the move in gold prices, shares of mining companies advanced across the board. ASA Ltd. rose 2, to 37 1/2; Dome Mines 3/8, to 7 3/4; Homestake Mining 1 3/8, to 25 3/8; Newmont Mining 1 3/4, to 61 1/2, and Campbell Red Lake 1, to 19 5/8.</p>
+        <p>Prices were higher on the American Stock Exchange. The Amex market value index managed a 1.73-point gain, to 263.27, as advances rebounded to overtake declines by 395 to 274.</p>
+        <p>In over-the-counter trading, the Nasdaq composite index rose 1.51, to 348.83.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

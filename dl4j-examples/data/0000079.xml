@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Money Fund Assets Fall</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="53" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="2" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="79"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">STOCKS AND BONDS</classifier>
+        <classifier class="indexing_service" type="descriptor">MUTUAL FUNDS</classifier>
+        <org class="indexing_service">INVESTMENT COMPANY INSTITUTE</org>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Mutual Funds</classifier>
+        <classifier class="online_producer" type="general_descriptor">Stocks and Bonds</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE3DE113CF932A35752C0A961948260" item-length="68" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Money Fund Assets Fall</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Assets of the nation's 375 money market mutual funds decreased $1.87 billion, to $231.95 billion, for the week ended Tuesday, the Investment Company Institute said yesterday. Assets of the 91 institutional funds fell $1.23 billion, to $63.97 billion. Assets of the 194 general purpose funds dropped $191.7 million, to $63.94 billion.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Assets of the nation's 375 money market mutual funds decreased $1.87 billion, to $231.95 billion, for the week ended Tuesday, the Investment Company Institute said yesterday. Assets of the 91 institutional funds fell $1.23 billion, to $63.97 billion. Assets of the 194 general purpose funds dropped $191.7 million, to $63.94 billion.</p>
+        <p>Assets of the nation's 375 money market mutual funds decreased $1.87 billion, to $231.95 billion, for the week ended Tuesday, the Investment Company Institute said yesterday. Assets of the 91 institutional funds fell $1.23 billion, to $63.97 billion. Assets of the 194 general purpose funds dropped $191.7 million, to $63.94 billion. The 92 broker-dealer funds fell $446.2 million, to $104.04 billion.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>'ALTAR OF PEACE' DEDICATED AT CATHEDRAL</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="32" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="180"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">PEACE</classifier>
+        <person class="indexing_service">BROWN, PATRICIA LEIGH</person>
+        <person class="indexing_service">NAKASHIMA, GEORGE</person>
+        <object.title class="indexing_service">ST JOHN THE DIVINE, CATHEDRAL CHURCH OF (MANHATTAN)</object.title>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="general_descriptor">Politics and Government</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE7D9113FF932A35752C0A961948260" item-length="489" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>'ALTAR OF PEACE' DEDICATED AT CATHEDRAL</hl1>
+      </hedline>
+      <byline class="print_byline">By PATRICIA LEIGH BROWN</byline>
+      <byline class="normalized_byline">BROWN, PATRICIA LEIGH</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: A longtime dream for the woodworker George Nakashima was realized last night when his ''Altar for Peace,'' a heart-shaped work in English walnut and rosewood, was dedicated at the Cathedral of St. John the Divine.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: A longtime dream for the woodworker George Nakashima was realized last night when his ''Altar for Peace,'' a heart-shaped work in English walnut and rosewood, was dedicated at the Cathedral of St. John the Divine.</p>
+        <p>A longtime dream for the woodworker George Nakashima was realized last night when his ''Altar for Peace,'' a heart-shaped work in English walnut and rosewood, was dedicated at the Cathedral of St. John the Divine.</p>
+        <p>''We had a fair amount of difficulty transporting it - it was a wide load,'' the 81-year-old master woodworker said of the three-quarter-ton altar, which made the trip from his workshop in Bucks County, Pa., to the cathedral on a 40-foot flatbed truck.</p>
+        <p>About 5,000 people gathered in the cathedral on New Year's Eve, where they heard the blessing and dedication of the altar as part of the cathedral's fourth annual Concert for Peace.</p>
+        <p>Heralded by trumpets and shrouded in incense, Mr. Nakashima joined a procession through the cathedral to the nave, where the altar had been placed.</p>
+        <p>In his remarks, Mr. Nakashima said that the symbolic genesis of the altar ''was perhaps a thousand years ago in Japan, the time when the great forests with huge trees existed and the spirit of union of man and nature was deep and real.''</p>
+        <p>Having heard that the vast Gothic space was a bit drafty, Mr. Nakashima, was atypically clad in a three-piece suit rather than his traditional Japanese wrapped coat.</p>
+        <p>Mr. Nakashima, who said earlier that he intended the altar as a ''tangible'' symbol for the peace movement, told the crowd ''if we can contribute something to the stability of this world, it would be fulfilling.''</p>
+        <p>Financed largely by Mr. Nakashima, the altar, which cost about $10,000, is the final chapter of a saga that began three years ago, when one of Mr. Nakashima's loggers procured the tree from a Long Island estate. It took a week to cut the log with an eight-foot chain saw.</p>
+        <p>After two years of air and kiln drying the logs, Mr. Nakashima spent another two and a half months building the altar, which was carefully planed and sanded and then finished with Mr. Nakashima's trademark butterfly rosewood inlays.</p>
+        <p>The altar, on top of which rests a bonsai tree, is flanked by two menorahs, a Moslem prayer rug and two Shinto vases, in keeping with the cathedral's mission as ''a house of prayer for all nations.'' Also dedicated last night was an eternal flame from Hiroshima and a 14-foot painted cross by Carlos Sanchez Arias entitled ''The Crucifixion of Nicaragua.''</p>
+        <p>The concert itself featured a prayer read by the actress Ellen Burstyn and remarks by the conductor and composer Leonard Bernstein, who gave a rendition of his own seasonal satirical rap song, ''Gift Wrap.''</p>
+        <p>''Let us commit ourselves, yet once again, to the vision of racial harmony and justice in this city,'' the Very Rev. James Parks Morton, the Dean of the Cathedral, said in a special prayer for peace. ''We know by now where such discord can lead. We know by now that we must overcome. We must be one people in the city of New York. Let this be a special message from this gathering to our fellow New Yorkers on this New Year's Eve.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

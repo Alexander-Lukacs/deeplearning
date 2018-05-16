@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>O'CONNOR SEES MIDEAST ROLE FOR VATICAN</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Foreign Desk" name="dsk"/>
+    <meta content="3" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="World" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="211"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <location class="indexing_service">ISRAEL, STATE OF</location>
+        <location class="indexing_service">JERUSALEM</location>
+        <location class="indexing_service">MIDDLE EAST</location>
+        <org class="indexing_service">ROMAN CATHOLIC CHURCH</org>
+        <person class="indexing_service">KOCH, EDWARD I (MAYOR)</person>
+        <person class="indexing_service">O'CONNOR, JOHN (CARDINAL)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Israel</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Middle East</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Middle East</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Middle East/Israel/Jerusalem</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Middle East/Israel</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE5DA1F3FF932A35752C0A961948260" item-length="223" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>O'CONNOR SEES MIDEAST ROLE FOR VATICAN</hl1>
+      </hedline>
+      <byline class="print_byline">By JOYCE PURNICK</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Mayor Koch has gone out of his way this week to praise Cardinal O'Connor and to express understanding for the Cardinal's decision to cancel appointments with top-ranking Israeli officials because of opposition from the Vatican.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Mayor Koch has gone out of his way this week to praise Cardinal O'Connor and to express understanding for the Cardinal's decision to cancel appointments with top-ranking Israeli officials because of opposition from the Vatican.</p>
+        <p>Mayor Koch has gone out of his way this week to praise Cardinal O'Connor and to express understanding for the Cardinal's decision to cancel appointments with top-ranking Israeli officials because of opposition from the Vatican.</p>
+        <p>''The Cardinal is a prince of the church, and whatever he does always has to be within his own religious principles and requirements of his church, and that, of course, includes obliging Vatican protocol,'' the Mayor said in a page-and-a-half statement he issued without being asked.</p>
+        <p>The Mayor is an outspoken supporter of Israel and of the Cardinal. He says quite often that he likes the Cardinal.</p>
+        <p>Cardinal O'Connor's decision to revise his schedule in Israel generated protests from Israeli and American Jewish officials. But Mr. Koch called criticism of the Cardinal ''a great error.''</p>
+        <p>''We, as Jews now, have no greater friend than the Cardinal,'' he said on Sunday, the day the Cardinal left. ''I admire him. I respect him. I have great affection for him. I believe no matter what the restraints, constraints are on this particular visit, good will come of it.''</p>
+        <p>Mr. Koch also said the Cardinal expressed ''the pain he personally felt in having to change his itinerary'' in a conversation they had on Saturday.</p>
+        <p>He thinks the Vatican should recognize Israel, and should do so now, the Mayor added.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

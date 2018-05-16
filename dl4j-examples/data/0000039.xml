@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>KEY RATES</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="50" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="39"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">KEY RATES (NYT COLUMN)</classifier>
+        <classifier class="online_producer" type="types_of_material">Statistics</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEFD91E3DF932A35752C0A961948260" item-length="85" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>KEY RATES</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD:</p>
+        <p>Previous</p>
+        <p>Year</p>
+        <p>In percent</p>
+        <p>Yesterday</p>
+        <p>Day</p>
+        <p>Ago</p>
+        <p>PRIME RATE</p>
+        <p>7.50</p>
+        <p>7.50</p>
+        <p>9.50</p>
+        <p>DISCOUNT RATE</p>
+        <p>5.50</p>
+        <p>5.50</p>
+        <p>7.50</p>
+        <p>FEDERAL FUNDS</p>
+        <p>17.50</p>
+        <p>16.17</p>
+        <p>n.a.</p>
+        <p>3-MO. TREAS. BILLS</p>
+        <p>5.65</p>
+        <p>5.69</p>
+        <p>n.a.</p>
+        <p>6-MO. TREAS. BILLS</p>
+        <p>5.64</p>
+        <p>5.68</p>
+        <p>n.a.</p>
+        <p>7-YR. TREAS. NOTES</p>
+        <p>7.08</p>
+        <p>7.10</p>
+        <p>n.a.</p>
+        <p>30-YR.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD:</p>
+        <p>Previous</p>
+        <p>Year</p>
+        <p>In percent</p>
+        <p>Yesterday</p>
+        <p>Day</p>
+        <p>Ago</p>
+        <p>PRIME RATE</p>
+        <p>7.50</p>
+        <p>7.50</p>
+        <p>9.50</p>
+        <p>DISCOUNT RATE</p>
+        <p>5.50</p>
+        <p>5.50</p>
+        <p>7.50</p>
+        <p>FEDERAL FUNDS</p>
+        <p>17.50</p>
+        <p>16.17</p>
+        <p>n.a.</p>
+        <p>3-MO. TREAS. BILLS</p>
+        <p>5.65</p>
+        <p>5.69</p>
+        <p>n.a.</p>
+        <p>6-MO. TREAS. BILLS</p>
+        <p>5.64</p>
+        <p>5.68</p>
+        <p>n.a.</p>
+        <p>7-YR. TREAS. NOTES</p>
+        <p>7.08</p>
+        <p>7.10</p>
+        <p>n.a.</p>
+        <p>30-YR.</p>
+        <p>Previous</p>
+        <p>Year</p>
+        <p>In percent</p>
+        <p>Yesterday</p>
+        <p>Day</p>
+        <p>Ago</p>
+        <p>PRIME RATE</p>
+        <p>7.50</p>
+        <p>7.50</p>
+        <p>9.50</p>
+        <p>DISCOUNT RATE</p>
+        <p>5.50</p>
+        <p>5.50</p>
+        <p>7.50</p>
+        <p>FEDERAL FUNDS</p>
+        <p>17.50</p>
+        <p>16.17</p>
+        <p>n.a.</p>
+        <p>3-MO. TREAS. BILLS</p>
+        <p>5.65</p>
+        <p>5.69</p>
+        <p>n.a.</p>
+        <p>6-MO. TREAS. BILLS</p>
+        <p>5.64</p>
+        <p>5.68</p>
+        <p>n.a.</p>
+        <p>7-YR. TREAS. NOTES</p>
+        <p>7.08</p>
+        <p>7.10</p>
+        <p>n.a.</p>
+        <p>30-YR. TREAS. BONDS</p>
+        <p>7.49</p>
+        <p>7.45</p>
+        <p>n.a.</p>
+        <p>TELEPHONE BONDS</p>
+        <p>8.86</p>
+        <p>8.85</p>
+        <p>n.a.</p>
+        <p>MUNICIPAL BONDS*</p>
+        <p>7.18</p>
+        <p>7.18</p>
+        <p>n.a.</p>
+        <p>*Municipal Bond Index, The Bond Buyer  Salomon Brothers estimates for belwether issues.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>REAGAN SENDS UPBEAT SPEECH TO SOVIET PEOPLE OVER 'VOICE'</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Foreign Desk" name="dsk"/>
+    <meta content="4" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="World; Washington" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="161"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">RADIO</classifier>
+        <classifier class="indexing_service" type="descriptor">NEW YEAR</classifier>
+        <classifier class="indexing_service" type="descriptor">ARMS CONTROL AND LIMITATION AND DISARMAMENT</classifier>
+        <classifier class="indexing_service" type="descriptor">UNITED STATES INTERNATIONAL RELATIONS</classifier>
+        <classifier class="indexing_service" type="descriptor">INTERNATIONAL RELATIONS</classifier>
+        <location class="indexing_service">UNION OF SOVIET SOCIALIST REPUBLICS</location>
+        <org class="indexing_service">VOICE OF AMERICA</org>
+        <person class="indexing_service">REAGAN, RONALD WILSON (PRES)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Russia and the Former Soviet Union</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Washington</classifier>
+        <classifier class="online_producer" type="general_descriptor">Radio</classifier>
+        <classifier class="online_producer" type="general_descriptor">New Year</classifier>
+        <classifier class="online_producer" type="general_descriptor">Arms Control and Limitation and Disarmament</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States International Relations</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States International Relations</classifier>
+        <classifier class="online_producer" type="general_descriptor">International Relations</classifier>
+        <classifier class="online_producer" type="general_descriptor">Holidays and Special Occasions</classifier>
+        <classifier class="online_producer" type="general_descriptor">Armament, Defense and Military Forces</classifier>
+        <classifier class="online_producer" type="general_descriptor">United States Politics and Government</classifier>
+        <classifier class="online_producer" type="general_descriptor">Politics and Government</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4D8133FF932A35752C0A961948260" item-length="439" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>REAGAN SENDS UPBEAT SPEECH TO SOVIET PEOPLE OVER 'VOICE'</hl1>
+      </hedline>
+      <byline class="print_byline">By BERNARD WEINRAUB, Special to the New York Times</byline>
+      <dateline>PALM SPRINGS, Calif., Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: President Reagan, in a New Year's message to the Soviet Union, said today that the two countries were ''closer now than ever before'' to an agreement to reduce nuclear arsenals.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: President Reagan, in a New Year's message to the Soviet Union, said today that the two countries were ''closer now than ever before'' to an agreement to reduce nuclear arsenals.</p>
+        <p>President Reagan, in a New Year's message to the Soviet Union, said today that the two countries were ''closer now than ever before'' to an agreement to reduce nuclear arsenals.</p>
+        <p>In a 10-minute radio broadcast, which the Voice of America also transmitted to Eastern Europe, Mr. Reagan said that the United States and the Soviet Union had taken major steps toward permanent peace in 1986.</p>
+        <p>The upbeat comment offered a different assessment of Soviet-American relations than the one given in Moscow. On Tuesday, a spokesman for the Soviet Foreign Ministry rejected a proposal that Mr. Reagan and Mikhail S. Gorbachev exchange New Year's greetings over television, as they did last New Year's Day.</p>
+        <p>The Soviet spokesman said such an exchange at this time would be inappropriate in view of what he described as the low state of relations and a deadlock in arms control talks.</p>
+        <p>After the Soviet rejection, the White House decided to transmit Mr. Reagan's message by radio.</p>
+        <p>In the speech, Mr. Reagan said that the Iceland summit meeting on Oct. 25-26 had yielded positive results despite its collapse over limitation of space-based missile defenses.</p>
+        <p>Although the aftermath has left a new arms control accord in doubt, according to American officials, Mr. Reagan said:</p>
+        <p>''We did move things a good distance forward. On many issues, we made more progress in those two days than our diplomats made in the last two years. Yes, a great deal of work remains, but both sides are closer now than ever before.''</p>
+        <p>Mr. Reagan did not mention two of the issues that, according to Soviet spokesmen, have chilled relations. One is Mr. Reagan's decision to stop adhering informally to the provisions of the unratified strategic arms limitation treaty of 1979. The other is his refusal to join Mr. Gorbachev in a halt of nuclear weapon testing.</p>
+        <p>In his message, Mr. Reagan seemed to praise the Soviet Union for its decision to end the exile of Andrei D. Sakharov, the physicist and rights advocate.</p>
+        <p>''Whenever there is a restoration of those rights to a man or a woman, as has happened recently,'' Mr. Reagan said, ''it helps strengthen the foundations for trust and cooperation between our two countries. And by the same token, whenever those rights are denied, the foundation is seriously weakened. We welcome progress in this area, as much as we welcome it in the effort to secure nuclear arms reduction.''</p>
+        <p>Mr. Reagan and his wife, Nancy, arrived here Monday from Los Angeles to spend the New Year at the 220-acre estate of Walter Annenberg, the publisher. The Reagans have welcomed the New Year at the Annenberg estate for nearly two decades.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

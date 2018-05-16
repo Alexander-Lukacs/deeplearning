@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Macy's Stores To Open Today</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="43" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="89"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="COMPANY NEWS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">RETAIL STORES AND TRADE</classifier>
+        <classifier class="indexing_service" type="descriptor">NEW YEAR</classifier>
+        <location class="indexing_service">UNITED STATES</location>
+        <location class="indexing_service">NEW YORK CITY</location>
+        <org class="indexing_service">MACY, R H, &amp; CO INC</org>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Shopping</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Retail</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/New York City</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="general_descriptor">Retail Stores and Trade</classifier>
+        <classifier class="online_producer" type="general_descriptor">New Year</classifier>
+        <classifier class="online_producer" type="general_descriptor">Holidays and Special Occasions</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE5D6113CF932A35752C0A961948260" item-length="181" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Macy's Stores To Open Today</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: For what is believed to be the first time in the company's 128 years, Macy's stores nationwide will be open New Year's Day.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: For what is believed to be the first time in the company's 128 years, Macy's stores nationwide will be open New Year's Day.</p>
+        <p>For what is believed to be the first time in the company's 128 years, Macy's stores nationwide will be open New Year's Day.</p>
+        <p>Judith Cohen, a spokesman for the store, said executives would be looking at the experiment ''very carefully'' this year to determine whether it would become a permanent policy.</p>
+        <p>The decision to open the stores was based on the assumption that potential shoppers would be grateful for a place to go during the holiday.</p>
+        <p>''We're open most holidays and sales are good,'' Ms. Cohen said. ''Management figured that New Year's Day would be the same.''</p>
+        <p>Several months ago, employees were given the option of working New Year's, with additional pay or compensatory time as an incentive.</p>
+        <p>''No employee had to work who didn't want to,'' Ms. Cohen said. She said she did not know how many employees had agreed to work, but added that it was ''enough to keep the store open.''</p>
+        <p>The city's other major department stores - including Saks, Bloomingdale's and Bergdorf Goodman - will all be closed New Year's Day.</p>
+        <p>Macy's will have shortened hours, from 11 A.M. to 6 P.M.</p>
+        <p>COMPANY NEWS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

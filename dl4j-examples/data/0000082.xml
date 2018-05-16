@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>GOING OUT GUIDE</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="12" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="82"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ENTERTAINMENT AND AMUSEMENTS</classifier>
+        <person class="indexing_service">FRASER, C GERALD</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Media, Entertainment and Publishing</classifier>
+        <classifier class="online_producer" type="general_descriptor">Entertainment and Amusements</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE2DD113CF932A35752C0A961948260" item-length="646" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>GOING OUT GUIDE</hl1>
+      </hedline>
+      <byline class="print_byline">By C. Gerald Fraser</byline>
+      <byline class="normalized_byline">FRASER, C GERALD</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: TAKING IT EASY New Year's Day has always had a special tranquillity. Whether the eve was one of unrestrained indulgence or prayerful participation in a watch-night service, something in between or a combination thereof, the day allows for leisure and for genuine sociability.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: TAKING IT EASY New Year's Day has always had a special tranquillity. Whether the eve was one of unrestrained indulgence or prayerful participation in a watch-night service, something in between or a combination thereof, the day allows for leisure and for genuine sociability.</p>
+        <p>TAKING IT EASY New Year's Day has always had a special tranquillity. Whether the eve was one of unrestrained indulgence or prayerful participation in a watch-night service, something in between or a combination thereof, the day allows for leisure and for genuine sociability.</p>
+        <p>In fact, being sociable on New Year's Day is a tradition. And at the Old Merchants House the tradition is annually upheld with a ''Social Calling in Old New York'' observance. Between 1 and 6 P.M. today the public is invited to visit this 155-year-old building at 29 West Fourth Street. This was the home of the Seabury Tredwell family from 1835 to 1935; his mother was a descendant of Priscilla Mullins and John Alden, of Mayflower fame.</p>
+        <p>In a 10-year task that ended in 1980, the house was restored. Significantly, the original house is all there. There are ancient chandeliers whose light was fueled by whale oil. There is the silver, china, glass, fans, pressed flowers, gowns and other family possessions. For today's open house music will be provided and volunteers and directors will serve refreshments. Admission is $5. Information: 777-1089. 20 CENTS APIECE The 20-year-old Poetry Project's 13th annual New Year's Day benefit is a shoo-in to attract the region's poets. This yearly feast of verse will present 50 poets, performers, dancers, musicians and assorted theatrical people. Their program will begin at 7 P.M. and continue to midnight. The masters of ceremonies are Haoui Montaug of the No Entiendes Cabaret, Two Girls Two (Adele O'Dae and Sybil St. Claire), Carmelita Tropicana and the poets Richard Bandanza and Jessica Hagedorn.</p>
+        <p>The cast will include Allen Ginsberg, Emily XYZ, Anne Waldman, Brad Gooch, Eileen Myles, Bob Holman, Paul Schmidt, Pat Downey, Ray Povod, Pedro Pietri, Maureen Owen, Barbara Barg, Andrei Codrescu, John Giorno, Patricia Jones, Lynne Tillman and Cookie Mueller - all poets and writers. The performers' lineup is scheduled to include Robbie McCauley and Ed Montgomery, the Downtown Divas (Ms. Hagedorn, Deborah Artman and Laurie Carlos), Mary Shultz, Chazz Dean and James Siena, David Cale, Ralph Lemon and Tony Whitfield, Richard Elovich, The Wow Cafe, Nicky Paraiso, Harry Mann and Jim Neu, the Larry Rivers Band, Joseph Jarman and the dancers Yvonne Meier and Yoshiko Chuma.</p>
+        <p>For all 50 the price is $10, which comes to 20 cents apiece. Food and drink will be served. The project's full name is the Poetry Project at St. Mark's Church, and that's where this performance will take place - at Second Avenue and 10th Street. Information: 674-0910. HERBIE HANCOCK QUARTET</p>
+        <p>For those who have arrived at this point not satiated by the nightclub environment and who want to hear music, tonight may be an ideal time. At the Blue Note, 131 West Third Street, the group is the Herbie Hancock Quartet. Mr. Hancock, the renowned electronic keyboardist, acoustic pianist and performer in the successful movie '' 'Round Midnight,'' is most often seen and heard in large concert halls. Tonight Mr. Hancock, one of the industry's most successful (and busiest) practitioners, is working a nightclub.</p>
+        <p>The quartet's bassist will be Ron Carter, with whom Mr. Hancock has often worked. The two were fixtures in Mr. Hancock's V.S.O.P., the 1970's quartet that also included Wayne Shorter, the tenor saxophonist, and the drummer Tony Williams. For this engagement, the drummer is Al Foster, who, like Mr. Williams, is an exponent of contemporary mainstream drumming. The saxophonist tonight will be Branford Marsalis, formerly associated with Sting. Mr. Hancock was also a presenter of the trumpeter Wynton Marsalis, Branford's brother, in Wynton's early phase.</p>
+        <p>Tonight's shows are at 9 and 11:30 P.M. The quartet may be heard through Saturday night. There is a $35 music charge tonight, a $5 minimum, or $20 at the bar. Information and reservations: 475-8592.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

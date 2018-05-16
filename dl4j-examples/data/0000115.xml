@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>KCBS IS ACCUSED OF BIAS</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="54" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="115"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">TELEVISION</classifier>
+        <classifier class="indexing_service" type="descriptor">DISCRIMINATION</classifier>
+        <classifier class="indexing_service" type="descriptor">SPANISH-SPEAKING GROUPS (US)</classifier>
+        <classifier class="indexing_service" type="descriptor">HIRING AND PROMOTION</classifier>
+        <classifier class="indexing_service" type="descriptor">LABOR</classifier>
+        <org class="indexing_service">HISPANIC MEDIA COALITION</org>
+        <org class="indexing_service">KCBS-TV (LOS ANGELES)</org>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Media, Entertainment and Publishing</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Diversity</classifier>
+        <classifier class="online_producer" type="general_descriptor">Spanish Language</classifier>
+        <classifier class="online_producer" type="general_descriptor">Hiring and Promotion</classifier>
+        <classifier class="online_producer" type="general_descriptor">Television</classifier>
+        <classifier class="online_producer" type="general_descriptor">Discrimination</classifier>
+        <classifier class="online_producer" type="general_descriptor">Language and Languages</classifier>
+        <classifier class="online_producer" type="general_descriptor">Labor</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4D71F3CF932A35752C0A961948260" item-length="224" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>KCBS IS ACCUSED OF BIAS</hl1>
+      </hedline>
+      <byline class="print_byline">AP</byline>
+      <dateline>LOS ANGELES, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: A Hispanic coalition filed a Federal job-discrimination complaint Tuesday against KCBS-TV, accusing the station of racial bias in hiring and promoting on- and off-camera employees. The station denied any bias.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: A Hispanic coalition filed a Federal job-discrimination complaint Tuesday against KCBS-TV, accusing the station of racial bias in hiring and promoting on- and off-camera employees. The station denied any bias.</p>
+        <p>A Hispanic coalition filed a Federal job-discrimination complaint Tuesday against KCBS-TV, accusing the station of racial bias in hiring and promoting on- and off-camera employees. The station denied any bias.</p>
+        <p>The formal complaint to the Federal Equal Employment Opportunity Commission seeks imposition of an affirmative-action program at KCBS, said John Huerta, an attorney representing a group called the Hispanic Media Coalition.</p>
+        <p>The commission would have to sue in Federal court if it decided there was merit to the accusations, Mr. Huerta said.</p>
+        <p>Mr. Huerta said that of the station's about 400 employees, 14.2 percent were Hispanic. Mr. Huerta contended the percentage was far too low considering that 29 percent of the city's labor force is Hispanic.</p>
+        <p>KCBS said it helps pay for a national computerized job bank for Hispanics.</p>
+        <p>''We are surprised that the group chose to target a station which not only has the best Hispanic employment record in the market, but has also been involved for several years in helping improve this situation nationally,'' said Tom Van Amburg, KCBS's vice president and general manager, in a written statement.</p>
+        <p>Mr. Huerta said that the coalition had discussed minority hiring with station managers, but that the talks broke down in November when KCBS laid off about 20 workers, half of them minorities.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

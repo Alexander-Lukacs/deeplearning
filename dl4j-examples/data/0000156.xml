@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>25% OF KEY LEGISLATORS MISS MASS-TRANSIT VOTE</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Metropolitan Desk" name="dsk"/>
+    <meta content="31" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="156"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">TRANSIT SYSTEMS</classifier>
+        <classifier class="indexing_service" type="descriptor">ABSENTEEISM</classifier>
+        <classifier class="indexing_service" type="descriptor">FINANCES</classifier>
+        <classifier class="indexing_service" type="descriptor">BUDGETS AND BUDGETING</classifier>
+        <classifier class="indexing_service" type="descriptor">LAW AND LEGISLATION</classifier>
+        <location class="indexing_service">NEW YORK CITY</location>
+        <location class="indexing_service">NEW YORK STATE</location>
+        <location class="indexing_service">NEW YORK STATE</location>
+        <org class="indexing_service">TRANSPORTATION AUTHORITY, METROPOLITAN (MTA)</org>
+        <person class="indexing_service">UHLIG, MARK A</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Mid-Atlantic</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Manufacturing, Operations and Logistics</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Legal</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/New York City</classifier>
+        <classifier class="online_producer" type="general_descriptor">Budgets and Budgeting</classifier>
+        <classifier class="online_producer" type="general_descriptor">Transit Systems</classifier>
+        <classifier class="online_producer" type="general_descriptor">Education and Schools</classifier>
+        <classifier class="online_producer" type="general_descriptor">Labor</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+        <classifier class="online_producer" type="general_descriptor">Law and Legislation</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE4DB123FF932A35752C0A961948260" item-length="808" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>25% OF KEY LEGISLATORS MISS MASS-TRANSIT VOTE</hl1>
+      </hedline>
+      <byline class="print_byline">By MARK A. UHLIG, Special to the New York Times</byline>
+      <byline class="normalized_byline">UHLIG, MARK A</byline>
+      <dateline>ALBANY, Dec. 31</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Roughly one-quarter of the legislators from New York City and other areas served by the Metropolitan Transportation Authority were absent Tuesday when the State Legislature voted to approve a financing package to rebuild the mass-transit system.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Roughly one-quarter of the legislators from New York City and other areas served by the Metropolitan Transportation Authority were absent Tuesday when the State Legislature voted to approve a financing package to rebuild the mass-transit system.</p>
+        <p>Roughly one-quarter of the legislators from New York City and other areas served by the Metropolitan Transportation Authority were absent Tuesday when the State Legislature voted to approve a financing package to rebuild the mass-transit system.</p>
+        <p>No one has suggested that the outcome would have been different if the missing legislators had been present. The plan passed by a large margin in both houses. But citizen groups and others were critical.</p>
+        <p>''They figured the votes were there to pass what needed to be passed,'' said Paul H. Elisha, executive director of the New York State branch of Common Cause, a citizen advocacy group. ''But at a time when there's a great deal of discussion about raises for legislators, a full-time Legislature, the whole manner in which this special session was handled shows a very cavalier attitude on the part of legislators to the needs of the constituents. One would hope that that's not a bellwether for the year to come.'' #30 Absentees Recorded Of the 40 state senators who represent the 12-county area served by the M.T.A., 11 were officially listed as absent or ''excused.'' And in the Assembly, which has 94 members whose districts fall within the M.T.A. service area, 19 members were similarly listed.</p>
+        <p>The counties served by the M.T.A. include the five of New York City, as well as Nassau, Suffolk, Westchester, Rockland, Orange, Dutchess and Putnam.</p>
+        <p>Spokesmen for the absent legislators ascribed the poor turnout Tuesday to the timing of the special session, together with the certainty of the vote's outcome. The bill's fate, they said, was decided in negotiations last week.</p>
+        <p>Timothy J. Taylor, a spokesman for Senator Manfred Ohrenstein of Manhattan, the Senate minority leader, said that Mr. Ohrenstein had longstanding arrangements for a family trip to Austria and that he had been assured by Governor Cuomo there was no reason to cancel those plans. He said Mr. Ohrenstein, a Democrat, would have returned to Albany if there had been any indication of a crisis. 'No One Anticipated It'</p>
+        <p>''For the session to go over the holidays was an extraordinary thing, and no one anticipated it,'' Mr. Taylor said. ''People were coming out of a grueling election year and legitimately made holiday plans.''</p>
+        <p>In addition, he said, ''the difficulties over the course of the session involved political issues, not the issue of attendance. Once the negotiations were completed, the obligation was to produce the votes to pass the bill, and that was done.''</p>
+        <p>A spokesman for Senator Roy M. Goodman, a Manhattan Republican who also missed the vote, would not say where he was but added that he, too, had made arrangements to return to Albany if his vote was needed.</p>
+        <p>Some legislators - despite previous plans - felt they had an obligation to be here. Senator Donald M. Halperin, a Brooklyn Democrat, interrupted a family vacation in Florida to be present for the vote, saying he felt the terms of the final compromise remained uncertain until late in the negotiations. 'It Was Still Unclear'</p>
+        <p>''I don't think anybody really knew what the exact vote or exact tally would be,'' he said. ''It was still unclear as to whether or not there would be an an agreement. Monday night is when they came up with the last part of the deal.''</p>
+        <p>Reached by telephone in Florida, where he returned late Tuesday, Mr. Halperin said he felt that his decision to return was correct but that he did not feel any ill will toward other legislators who did not attend.</p>
+        <p>''We talk about the family of New York, but legislators have families and children and wives who can be very upset by things like this,'' he said.</p>
+        <p>These are the members of the Legislature from the M.T.A. service area who were officially listed as absent or excused from Tuesday's vote:  State Senate  Howard Babbush (D-Brooklyn)  Abraham Bernstein (D-Bronx)  John E. Flynn (R-Yonkers)  Roy M. Goodman (R-Manhattan)  Olga A. Mendez (D-Manhattan)  Velmanette Montgomery(D-Brooklyn)  Manfred Ohrenstein (D-Manhattan)  Suzi Oppenheimer (D-Mamaroneck)  Israel Ruiz Jr. (D-Bronx)  Leonard Price Stavisky (D-Queens)  Guy Velella (D-Bronx)  State Assembly  Frank J. Barbaro (D-Brooklyn)  Henry William Barnett (R-Bedford)  Gregory R. Becker (R-Lynbrook)  John L. Behan (R-Montauk)  Gordon W. Burrows (R-Scarsdale)  Armand P. D'Amato (R-Mineola)  Arnaldo Ferraro (R-Brooklyn)  Robert Gaffney (R-Miller Place)  Alexander B. Grannis (D-Manhattan)  Paul E. Harenberg (D-Hauppauge)  Dov Hikind (D-Brooklyn)  Gerdi Lipschutz (D-Queens)  George H. Madison (R-Franklin Square)  Mary M. McPhillips (D-Middletown)  Joseph Sawicki Jr. (R-Southhold)  Mark Alan Siegel (D-Manhattan)  Nicholas A. Spano (R-Yonkers)  Robert A. Straniere (R-Staten Island)  Robert C. Wertz (R-Smithtown)</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

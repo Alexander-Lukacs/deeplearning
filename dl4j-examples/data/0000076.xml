@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Long-Term Bond Prices Fall</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="50" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="76"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <series series.name="CREDIT MARKETS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">FINANCES</classifier>
+        <classifier class="indexing_service" type="descriptor">GOVERNMENT BONDS</classifier>
+        <classifier class="indexing_service" type="descriptor">INTEREST (MONEY)</classifier>
+        <location class="indexing_service">UNITED STATES</location>
+        <org class="indexing_service">TREASURY, DEPARTMENT OF THE</org>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="general_descriptor">Government Bonds</classifier>
+        <classifier class="online_producer" type="general_descriptor">Stocks and Bonds</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DE0D6103CF932A35752C0A961948260" item-length="544" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Long-Term Bond Prices Fall</hl1>
+      </hedline>
+      <byline class="print_byline">By H. J. MAIDENBERG</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Government securities dealers spent yesterday's abbreviated session marking down prices of long-term Treasury bonds and raising those on intermediate maturities.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Government securities dealers spent yesterday's abbreviated session marking down prices of long-term Treasury bonds and raising those on intermediate maturities.</p>
+        <p>Government securities dealers spent yesterday's abbreviated session marking down prices of long-term Treasury bonds and raising those on intermediate maturities.</p>
+        <p>As a partial explanation of yesterday's activity, dealers said they were expecting more institutional and other bond investors to shorten the maturities in their portfolios when they start to return to the market next week.</p>
+        <p>The market was also unsettled by bearish economic news: The Government reported a record $19.2 billion trade deficit, and the dollar fell to a new six-year low against the West German mark. Sentiment was not helped by the continued rise in oil prices and the sharp $15-an-ounce surge in gold, which sent bullion prices above the $400 mark once again.</p>
+        <p>Whether or not these factors signal inflation, the bane of bond holders, or are merely short-term phenomena, the bond market took the prudent course of adjusting positions yesterday.</p>
+        <p>As a result, the offered price of the bellwether long Treasury bond, the 7.5 percent issue due in 2016, closed down 17/32, at 100 7/32, for a yield of 7.48 percent, compared with 7.44 percent the previous day.</p>
+        <p>Also at 2 P.M., when trading in government securities ended yesterday, the price of long Treasury notes, such as the 7 1/4 percent issue of 1996, was down 8/32, or a quarter-point, at 100 5/32, and now yields 7.23 percent, compared with 7.20 percent the day before.</p>
+        <p>But the shortening of maturities helped raise the price of the 6 1/4 percent issue of 1988 by 3/32, to 99 28/32, for a yield of 6.32 percent. The 6 5/8 percent issue of 1990 closed unchanged at 99 21/32, a yield of 6.72 percent, and the 7 percent notes of January 1994, which the Treasury auctioned Tuesday at an average yield of 7.09 percent, closed unchanged yesterday at an offered price of 99 18/32.</p>
+        <p>As expected, the end of the quarter and the year caused a last-minute flurry of Treasury bill purchases by corporations, mutual funds and other institutions seeking to show large cash positions on their final accounts for 1986.</p>
+        <p>This traditional ''window-dressing'' helped shave three basis points off the discount rate of 90-day Treasury bills, which closed at 5.68 percent; the six-month bill rate fell four basis points, to 5.64 percent, and the one-year bills closed at 5.63, down nine basis points.</p>
+        <p>Also expected was the abnormally high Federal funds, or overnight interbank lending, rate, which opened at 30 percent and broke sharply to 9 percent just before the 2 P.M. close. Aside from the usual heavy demand for window-dressing and other funds on Dec. 31, yesterday was the end of the two-week bank reserve settlement period, when many banks scramble to meet various reserve requirements. Yesterday was also the settlement day for the $18 billion of notes auctioned by the Treasury last week.</p>
+        <p>Dealers were surprised by the timing of the Fed's intervention in the market, which occurred at 10 A.M, or more than an hour earlier than normal. In any case, the Fed's direct injection of reserves into the banking system, effected by two-day system repurchase agreements, came when the funds rate was 20 percent.</p>
+        <p>The credit market is closed today. Tomorrow, the credit market, which normally has no fixed closing hour, will again end at 2 P.M.</p>
+        <p>CREDIT MARKETS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

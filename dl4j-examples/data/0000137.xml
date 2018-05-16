@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>State Move on Banks' Underwriting</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1987" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Financial Desk" name="dsk"/>
+    <meta content="50" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Business" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="137"/>
+      <doc.copyright holder="The New York Times" year="1987"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">BANKS AND BANKING</classifier>
+        <classifier class="indexing_service" type="descriptor">STOCKS AND BONDS</classifier>
+        <location class="indexing_service">NEW YORK STATE</location>
+        <org class="indexing_service">BANKING DEPARTMENT (NEW YORK STATE)</org>
+        <org class="indexing_service">FEDERAL RESERVE SYSTEM</org>
+        <person class="indexing_service">BERG, ERIC N</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York</classifier>
+        <classifier class="online_producer" type="general_descriptor">Banks and Banking</classifier>
+        <classifier class="online_producer" type="general_descriptor">Stocks and Bonds</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19870101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B0DEFDE143FF932A35752C0A961948260" item-length="556" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>State Move on Banks' Underwriting</hl1>
+      </hedline>
+      <byline class="print_byline">By ERIC N. BERG</byline>
+      <byline class="normalized_byline">BERG, ERIC N</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The New York State Banking Department said yesterday that it might provide specific guidelines as early as next week on how banks chartered in the state may legally underwrite securities, an activity generally prohibited by the Federal Reserve.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The New York State Banking Department said yesterday that it might provide specific guidelines as early as next week on how banks chartered in the state may legally underwrite securities, an activity generally prohibited by the Federal Reserve.</p>
+        <p>The New York State Banking Department said yesterday that it might provide specific guidelines as early as next week on how banks chartered in the state may legally underwrite securities, an activity generally prohibited by the Federal Reserve.</p>
+        <p>On Tuesday, the Banking Department concluded that subsidiaries of state-chartered banks may legally conduct up to to 25 percent of their ''business activities'' in securities underwriting. The action was in response to a request from the Bankers Trust New York Corporation and J. P. Morgan &amp; Company to interpret existing New York State law.</p>
+        <p>Although the department's interpretation left a number of questions, it nonetheless gave state-chartered banks - such as the Bankers Trust Company and the Morgan Guaranty Trust Company of New York, which are the bank subsidiaries of the Bankers Trust and J. P. Morgan holding companies - far broader securities powers than they have previously enjoyed. And it set the stage for a regulatory tug-of-war between the State Banking Department and the Federal Reserve Board. Glass-Steagall Act</p>
+        <p>In interpreting the Glass-Steagall Act, a Federal law that separates commercial banking from securities underwriting, the Fed has essentially forbidden banks to underwrite most securities. Yet both the State Banking Department and the Fed claim jurisdiction over Bankers Trust and J. P. Morgan. The Fed regulates the subsidiaries of bank holding companies; the State Banking Department claims authority over banks chartered in New York.</p>
+        <p>At the Fed, Joseph Coyne, a spokesman, said lawyers had not received a copy of the state's interpretation and would have no comment.</p>
+        <p>According to David Halvorson, the Banking Department's deputy superintendent, the department's board members could offer as early as their next meeting, next Thursday, ''prudential guidelines'' on how the securities subsidiaries of the state-chartered banks will have to operate.</p>
+        <p>Although a regulatory clash seems likely, it is not certain.</p>
+        <p>For one thing, both Morgan and Bankers Trust have applied to the Fed to underwrite securities through subsidiaries of their holding companies as opposed to through subsidiaries of their banks. They may decide to defer establishing any underwriting units until the Fed issues a ruling.</p>
+        <p>Additionally, taking advantage of the loophole in New York would mean alienating Fed officials, something the banks might not want to do.</p>
+        <p>A spokesman, John Morris, declined to say what Morgan's next step would be, other than to say that its lawyers were mapping strategy.</p>
+        <p>George Fasel, a Bankers Trust spokesman, said Bankers would probably wait until the Fed gave further guidance on banks' securities powers before setting up any securities operation in New York.  FED SETS HEARING FOR BANKS</p>
+        <p>WASHINGTON, Dec. 31 (Special to The New York Times) - The Federal Reserve Board announced today that it had scheduled a public hearing on the requests by Citicorp, J. P. Morgan and Bankers Trust for authority to underwrite and issue commercial paper, mortgage-backed securities, industrial revenue bonds and other consumer-related debt securities through wholly owned subsidiaries. A spokesman for the Fed said the rare public hearing before the Fed's board of governors would be held on Feb. 3, and on Feb. 5 if a second day was necessary.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>
