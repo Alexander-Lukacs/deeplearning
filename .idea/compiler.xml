@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="datavec-examples" />
+        <module name="deeplearning" />
         <module name="dl4j-cuda-specific-examples" />
         <module name="dl4j-examples" />
         <module name="dl4j-spark" />
@@ -17,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="datavec-examples" target="1.8" />
+      <module name="deeplearning" target="1.5" />
       <module name="deeplearning4j-examples-parent" target="1.5" />
       <module name="dl4j-cuda-specific-examples" target="1.8" />
       <module name="dl4j-examples" target="1.8" />

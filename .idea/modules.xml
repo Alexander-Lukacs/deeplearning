@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/dl4j-examples/deeplearning4j-examples-parent.iml" filepath="$PROJECT_DIR$/dl4j-examples/deeplearning4j-examples-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/dl4j-examples/dl4j-cuda-specific-examples/dl4j-cuda-specific-examples.iml" filepath="$PROJECT_DIR$/dl4j-examples/dl4j-cuda-specific-examples/dl4j-cuda-specific-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/dl4j-examples/dl4j-examples/dl4j-examples.iml" filepath="$PROJECT_DIR$/dl4j-examples/dl4j-examples/dl4j-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dl4j-examples/dl4j-examples/dl4j-examples.iml" filepath="$PROJECT_DIR$/dl4j-examples/dl4j-examples/dl4j-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/dl4j-examples/dl4j-spark-examples/dl4j-spark/dl4j-spark.iml" filepath="$PROJECT_DIR$/dl4j-examples/dl4j-spark-examples/dl4j-spark/dl4j-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/dl4j-examples/dl4j-spark-examples/dl4j-spark-examples.iml" filepath="$PROJECT_DIR$/dl4j-examples/dl4j-spark-examples/dl4j-spark-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/dl4j-examples/lstm-hdfs/lstm-hdfs.iml" filepath="$PROJECT_DIR$/dl4j-examples/lstm-hdfs/lstm-hdfs.iml" />
