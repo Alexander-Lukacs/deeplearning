@@ -1,27 +1,24 @@
 package main;
 
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.util.CoreMap;
+import src.com.nytlabs.corpus.*;
 import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.text.sentenceiterator.BasicLineIterator;
 import org.deeplearning4j.text.sentenceiterator.SentenceIterator;
 import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.CommonPreprocessor;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
-import src.com.nytlabs.corpus.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.util.CoreMap;
-
-import java.util.Properties;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collection;
-
+import java.util.Properties;
 
 public class Word2VecTest {
 
@@ -46,49 +43,48 @@ public class Word2VecTest {
         }
     }
 
-    private void dateiSchreiben(StringBuilder stringBuilder, int jahr) {
+    private void dateiSchreiben(File[] allFiles, int jahr) {
         FileWriter writer;
         File zielDatei = new File("C:/Users/Besitzer/IdeaProjects/deeplearning1/data/ziel_" + jahr + ".txt");
-        String string = stringBuilder.toString();
-        StringBuilder stringBuilder1 = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
+        NYTCorpusDocument document;
 
-        System.out.println("Textdokument erstellt");
-        // Pipeline konfigurieren
-        Properties properties = new Properties();
-        properties.put("annotators", "tokenize, ssplit");
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
+        if (allFiles != null) {
+            System.out.println("Textdokument erstellt");
+            try {
+                writer = new FileWriter(zielDatei);
+                for (int i = 0; i < allFiles.length; i++) {
 
+                    document = parser.parseNYTCorpusDocumentFromFile(allFiles[i], false);
 
-        // Zu annotierender Text
-        Annotation annotation = new Annotation(string);
-        pipeline.annotate(annotation);
+                    stringBuilder.append("Title: " + document.getHeadline() + "\n");
+                    stringBuilder.append(document.getBody());
+                    String string = stringBuilder.toString();
 
-        /*for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
-            for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-                System.out.println(token.get(CoreAnnotations.TextAnnotation.class).toLowerCase());
+                    // Pipeline konfigurieren
+                    Properties properties = new Properties();
+                    properties.put("annotators", "tokenize, ssplit");
+                    StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
+
+                    // Zu annotierender Text
+                    Annotation annotation = new Annotation(string);
+                    pipeline.annotate(annotation);
+
+                    for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
+                        writer.write(sentence.toString());
+                    }
+                }
+                writer.close();
+                System.out.println("In Textdokument geschrieben");
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-            System.out.println("<EOS>");
-        }*/
-        System.out.println("Satz in jeder Zeile");
-        for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
-            stringBuilder1.append(sentence.toString().toLowerCase()).append("\n");
-        }
-        System.out.println("Sätze bearbeitet");
-        try {
-            writer = new FileWriter(zielDatei);
-            writer.write(stringBuilder1.toString());
-            writer.close();
-            System.out.println("In Textdokument geschrieben");
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 
-    private StringBuilder dateiEinlesen(int jahr) {
-        StringBuilder stringBuilder = new StringBuilder();
-        NYTCorpusDocument document;
+    private File[] dateiEinlesen(int jahr) {
         File file;
-        File[] allFiles;
+        File[] allFiles = null;
 
         System.out.println("Start Datei einlesen");
         for (int monat = 1; monat <= 12; monat++) {
@@ -104,23 +100,10 @@ public class Word2VecTest {
                 } else {
                     file = new File("data/" + jahr + "/" + monat + "/" + tag);
                 }
-
                 allFiles = file.listFiles();
-                if (allFiles != null) {
-                    for (int i = 0; i < allFiles.length; i++) {
-
-                        document = parser.parseNYTCorpusDocumentFromFile(allFiles[i], false);
-
-                        stringBuilder.append("Title: " + document.getTitles() + "\n");
-                        stringBuilder.append(document.getBody());
-                        //System.out.println(i);
-                        //i++;
-                    }
-                }
             }
         }
-        System.out.println("Rückgabe Builder");
-        return stringBuilder;
+        return allFiles;
     }
 
     private void word2Vec() throws Exception {//NYTCorpusDocument corpusDocument) {
