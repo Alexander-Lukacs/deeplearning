@@ -1,9 +1,12 @@
 package main;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
+import org.deeplearning4j.models.word2vec.VocabWord;
+import org.deeplearning4j.models.word2vec.wordstore.VocabCache;
 import src.com.nytlabs.corpus.*;
 import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.text.sentenceiterator.BasicLineIterator;
@@ -14,10 +17,12 @@ import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Properties;
 
 public class Word2VecTest {
@@ -34,81 +39,21 @@ public class Word2VecTest {
 
     private void start() {
         try {
-            for (int jahr = 1987; jahr <= 1987; jahr++)
-                dateiSchreiben(dateiEinlesen(jahr), jahr);
+            for (int jahr = 1987; jahr <= 2007; jahr++) {
+                schreiben(jahr);
+                word2Vec(jahr);
+            }
 
-            word2Vec();
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private void dateiSchreiben(File[] allFiles, int jahr) {
-        FileWriter writer;
-        File zielDatei = new File("C:/Users/Besitzer/IdeaProjects/deeplearning1/data/ziel_" + jahr + ".txt");
-        StringBuilder stringBuilder = new StringBuilder();
-        NYTCorpusDocument document;
-
-        if (allFiles != null) {
-            System.out.println("Textdokument erstellt");
-            try {
-                writer = new FileWriter(zielDatei);
-                for (int i = 0; i < allFiles.length; i++) {
-
-                    document = parser.parseNYTCorpusDocumentFromFile(allFiles[i], false);
-
-                    stringBuilder.append("Title: " + document.getHeadline() + "\n");
-                    stringBuilder.append(document.getBody());
-                    String string = stringBuilder.toString();
-
-                    // Pipeline konfigurieren
-                    Properties properties = new Properties();
-                    properties.put("annotators", "tokenize, ssplit");
-                    StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
-
-                    // Zu annotierender Text
-                    Annotation annotation = new Annotation(string);
-                    pipeline.annotate(annotation);
-
-                    for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
-                        writer.write(sentence.toString());
-                    }
-                }
-                writer.close();
-                System.out.println("In Textdokument geschrieben");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    private File[] dateiEinlesen(int jahr) {
-        File file;
-        File[] allFiles = null;
-
-        System.out.println("Start Datei einlesen");
-        for (int monat = 1; monat <= 12; monat++) {
-            for (int tag = 1; tag <= 31; tag++) {
-                if (monat <= 9) {
-                    if (tag <= 9) {
-                        file = new File("data/" + jahr + "/0" + monat + "/0" + tag);
-                    } else {
-                        file = new File("data/" + jahr + "/0" + monat + "/" + tag);
-                    }
-                } else if (tag <= 9) {
-                    file = new File("data/" + jahr + "/" + monat + "/0" + tag);
-                } else {
-                    file = new File("data/" + jahr + "/" + monat + "/" + tag);
-                }
-                allFiles = file.listFiles();
-            }
-        }
-        return allFiles;
-    }
-
-    private void word2Vec() throws Exception {//NYTCorpusDocument corpusDocument) {
+    private void word2Vec(int jahr) throws Exception {
         // Gets Path to Text file
-        String filePath = new File("data/ziel_1987.txt").getAbsolutePath();
+        String filePath = new File("data/ziel_"+jahr+".txt").getAbsolutePath();
         log.info("Load & Vectorize Sentences....");
         // Strip white space before and after for each line
         //SentenceIterator iter = new BasicLineIterator(filePath);
@@ -127,29 +72,95 @@ public class Word2VecTest {
          */
         t.setTokenPreProcessor(new CommonPreprocessor());
 
+        System.out.println("Word2Vec starten");
         log.info("Building model....");
         Word2Vec vec = new Word2Vec.Builder()
-                .minWordFrequency(5)
+                .minWordFrequency(10)
                 .iterations(1)
                 .layerSize(100)
                 .seed(42)
                 .windowSize(5)
+                .useHierarchicSoftmax(true)
+                .allowParallelTokenization(true)
+                .workers(4)
                 .iterate(iter)
                 .tokenizerFactory(t)
                 .build();
 
         log.info("Fitting Word2Vec model....");
+        System.out.println("Word2Vec synchronisieren");
+
         vec.fit();
 
         log.info("Writing word vectors to text file....");
 
         // Prints out the closest 10 words to "day". An example on what to do with these Word Vectors.
         log.info("Closest Words:");
+
+        VocabCache<VocabWord> v = vec.getVocab();
+        for (VocabWord w : v.vocabWords()) {
+            double[] r = vec.getWordVector(w.getWord());
+            for (int i = 0; i < r.length; i++) {
+                System.out.println("Dimension: " + i + " und Wert " + r[i]);
+            }
+        }
         Collection<String> lst = vec.wordsNearestSum(word, 10);
         log.info("10 Words closest to '" + word + "': {}", lst);
-
+        System.out.println("10 Words closest to '" + word + "': { " + lst + " }");
         // TODO resolve missing UiServer
 //        UiServer server = UiServer.getInstance();
 //        System.out.println("Started on port " + server.getPort());
+    }
+
+
+    private static void traverse(File root, List<File> files) {
+        if (root.isFile()) {
+            if (root.getAbsolutePath().endsWith(".xml")) {
+                files.add(root);
+            }
+        } else {
+            for (File file : root.listFiles()) {
+                traverse(file, files);
+            }
+        }
+    }
+
+
+    public void schreiben(int jahr) throws Exception {
+
+        Properties properties = new Properties();
+        properties.put("annotators", "tokenize, ssplit");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
+
+        String inputPath = "/home/alukacs/deeplearning2/data";
+        String outputPath = "/home/alukacs/deeplearning2/data/ziel_"+jahr+".txt";
+
+        LinkedList<File> files = new LinkedList<File>();
+        traverse(new File(inputPath), files);
+
+        BufferedWriter bw = new BufferedWriter(new FileWriter(outputPath));
+
+        int cnt = 0;
+
+        for (File file : files) {
+            NYTCorpusDocument doc = parser.parseNYTCorpusDocumentFromFile(file, false);
+            String content = doc.getHeadline() + " " + doc.getBody();
+
+
+            // Zu annotierender Text
+            Annotation annotation = new Annotation(content);
+            pipeline.annotate(annotation);
+
+            for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
+                for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                    bw.write(token.get(CoreAnnotations.TextAnnotation.class).toLowerCase() + " ");
+                }
+                bw.write("\n");
+            }
+
+            if (++cnt % 1000 == 0) System.out.println(cnt);
+        }
+
+        bw.close();
     }
 }
