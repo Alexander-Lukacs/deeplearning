@@ -1,25 +1,28 @@
 package main;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class CreateDB {
 
     private Connection connection;
 
-    static {
+    /*static {
         try {
-            Class<?> c = Class.forName("com.mysql.jdbc.Driver");
-            if (c != null) {
+            java.sql.Driver driver = DriverManager.getDriver("jdbc:mysql://localhost/?rewriteBatchedStatements=true");
+            if (Class.forName(driver.toString()).newInstance() != null) {
                 System.out.println("JDBC-Treiber geladen");
             }
         } catch (ClassNotFoundException e) {
             System.err.println("Fehler beim Laden des JDBC-Treibers");
             System.exit(1);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-    }
+    }*/
 
     public CreateDB() {
         createConnection();
@@ -44,15 +47,28 @@ public class CreateDB {
     }
 
     private void createConnection() {
-        String url = "jdbc:mysql://localhost/?rewriteBatchedStatements=true";
+        //String url = "jdbc:mysql://localhost/?rewriteBatchedStatements=true";
+        String url_Connection = "jdbc:mysql://localhost:3306/mysql";
+        String url_DBClassname = "com.mysql.jdbc.Driver";
         String user = "root";
         String pass = "So54_12eS";
         try {
+            //java.sql.Driver driver = DriverManager.getDriver(url_DBClassname);
+            //System.out.println(driver.toString());
+            Class driverClass = Class.forName(url_DBClassname);
+            DriverManager.registerDriver((Driver) driverClass.newInstance());
             System.out.println("Creating DBConnection");
-            connection = DriverManager.getConnection(url, user, pass);
+            connection = DriverManager.getConnection(url_Connection, user, pass);
         } catch (SQLException e) {
             System.err.println("Couldn't create DBConnection");
+            e.printStackTrace();
             System.exit(1);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
         }
     }
 
@@ -98,6 +114,13 @@ public class CreateDB {
             }
         }
         return false;
+    }
+
+    public void insert(int jahr, String wort, int dim, double vec) throws SQLException {
+        Statement statement = connection.createStatement();
+
+        statement.executeUpdate("INSERT INTO embeddings " +
+                "VALUES ("+jahr+", '"+wort+"', "+dim+", "+vec+")");
     }
 
     public static void main(String[] args) {

@@ -31,29 +31,31 @@ public class Word2VecTest {
 
     private static Logger log = LoggerFactory.getLogger(Word2VecTest.class);
 
-    private String word = "the";
+    private String word = "car";
+
+    private CreateDB createDB = new CreateDB();
 
     public static void main(String args[]) {
         new Word2VecTest().start();
     }
 
     private void start() {
-        try {
-            for (int jahr = 1987; jahr <= 2007; jahr++) {
-                schreiben(jahr);
+
+        for (int jahr = 1987; jahr <= 2007; jahr++) {
+            try {
+                //schreiben(jahr);
                 word2Vec(jahr);
+
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 
     private void word2Vec(int jahr) throws Exception {
+
         // Gets Path to Text file
-        String filePath = new File("data/ziel_"+jahr+".txt").getAbsolutePath();
+        String filePath = new File("data/ziel_" + jahr + ".txt").getAbsolutePath();
         log.info("Load & Vectorize Sentences....");
         // Strip white space before and after for each line
         //SentenceIterator iter = new BasicLineIterator(filePath);
@@ -77,7 +79,8 @@ public class Word2VecTest {
         Word2Vec vec = new Word2Vec.Builder()
                 .minWordFrequency(10)
                 .iterations(1)
-                .layerSize(100)
+                //.layerSize(100)
+                .layerSize(5)
                 .seed(42)
                 .windowSize(5)
                 .useHierarchicSoftmax(true)
@@ -88,7 +91,6 @@ public class Word2VecTest {
                 .build();
 
         log.info("Fitting Word2Vec model....");
-        System.out.println("Word2Vec synchronisieren");
 
         vec.fit();
 
@@ -97,16 +99,24 @@ public class Word2VecTest {
         // Prints out the closest 10 words to "day". An example on what to do with these Word Vectors.
         log.info("Closest Words:");
 
+        Collection<String> lst = vec.wordsNearestSum(word, 10);
+        System.out.println("10 Words closest to '" + word + "': { " + lst + " }");
+
+        System.out.println("Werte in Datenbank speichern:");
+
         VocabCache<VocabWord> v = vec.getVocab();
+        System.out.println(v.vocabWords().size());
         for (VocabWord w : v.vocabWords()) {
+            System.out.println(w.getWord() + " Jahr:" + jahr);
             double[] r = vec.getWordVector(w.getWord());
             for (int i = 0; i < r.length; i++) {
                 System.out.println("Dimension: " + i + " und Wert " + r[i]);
+                createDB.insert(jahr, w.getWord(), i, r[i]);
             }
         }
-        Collection<String> lst = vec.wordsNearestSum(word, 10);
+
         log.info("10 Words closest to '" + word + "': {}", lst);
-        System.out.println("10 Words closest to '" + word + "': { " + lst + " }");
+
         // TODO resolve missing UiServer
 //        UiServer server = UiServer.getInstance();
 //        System.out.println("Started on port " + server.getPort());
@@ -132,8 +142,10 @@ public class Word2VecTest {
         properties.put("annotators", "tokenize, ssplit");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
 
-        String inputPath = "/home/alukacs/deeplearning2/data";
-        String outputPath = "/home/alukacs/deeplearning2/data/ziel_"+jahr+".txt";
+        String inputPath = "data/" + jahr;
+        //String inputPath = "/home/alukacs/deeplearning2/data/"+jahr;
+        String outputPath = "data/ziel_" + jahr + ".txt";
+        //String outputPath = "/home/alukacs/deeplearning2/data/ziel_" + jahr + ".txt";
 
         LinkedList<File> files = new LinkedList<File>();
         traverse(new File(inputPath), files);
