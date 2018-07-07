@@ -6,10 +6,14 @@ public class CreateDB {
 
     private Connection connection;
 
-    /*static {
+    private String TABLE = "embeddings_100";
+
+    static {
+        String url_DBClassname = "com.mysql.jdbc.Driver";
         try {
-            java.sql.Driver driver = DriverManager.getDriver("jdbc:mysql://localhost/?rewriteBatchedStatements=true");
-            if (Class.forName(driver.toString()).newInstance() != null) {
+            Class<?> driverClass = Class.forName(url_DBClassname);
+            DriverManager.registerDriver((Driver) driverClass.newInstance());
+            if (driverClass != null) {
                 System.out.println("JDBC-Treiber geladen");
             }
         } catch (ClassNotFoundException e) {
@@ -22,7 +26,7 @@ public class CreateDB {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    }*/
+    }
 
     public CreateDB() {
         createConnection();
@@ -46,29 +50,17 @@ public class CreateDB {
         Runtime.getRuntime().addShutdownHook(shutDownHook);
     }
 
-    private void createConnection() {
-        //String url = "jdbc:mysql://localhost/?rewriteBatchedStatements=true";
-        String url_Connection = "jdbc:mysql://localhost:3306/mysql";
-        String url_DBClassname = "com.mysql.jdbc.Driver";
+    public void createConnection() {
+        String url_Connection = "jdbc:mysql://localhost:3306/TestDB";
         String user = "root";
         String pass = "So54_12eS";
         try {
-            //java.sql.Driver driver = DriverManager.getDriver(url_DBClassname);
-            //System.out.println(driver.toString());
-            Class driverClass = Class.forName(url_DBClassname);
-            DriverManager.registerDriver((Driver) driverClass.newInstance());
             System.out.println("Creating DBConnection");
             connection = DriverManager.getConnection(url_Connection, user, pass);
         } catch (SQLException e) {
             System.err.println("Couldn't create DBConnection");
             e.printStackTrace();
             System.exit(1);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
         }
     }
 
@@ -81,7 +73,7 @@ public class CreateDB {
 
         String query2 = "SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO'; ";
 
-        String query3 = "CREATE TABLE IF NOT EXISTS `embeddings` ("
+        String query3 = "CREATE TABLE IF NOT EXISTS `"+TABLE+"` ("
                 + "`Jahr` int NOT NULL, "
                 + "`Wort` varchar(100) NOT NULL, "
                 + "`Dimension` int NOT NULL,"
@@ -117,12 +109,28 @@ public class CreateDB {
     }
 
     public void insert(int jahr, String wort, int dim, double vec) throws SQLException {
+
         Statement statement = connection.createStatement();
 
-        statement.executeUpdate("INSERT INTO embeddings " +
+        statement.executeUpdate("INSERT INTO "+TABLE+" " +
                 "VALUES ("+jahr+", '"+wort+"', "+dim+", "+vec+")");
+
     }
 
+    public void select(String wort1, int jahr1, String wort2, int jahr2) throws SQLException {
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("CREATE INDEX JAHR_INDEX ON "+TABLE+"(Jahr)");
+        statement.executeUpdate("CREATE INDEX WORT_INDEX ON "+TABLE+"(Wort)");
+        statement.executeUpdate("SELECT sum(e1.Vektor * e2.Vektor) as sim" +
+                " FROM "+TABLE+" e1 , "+TABLE +" e2" +
+                " WHERE e1.Wort=" + wort1 + " AND e2.Wort="+ wort2 + " AND e1.Jahr="+jahr1+ " AND e2.Jahr="+ jahr2+ " AND e1.Dimension = e2.Dimension"+
+                " ORDER BY sim DESC" +
+                " LIMIT 10 ");
+    }
+
+    public void closeConnection() throws SQLException {
+        connection.close();
+    }
     public static void main(String[] args) {
         new CreateDB();
     }

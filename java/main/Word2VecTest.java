@@ -31,13 +31,13 @@ public class Word2VecTest {
 
     private static Logger log = LoggerFactory.getLogger(Word2VecTest.class);
 
-    private String word = "car";
-
     private CreateDB createDB = new CreateDB();
 
     public static void main(String args[]) {
         new Word2VecTest().start();
     }
+
+    private String word = "train";
 
     private void start() {
 
@@ -79,8 +79,8 @@ public class Word2VecTest {
         Word2Vec vec = new Word2Vec.Builder()
                 .minWordFrequency(10)
                 .iterations(1)
-                //.layerSize(100)
-                .layerSize(5)
+                .layerSize(100)
+                //.layerSize(50)
                 .seed(42)
                 .windowSize(5)
                 .useHierarchicSoftmax(true)
@@ -106,6 +106,8 @@ public class Word2VecTest {
 
         VocabCache<VocabWord> v = vec.getVocab();
         System.out.println(v.vocabWords().size());
+        createDB.createConnection();
+
         for (VocabWord w : v.vocabWords()) {
             System.out.println(w.getWord() + " Jahr:" + jahr);
             double[] r = vec.getWordVector(w.getWord());
@@ -114,6 +116,7 @@ public class Word2VecTest {
                 createDB.insert(jahr, w.getWord(), i, r[i]);
             }
         }
+        createDB.closeConnection();
 
         log.info("10 Words closest to '" + word + "': {}", lst);
 
