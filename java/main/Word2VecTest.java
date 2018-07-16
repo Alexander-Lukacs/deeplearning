@@ -20,6 +20,7 @@ import org.slf4j.LoggerFactory;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.sql.SQLException;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
@@ -37,19 +38,29 @@ public class Word2VecTest {
         new Word2VecTest().start();
     }
 
-    private String word = "train";
+    private String word = "car";
 
     private void start() {
 
         for (int jahr = 1987; jahr <= 2007; jahr++) {
             try {
                 //schreiben(jahr);
-                word2Vec(jahr);
+                //word2Vec(jahr);
 
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
+
+        try {
+            createDB.createConnection();
+            //createDB.indexing();
+            System.out.println(createDB.select(word,2000,2000));
+            createDB.closeConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 
     private void word2Vec(int jahr) throws Exception {
@@ -79,8 +90,8 @@ public class Word2VecTest {
         Word2Vec vec = new Word2Vec.Builder()
                 .minWordFrequency(10)
                 .iterations(1)
-                .layerSize(100)
-                //.layerSize(50)
+                //.layerSize(100)
+                .layerSize(50)
                 .seed(42)
                 .windowSize(5)
                 .useHierarchicSoftmax(true)

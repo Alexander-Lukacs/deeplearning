@@ -6,7 +6,7 @@ public class CreateDB {
 
     private Connection connection;
 
-    private String TABLE = "embeddings_100";
+    private String TABLE = "embeddings_50";
 
     static {
         String url_DBClassname = "com.mysql.jdbc.Driver";
@@ -117,15 +117,52 @@ public class CreateDB {
 
     }
 
-    public void select(String wort1, int jahr1, String wort2, int jahr2) throws SQLException {
+    public void indexing() throws SQLException {
         Statement statement = connection.createStatement();
         statement.executeUpdate("CREATE INDEX JAHR_INDEX ON "+TABLE+"(Jahr)");
         statement.executeUpdate("CREATE INDEX WORT_INDEX ON "+TABLE+"(Wort)");
-        statement.executeUpdate("SELECT sum(e1.Vektor * e2.Vektor) as sim" +
+    }
+
+    public String select(String wort1, int jahr1, int jahr2) throws SQLException {
+        Statement statement = connection.createStatement();
+        String wort = null;
+        String sim = null;
+
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
                 " FROM "+TABLE+" e1 , "+TABLE +" e2" +
-                " WHERE e1.Wort=" + wort1 + " AND e2.Wort="+ wort2 + " AND e1.Jahr="+jahr1+ " AND e2.Jahr="+ jahr2+ " AND e1.Dimension = e2.Dimension"+
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr="+jahr1+ " AND e2.Jahr="+ jahr2+ " AND e1.Dimension = e2.Dimension"+
+                " GROUP BY e2.Wort" +
                 " ORDER BY sim DESC" +
                 " LIMIT 10 ");
+
+        if(rs.next()) {
+            wort = rs.getString(1);
+            sim = rs.getString(2);
+        }
+        return wort + ", "+ sim;
+    }
+
+    public String select1(String wort1, int jahr1, int jahr2) throws SQLException {
+        Statement statement = connection.createStatement();
+        StringBuilder stringBuilder = new StringBuilder();
+        String wort = null;
+        String jahr = null;
+        String dim = null;
+        String vek = null;
+
+        ResultSet rs = statement.executeQuery("SELECT e1.Wort, sum(e1.Vektor) as sum" +
+                " FROM "+TABLE +" e1 "+
+                " WHERE e1.Jahr="+jahr1+ " AND e1.Wort!='wave'"+
+                " GROUP BY e1.Wort");
+
+        while (!rs.isLast()) {
+            if (rs.next()) {
+                wort = rs.getString(1);
+                vek = rs.getString(2);
+                stringBuilder.append(wort+", ").append(vek).append("\n");
+            }
+        }
+        return stringBuilder.toString();
     }
 
     public void closeConnection() throws SQLException {
