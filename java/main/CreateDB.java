@@ -34,7 +34,7 @@ public class CreateDB {
         Thread shutDownHook = new Thread() {
             public void run() {
                 System.out.println("Running shutdown hook");
-                if(connection == null) System.out.println("Connedtion to database already closed");
+                if (connection == null) System.out.println("Connedtion to database already closed");
                 try {
                     if (connection != null && !connection.isClosed()) {
                         connection.close();
@@ -73,7 +73,7 @@ public class CreateDB {
 
         String query2 = "SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO'; ";
 
-        String query3 = "CREATE TABLE IF NOT EXISTS `"+TABLE+"` ("
+        String query3 = "CREATE TABLE IF NOT EXISTS `" + TABLE + "` ("
                 + "`Jahr` int NOT NULL, "
                 + "`Wort` varchar(100) NOT NULL, "
                 + "`Dimension` int NOT NULL,"
@@ -112,54 +112,68 @@ public class CreateDB {
 
         Statement statement = connection.createStatement();
 
-        statement.executeUpdate("INSERT INTO "+TABLE+" " +
-                "VALUES ("+jahr+", '"+wort+"', "+dim+", "+vec+")");
+        statement.executeUpdate("INSERT INTO " + TABLE + " " +
+                "VALUES (" + jahr + ", '" + wort + "', " + dim + ", " + vec + ")");
 
     }
 
     public void indexing() throws SQLException {
         Statement statement = connection.createStatement();
-        statement.executeUpdate("CREATE INDEX JAHR_INDEX ON "+TABLE+"(Jahr)");
-        statement.executeUpdate("CREATE INDEX WORT_INDEX ON "+TABLE+"(Wort)");
+        statement.executeUpdate("CREATE INDEX INDEX_ALL ON " + TABLE + "(Jahr,Wort,Dimension,Vektor)");
     }
 
-    public String select(String wort1, int jahr1, int jahr2) throws SQLException {
+    public String selectEuklidisch(String wort1, int jahr1, int jahr2) throws SQLException {
         Statement statement = connection.createStatement();
         String wort = null;
         String sim = null;
+        StringBuilder stringBuilder = new StringBuilder();
+
+        //statement.executeQuery("SET GLOBAL max_heap_table_size=536870912");
+        //statement.executeQuery("SET GLOBAL tmp_table_size=536870912");
 
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
-                " FROM "+TABLE+" e1 , "+TABLE +" e2" +
-                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr="+jahr1+ " AND e2.Jahr="+ jahr2+ " AND e1.Dimension = e2.Dimension"+
+                " FROM " + TABLE + " e1 , " + TABLE + " e2" +
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension = e2.Dimension" +
                 " GROUP BY e2.Wort" +
-                " ORDER BY sim DESC" +
-                " LIMIT 10 ");
-
-        if(rs.next()) {
-            wort = rs.getString(1);
-            sim = rs.getString(2);
+                " ORDER BY sim ASC" +
+                " LIMIT 100 ");
+        while (!rs.isLast()) {
+            if (rs.next()) {
+                wort = rs.getString(1);
+                sim = rs.getString(2);
+                stringBuilder.append(wort + ", ").append(sim).append("\n");
+            }
         }
-        return wort + ", "+ sim;
+
+        return stringBuilder.toString();
     }
 
-    public String select1(String wort1, int jahr1, int jahr2) throws SQLException {
+    public void createView() throws SQLException {
+        Statement statement = connection.createStatement();
+        statement.executeQuery("CREATE VIEW Liste_Laenge AS SELECT Jahr, Wort, sqrt(sum(Vektor * Vektor) as Laenge" +
+                " FROM "+TABLE +
+                " GROUP BY Jahr, Wort");
+    }
+
+    public String selectCosinus(String wort1, int jahr1, int jahr2) throws SQLException {
         Statement statement = connection.createStatement();
         StringBuilder stringBuilder = new StringBuilder();
         String wort = null;
-        String jahr = null;
-        String dim = null;
         String vek = null;
 
-        ResultSet rs = statement.executeQuery("SELECT e1.Wort, sum(e1.Vektor) as sum" +
-                " FROM "+TABLE +" e1 "+
-                " WHERE e1.Jahr="+jahr1+ " AND e1.Wort!='wave'"+
-                " GROUP BY e1.Wort");
+
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, (sum(e1.Vektor * e2.Vektor)/l1.laenge * l2.laenge) as cos" +
+                " FROM " + TABLE + " e1 " + TABLE + " e2 " + "Liste_Laenge l1" + "Liste_Laenge l2" +
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension = e2.Dimension AND l1.Wort='"+ wort1 +"' AND l2.Wort=e2.Wort" +
+                " GROUP BY e2.Wort" +
+                " ORDER BY cos DESC"+
+                " LIMIT 100 ");
 
         while (!rs.isLast()) {
             if (rs.next()) {
                 wort = rs.getString(1);
                 vek = rs.getString(2);
-                stringBuilder.append(wort+", ").append(vek).append("\n");
+                stringBuilder.append(wort + ", ").append(vek).append("\n");
             }
         }
         return stringBuilder.toString();
@@ -168,6 +182,12 @@ public class CreateDB {
     public void closeConnection() throws SQLException {
         connection.close();
     }
+
+    public void deleteTable() throws SQLException {
+        Statement statement = connection.createStatement();
+        statement.executeQuery("TRUNCATE TABLE " + TABLE);
+    }
+
     public static void main(String[] args) {
         new CreateDB();
     }

@@ -41,7 +41,13 @@ public class Word2VecTest {
     private String word = "car";
 
     private void start() {
-
+        /*try {
+            createDB.createConnection();
+            createDB.deleteTable();
+            createDB.closeConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }*/
         for (int jahr = 1987; jahr <= 2007; jahr++) {
             try {
                 //schreiben(jahr);
@@ -55,7 +61,8 @@ public class Word2VecTest {
         try {
             createDB.createConnection();
             //createDB.indexing();
-            System.out.println(createDB.select(word,2000,2000));
+            //System.out.println(createDB.selectEuklidisch(word,2000,2000));
+            System.out.println(createDB.selectCosinus(word,2000,2000));
             createDB.closeConnection();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -90,8 +97,8 @@ public class Word2VecTest {
         Word2Vec vec = new Word2Vec.Builder()
                 .minWordFrequency(10)
                 .iterations(1)
-                //.layerSize(100)
-                .layerSize(50)
+                .layerSize(100)
+                //.layerSize(5)
                 .seed(42)
                 .windowSize(5)
                 .useHierarchicSoftmax(true)
@@ -123,7 +130,7 @@ public class Word2VecTest {
             System.out.println(w.getWord() + " Jahr:" + jahr);
             double[] r = vec.getWordVector(w.getWord());
             for (int i = 0; i < r.length; i++) {
-                System.out.println("Dimension: " + i + " und Wert " + r[i]);
+                //System.out.println("Dimension: " + i + " und Wert " + r[i]);
                 createDB.insert(jahr, w.getWord(), i, r[i]);
             }
         }
@@ -174,7 +181,7 @@ public class Word2VecTest {
 
 
             // Zu annotierender Text
-            Annotation annotation = new Annotation(content);
+            Annotation annotation = new Annotation(content.replace('-',' '));
             pipeline.annotate(annotation);
 
             for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {

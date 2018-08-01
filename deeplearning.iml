@@ -11,6 +11,9 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.nd4j:nd4j-api:0.0.3.5.5.2" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="org.nd4j:nd4j-native-platform:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.deeplearning4j:deeplearning4j-core:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.deeplearning4j:nearestneighbor-core:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.deeplearning4j:deeplearning4j-modelimport:0.9.1" level="project" />
@@ -138,8 +141,5 @@
     <orderEntry type="library" name="Maven: org.nd4j:nd4j-native:linux-x86_64:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.nd4j:nd4j-native:macosx-x86_64:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.nd4j:nd4j-native:linux-ppc64le:0.9.1" level="project" />
-    <orderEntry type="library" name="org.nd4j:nd4j-api:0.0.3.5.5.2" level="project" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="org.nd4j:nd4j-native-platform:0.9.1" level="project" />
   </component>
 </module>
