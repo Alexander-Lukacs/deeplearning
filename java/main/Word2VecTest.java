@@ -38,7 +38,7 @@ public class Word2VecTest {
         new Word2VecTest().start();
     }
 
-    private String word = "car";
+    private String word = "train";
 
     private void start() {
         /*try {
@@ -62,6 +62,7 @@ public class Word2VecTest {
             createDB.createConnection();
             //createDB.indexing();
             //System.out.println(createDB.selectEuklidisch(word,2000,2000));
+            //createDB.createView();
             System.out.println(createDB.selectCosinus(word,2000,2000));
             createDB.closeConnection();
         } catch (SQLException e) {
@@ -97,8 +98,8 @@ public class Word2VecTest {
         Word2Vec vec = new Word2Vec.Builder()
                 .minWordFrequency(10)
                 .iterations(1)
-                .layerSize(100)
-                //.layerSize(5)
+                //.layerSize(100)
+                .layerSize(50)
                 .seed(42)
                 .windowSize(5)
                 .useHierarchicSoftmax(true)

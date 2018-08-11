@@ -6,7 +6,9 @@ public class CreateDB {
 
     private Connection connection;
 
-    private String TABLE = "embeddings_50";
+    private String DIM = "100";
+    private String TABLE = "embeddings_"+ DIM;
+    private String VIEW = "Liste_Laenge_"+ DIM;
 
     static {
         String url_DBClassname = "com.mysql.jdbc.Driver";
@@ -67,7 +69,7 @@ public class CreateDB {
     private boolean createDBStructure() {
         String dbName = "TestDB";
 
-        String query0 = "CREATE DATABASE IF NOT EXISTS `" + dbName + "`";
+        String query0 = "CREATE DATABASE IF NOT EXISTS `" + dbName + "` CHARACTER SET utf8 COLLATE utf8_general_ci";
 
         String query1 = "USE `" + dbName + "`";
 
@@ -119,7 +121,8 @@ public class CreateDB {
 
     public void indexing() throws SQLException {
         Statement statement = connection.createStatement();
-        statement.executeUpdate("CREATE INDEX INDEX_ALL ON " + TABLE + "(Jahr,Wort,Dimension,Vektor)");
+        //statement.executeUpdate("CREATE INDEX INDEX_ALL ON " + TABLE + "(Jahr,Wort,Dimension,Vektor)");
+        statement.executeUpdate("CREATE INDEX INDEX_LAENGE ON Liste_Laenge(Jahr,Wort,Laenge)");
     }
 
     public String selectEuklidisch(String wort1, int jahr1, int jahr2) throws SQLException {
@@ -150,8 +153,11 @@ public class CreateDB {
 
     public void createView() throws SQLException {
         Statement statement = connection.createStatement();
-        statement.executeQuery("CREATE VIEW Liste_Laenge AS SELECT Jahr, Wort, sqrt(sum(Vektor * Vektor) as Laenge" +
-                " FROM "+TABLE +
+        statement.executeUpdate("CREATE VIEW Liste_Laenge_50 ( Jahr, Wort, Laenge ) AS SELECT Jahr, Wort, sqrt(sum(Vektor * Vektor)) as Laenge" +
+                " FROM embeddings_50"+
+                " GROUP BY Jahr, Wort");
+        statement.executeUpdate("CREATE VIEW Liste_Laenge_100 ( Jahr, Wort, Laenge ) AS SELECT Jahr, Wort, sqrt(sum(Vektor * Vektor)) as Laenge" +
+                " FROM embeddings_100"+
                 " GROUP BY Jahr, Wort");
     }
 
@@ -159,21 +165,25 @@ public class CreateDB {
         Statement statement = connection.createStatement();
         StringBuilder stringBuilder = new StringBuilder();
         String wort = null;
-        String vek = null;
+        String cos = null;
 
 
-        ResultSet rs = statement.executeQuery("SELECT e2.Wort, (sum(e1.Vektor * e2.Vektor)/l1.laenge * l2.laenge) as cos" +
-                " FROM " + TABLE + " e1 " + TABLE + " e2 " + "Liste_Laenge l1" + "Liste_Laenge l2" +
-                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension = e2.Dimension AND l1.Wort='"+ wort1 +"' AND l2.Wort=e2.Wort" +
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sum(e1.Vektor * e2.Vektor) / (l1.Laenge * l2.Laenge) as cos" +
+                " FROM " + TABLE + " e1 , " + TABLE + " e2 , " + VIEW + " l1 , " + VIEW + " l2" +
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension=e2.Dimension AND e1.jahr=l1.jahr AND e2.jahr=l2.jahr AND l1.Wort=e1.Wort AND l2.Wort=e2.Wort" +
                 " GROUP BY e2.Wort" +
                 " ORDER BY cos DESC"+
                 " LIMIT 100 ");
-
+        /*select e2.wort, sum(e1.Vektor*e2.Vektor) / (l1.Laenge * l2.Laenge) as cos
+        from embeddings e1, embeddings e2, Liste_Laenge l1, Liste_Laenge l2
+        where e1.wort = l1.wort and e2.wort = l2.wort and e1.jahr = l1.jahr and e2.jahr = l2.jahr
+        and e1.wort = 'boat' and e1.jahr=2000 and e2.jahr = 2000
+        group by e2.wort order by cos desc limit 100;*/
         while (!rs.isLast()) {
             if (rs.next()) {
                 wort = rs.getString(1);
-                vek = rs.getString(2);
-                stringBuilder.append(wort + ", ").append(vek).append("\n");
+                cos = rs.getString(2);
+                stringBuilder.append(wort + ", ").append(cos).append("\n");
             }
         }
         return stringBuilder.toString();
