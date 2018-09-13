@@ -9,6 +9,7 @@ public class CreateDB {
     private String DIM = "100";
     private String TABLE = "embeddings_"+ DIM;
     private String VIEW = "Liste_Laenge_"+ DIM;
+    private String INDEX = "INDEX_ALL";
 
     static {
         String url_DBClassname = "com.mysql.jdbc.Driver";
@@ -121,8 +122,7 @@ public class CreateDB {
 
     public void indexing() throws SQLException {
         Statement statement = connection.createStatement();
-        //statement.executeUpdate("CREATE INDEX INDEX_ALL ON " + TABLE + "(Jahr,Wort,Dimension,Vektor)");
-        statement.executeUpdate("CREATE INDEX INDEX_LAENGE ON Liste_Laenge(Jahr,Wort,Laenge)");
+        statement.executeUpdate("CREATE INDEX INDEX_ALL ON " + TABLE + "(Jahr,Wort,Dimension,Vektor)");
     }
 
     public String selectEuklidisch(String wort1, int jahr1, int jahr2) throws SQLException {
@@ -131,15 +131,141 @@ public class CreateDB {
         String sim = null;
         StringBuilder stringBuilder = new StringBuilder();
 
-        //statement.executeQuery("SET GLOBAL max_heap_table_size=536870912");
-        //statement.executeQuery("SET GLOBAL tmp_table_size=536870912");
-
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
                 " FROM " + TABLE + " e1 , " + TABLE + " e2" +
                 " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension = e2.Dimension" +
                 " GROUP BY e2.Wort" +
                 " ORDER BY sim ASC" +
-                " LIMIT 100 ");
+                " LIMIT 50 ");
+
+        while (!rs.isLast()) {
+            if (rs.next()) {
+                wort = rs.getString(1);
+                sim = rs.getString(2);
+                stringBuilder.append(wort + ", ").append(sim).append("\n");
+            }
+        }
+
+        return stringBuilder.toString();
+    }
+
+    public String selectVeränderung(int jahr1, int jahr2)throws SQLException {
+        Statement statement = connection.createStatement();
+        String wort = null;
+        String sum = null;
+        StringBuilder stringBuilder = new StringBuilder();
+
+        stringBuilder.append("Höchste Veränderung\n");
+
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor-e2.Vektor,2))) AS sum" +
+                " FROM " + TABLE + " e1, " + TABLE + " e2" +
+                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort=e2.Wort AND e1.Dimension=e2.Dimension"+
+                " GROUP BY e2.Wort" +
+                " ORDER BY sum DESC" +
+                " LIMIT 10");
+//SELECT DISTINCT e2.Wort, sqrt(sum(pow(e1.Vektor-e2.Vektor,2))) AS sum
+// FROM embeddings_100 e1, embeddings_100 e2
+// WHERE e1.Wort=e2.Wort AND e1.Dimension=e2.Dimension AND e1.Jahr=1987 AND e2.Jahr=1992
+// GROUP BY e2.Wort
+// ORDER BY sum
+// LIMIT 50;
+
+        while (!rs.isLast()) {
+            if (rs.next()) {
+                wort = rs.getString(1);
+                sum = rs.getString(2);
+                stringBuilder.append(wort + ", ").append(sum).append("\n");
+            }
+        }
+
+        stringBuilder.append("\nGeringste Veränderung\n");
+
+        ResultSet rs2 = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor-e2.Vektor,2))) AS sum" +
+                " FROM " + TABLE + " e1, " + TABLE + " e2" +
+                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort=e2.Wort AND e1.Dimension=e2.Dimension"+
+                " GROUP BY e2.Wort" +
+                " ORDER BY sum ASC" +
+                " LIMIT 10");
+
+        while (!rs2.isLast()) {
+            if (rs2.next()) {
+                wort = rs2.getString(1);
+                sum = rs2.getString(2);
+                stringBuilder.append(wort + ", ").append(sum).append("\n");
+            }
+        }
+
+        return stringBuilder.toString();
+    }
+
+    public String selectPräsident(String name, int jahr1, int jahr2)throws SQLException {
+        Statement statement = connection.createStatement();
+        String wort = null;
+        String sum = null;
+        int i = 0;
+        StringBuilder stringBuilder = new StringBuilder();
+
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor-e2.Vektor,2))) AS sum" +
+                " FROM " + TABLE + " e1, " + TABLE + " e2" +
+                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort='"+name+"' AND e1.Dimension=e2.Dimension"+
+                " GROUP BY e2.Wort" +
+                " ORDER BY sum ASC" +
+                " LIMIT 50");
+
+        while (!rs.isLast()) {
+            if (rs.next()) {
+                i++;
+                wort = rs.getString(1);
+                sum = rs.getString(2);
+                stringBuilder.append(i+". "+wort + ", ").append(sum).append("\n");
+            }
+        }
+
+        return stringBuilder.toString();
+    }
+
+    public void dropIndex() throws SQLException{
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("ALTER TABLE "+ TABLE +" DROP INDEX "+INDEX);
+    }
+
+    public String select1(String wort1, int jahr1) throws SQLException{
+        Statement statement = connection.createStatement();
+        String wort = null;
+        String sim = null;
+        StringBuilder stringBuilder = new StringBuilder();
+
+        ResultSet rs = statement.executeQuery("SELECT e1.Wort, sum(e1.Vektor) as e1" +
+                " FROM " + TABLE + " e1"+
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1+
+                " GROUP BY e1.Wort" +
+                " ORDER BY e1.Wort ASC" +
+                " LIMIT 50 ");
+
+        while (!rs.isLast()) {
+            if (rs.next()) {
+                wort = rs.getString(1);
+                sim = rs.getString(2);
+                stringBuilder.append(wort + ", ").append(sim).append("\n");
+            }
+        }
+
+        return stringBuilder.toString();
+    }
+
+    public String select2(String wort1, int jahr1) throws SQLException{
+        Statement statement = connection.createStatement();
+        String wort = null;
+        String sim = null;
+        StringBuilder stringBuilder = new StringBuilder();
+
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sum(e2.Vektor) as e2" +
+                " FROM " + TABLE + " e2" +
+                " WHERE e2.Wort='"+ wort1 + "' AND e2.Jahr=" + jahr1 +
+                " GROUP BY e2.Wort" +
+                " ORDER BY e2.Wort ASC" +
+                " LIMIT 50 ");
+
         while (!rs.isLast()) {
             if (rs.next()) {
                 wort = rs.getString(1);
@@ -170,15 +296,12 @@ public class CreateDB {
 
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, sum(e1.Vektor * e2.Vektor) / (l1.Laenge * l2.Laenge) as cos" +
                 " FROM " + TABLE + " e1 , " + TABLE + " e2 , " + VIEW + " l1 , " + VIEW + " l2" +
-                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension=e2.Dimension AND e1.jahr=l1.jahr AND e2.jahr=l2.jahr AND l1.Wort=e1.Wort AND l2.Wort=e2.Wort" +
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 +
+                " AND e1.Dimension=e2.Dimension AND e1.jahr=l1.jahr AND e2.jahr=l2.jahr AND l1.Wort=e1.Wort AND l2.Wort=e2.Wort" +
                 " GROUP BY e2.Wort" +
                 " ORDER BY cos DESC"+
                 " LIMIT 100 ");
-        /*select e2.wort, sum(e1.Vektor*e2.Vektor) / (l1.Laenge * l2.Laenge) as cos
-        from embeddings e1, embeddings e2, Liste_Laenge l1, Liste_Laenge l2
-        where e1.wort = l1.wort and e2.wort = l2.wort and e1.jahr = l1.jahr and e2.jahr = l2.jahr
-        and e1.wort = 'boat' and e1.jahr=2000 and e2.jahr = 2000
-        group by e2.wort order by cos desc limit 100;*/
+
         while (!rs.isLast()) {
             if (rs.next()) {
                 wort = rs.getString(1);
