@@ -5,9 +5,12 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
+import org.deeplearning4j.models.embeddings.WeightLookupTable;
+import org.deeplearning4j.models.embeddings.inmemory.InMemoryLookupTable;
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.word2vec.VocabWord;
 import org.deeplearning4j.models.word2vec.wordstore.VocabCache;
+import org.deeplearning4j.models.word2vec.wordstore.inmemory.AbstractCache;
 import src.com.nytlabs.corpus.*;
 import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.text.sentenceiterator.BasicLineIterator;
@@ -39,34 +42,40 @@ public class Word2VecTest {
         new Word2VecTest().start();
     }
 
-    private String word = "car";
+    private String word = "president";
 
     private void start() {
-        try {
+        /*try {
             createDB.createConnection();
             //System.out.println(createDB.selectVeränderung(1987,1988));
             //System.out.println(createDB.selectPräsident(word,1988,1988));
-            //System.out.println(createDB.selectEuklidisch(word, 2000, 2001));
-            //createDB.deleteTable();
+            //System.out.println(createDB.selectEuklidisch(word, 2000, 1987));
+            //System.out.println(createDB.select1(word,2000));
+            //System.out.println(createDB.select2(word,1987));
+            createDB.deleteTable();
+            //System.out.println(createDB.select1(word,2000));
             //createDB.indexing();
             createDB.closeConnection();
         } catch (SQLException e) {
             e.printStackTrace();
-        }
-        /*for (int jahr = 1987; jahr <= 2007; jahr++) {//  jahr = jahr + 5) {// für schreiben und word2vec
+        } catch (Exception e) {
+            e.printStackTrace();
+        }*/
+
+        for (int jahr = 1987; jahr <= 2007; jahr++) {//  jahr = jahr + 5) {// für schreiben und word2vec
             try {
                 //schreiben(jahr);
                 System.out.println("----------" + jahr + "----------");
-                word2Vec(jahr);
 
-                /*System.out.println("----------"+ jahr +"---"+ (jahr+5) +"----------");
+                //System.out.println("----------"+ jahr +"---"+ (jahr+5) +"----------");
                 try {
                     createDB.createConnection();
                     //createDB.indexing();
-                    //System.out.println(createDB.selectEuklidisch(word,2000,2000));
+                    //word2Vec(jahr);
+                    System.out.println(createDB.selectEuklidisch(word,jahr,jahr));
                     //System.out.println(createDB.select1(word,2000));
                     //System.out.println(createDB.select2(word,2002));
-                    System.out.println(createDB.selectVeränderung(jahr,(jahr+5)));
+                    //System.out.println(createDB.selectVeränderung(jahr,(jahr+5)));
                     //createDB.createView();
                     //System.out.println(createDB.selectCosinus(word, 2005, jahr));
                     createDB.closeConnection();
@@ -77,18 +86,17 @@ public class Word2VecTest {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }*/
+        }
     }
 
     private void word2Vec(int jahr) throws Exception {
 
         // Gets Path to Text file
         String filePath = new File("data/ziel_" + jahr + ".txt").getAbsolutePath();
+        //String filePath = new File("data/stichprobe.txt").getAbsolutePath();
         log.info("Load & Vectorize Sentences....");
         // Strip white space before and after for each line
         //SentenceIterator iter = new BasicLineIterator(filePath);
-
-        //InputStream inputStream = new ByteArrayInputStream(corpusDocument.getBody().getBytes());
 
         SentenceIterator iter = new BasicLineIterator(filePath);
 
@@ -101,6 +109,13 @@ public class Word2VecTest {
             Additionally it forces lower case for all tokens.
          */
         t.setTokenPreProcessor(new CommonPreprocessor());
+
+        VocabCache<VocabWord> cache = new AbstractCache<>();
+        WeightLookupTable<VocabWord> table = new InMemoryLookupTable.Builder<VocabWord>()
+                .vectorLength(100)
+                .useAdaGrad(false)
+                .cache(cache).build();
+
 
         System.out.println("Word2Vec starten");
         log.info("Building model....");
@@ -116,6 +131,8 @@ public class Word2VecTest {
                 .workers(4)
                 .iterate(iter)
                 .tokenizerFactory(t)
+                .lookupTable(table)
+                .vocabCache(cache)
                 .build();
 
         log.info("Fitting Word2Vec model....");
@@ -131,52 +148,12 @@ public class Word2VecTest {
         System.out.println("10 Words closest to '" + word + "' on 1st run: { " + lst + " }");
 
 
-        /*WordVectorSerializer.writeWord2VecModel(vec, "pathToSaveModel.txt");
-
-        Word2Vec word2Vec = WordVectorSerializer.readWord2VecModel("pathToSaveModel.txt");
-
-        SentenceIterator iterator = new BasicLineIterator(filePath);
-        TokenizerFactory tokenizerFactory = new DefaultTokenizerFactory();
-        tokenizerFactory.setTokenPreProcessor(new CommonPreprocessor());
-
-        word2Vec.setTokenizerFactory(tokenizerFactory);
-        word2Vec.setSentenceIterator(iterator);
-
-        System.out.println("Word2Vec uptraining 1");
-        log.info("Word2vec uptraining...");
-
-        word2Vec.fit();
-
-        lst = word2Vec.wordsNearestSum(word, 10);
-        System.out.println("10 Words closest to '" + word + "' on 2nd run: { " + lst + " }");
-
-        WordVectorSerializer.writeWord2VecModel(word2Vec, "pathToSaveModel.txt");
-
-        Word2Vec word2Vec2 = WordVectorSerializer.readWord2VecModel("pathToSaveModel.txt");
-
-        SentenceIterator iterator2 = new BasicLineIterator(filePath);
-        TokenizerFactory tokenizerFactory2 = new DefaultTokenizerFactory();
-        tokenizerFactory.setTokenPreProcessor(new CommonPreprocessor());
-
-        word2Vec2.setTokenizerFactory(tokenizerFactory2);
-        word2Vec2.setSentenceIterator(iterator2);
-
-        System.out.println("Word2Vec uptraining 2");
-        log.info("Word2vec uptraining...");
-
-        word2Vec2.fit();
-
-        lst = word2Vec2.wordsNearestSum(word, 10);
-        System.out.println("10 Words closest to '" + word + "' on 3rd run: { " + lst + " }");*/
-
         System.out.println("Werte in Datenbank speichern:");
 
         VocabCache<VocabWord> v = vec.getVocab();
         System.out.println(v.vocabWords().size());
         createDB.createConnection();
-
         for (VocabWord w : v.vocabWords()) {
-            //System.out.println(w.getWord() + " Jahr:" + jahr);
             double[] r = vec.getWordVector(w.getWord());
             for (int i = 0; i < r.length; i++) {
                 //System.out.println("Dimension: " + i + " und Wert " + r[i]);
@@ -190,12 +167,13 @@ public class Word2VecTest {
         // TODO resolve missing UiServer
 //        UiServer server = UiServer.getInstance();
 //        System.out.println("Started on port " + server.getPort());
+
     }
 
     private void word2Vec2(int jahr) throws Exception {
 
-        Word2Vec word2Vec = WordVectorSerializer.readWord2VecModel("pathToSaveModel.txt");
         String filePath = new File("data/ziel_" + jahr + ".txt").getAbsolutePath();
+        Word2Vec word2Vec = WordVectorSerializer.readWord2VecModel("pathToSaveModel.txt");
 
         SentenceIterator iterator = new BasicLineIterator(filePath);
         TokenizerFactory tokenizerFactory = new DefaultTokenizerFactory();
@@ -209,25 +187,26 @@ public class Word2VecTest {
 
         word2Vec.fit();
 
-        Collection<String> lst = word2Vec.wordsNearestSum(word, 10);
+        Collection<String> lst = word2Vec.wordsNearest(word, 10);
         System.out.println("10 Words closest to '" + word + "': { " + lst + " }");
+
+        //WordVectorSerializer.writeWord2VecModel(word2Vec, "pathToSaveModel.txt");
 
         System.out.println("Werte in Datenbank speichern:");
 
         VocabCache<VocabWord> v = word2Vec.getVocab();
         System.out.println(v.vocabWords().size());
+
         createDB.createConnection();
 
         for (VocabWord w : v.vocabWords()) {
-            // System.out.println(w.getWord() + " Jahr:" + jahr);
+            //System.out.println(w.getWord() + " Jahr:" + jahr);
             double[] r = word2Vec.getWordVector(w.getWord());
             for (int i = 0; i < r.length; i++) {
                 createDB.insert(jahr, w.getWord(), i, r[i]);
             }
         }
         createDB.closeConnection();
-
-        WordVectorSerializer.writeWord2VecModel(word2Vec, "pathToSaveModel.txt");
     }
 
     private static void traverse(File root, List<File> files) {

@@ -124,25 +124,48 @@ public class CreateDB {
         Statement statement = connection.createStatement();
         statement.executeUpdate("CREATE INDEX INDEX_ALL ON " + TABLE + "(Jahr,Wort,Dimension,Vektor)");
     }
+    /*
+    SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim
+    FROM embeddings_100 e1, embeddings_100 e2
+    WHERE e1.Wort='president' AND e1.Jahr=1987 AND e2.Jahr=1987
+    AND e1.Dimension=e2.Dimension AND
+    (e2.Wort LIKE 'a%' OR e2.Wort LIKE 'b%' OR e2.Wort LIKE 'c%' OR e2.Wort LIKE 'd%' OR e2.Wort LIKE 'e%' OR e2.Wort LIKE 'f%'
+    OR e2.Wort LIKE 'g%' OR e2.Wort LIKE 'h%' OR e2.Wort LIKE 'i%' OR e2.Wort LIKE 'j%' OR e2.Wort LIKE 'k%' OR e2.Wort LIKE 'l%'
+    OR e2.Wort LIKE 'm%' OR e2.Wort LIKE 'n%' OR e2.Wort LIKE 'o%' OR e2.Wort LIKE 'p%' OR e2.Wort LIKE 'q%' OR e2.Wort LIKE 'r%'
+    OR e2.Wort LIKE 's%' OR e2.Wort LIKE 't%' OR e2.Wort LIKE 'u%' OR e2.Wort LIKE 'v%' OR e2.Wort LIKE 'w%' OR e2.Wort LIKE 'x%'
+    OR e2.Wort LIKE 'y%' OR e2.Wort LIKE 'z%')
+    GROUP BY e2.Wort ORDER BY sim ASC LIMIT 50;
 
+     */
     public String selectEuklidisch(String wort1, int jahr1, int jahr2) throws SQLException {
         Statement statement = connection.createStatement();
         String wort = null;
         String sim = null;
+        int i = 0;
         StringBuilder stringBuilder = new StringBuilder();
 
-        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
+        /*ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
                 " FROM " + TABLE + " e1 , " + TABLE + " e2" +
                 " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension = e2.Dimension" +
                 " GROUP BY e2.Wort" +
                 " ORDER BY sim ASC" +
-                " LIMIT 50 ");
-
+                " LIMIT 50 ");*/
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
+                " FROM embeddings_100 e1, embeddings_100 e2" +
+                " WHERE e1.Wort='"+wort1+"' AND e1.Jahr="+jahr1+ " AND e2.Jahr="+ jahr2 +
+                " AND e1.Dimension=e2.Dimension AND" +
+                " (e2.Wort LIKE 'a%' OR e2.Wort LIKE 'b%' OR e2.Wort LIKE 'c%' OR e2.Wort LIKE 'd%' OR e2.Wort LIKE 'e%' OR e2.Wort LIKE 'f%'" +
+                " OR e2.Wort LIKE 'g%' OR e2.Wort LIKE 'h%' OR e2.Wort LIKE 'i%' OR e2.Wort LIKE 'j%' OR e2.Wort LIKE 'k%' OR e2.Wort LIKE 'l%'" +
+                " OR e2.Wort LIKE 'm%' OR e2.Wort LIKE 'n%' OR e2.Wort LIKE 'o%' OR e2.Wort LIKE 'p%' OR e2.Wort LIKE 'q%' OR e2.Wort LIKE 'r%'" +
+                " OR e2.Wort LIKE 's%' OR e2.Wort LIKE 't%' OR e2.Wort LIKE 'u%' OR e2.Wort LIKE 'v%' OR e2.Wort LIKE 'w%' OR e2.Wort LIKE 'x%'" +
+                " OR e2.Wort LIKE 'y%' OR e2.Wort LIKE 'z%')" +
+                " GROUP BY e2.Wort ORDER BY sim ASC LIMIT 550");
         while (!rs.isLast()) {
             if (rs.next()) {
+                i++;
                 wort = rs.getString(1);
                 sim = rs.getString(2);
-                stringBuilder.append(wort + ", ").append(sim).append("\n");
+                stringBuilder.append(i +". "+wort + ", ").append(sim).append("\n");
             }
         }
 
@@ -233,20 +256,21 @@ public class CreateDB {
         Statement statement = connection.createStatement();
         String wort = null;
         String sim = null;
+        String j = null;
+        int i = 0;
         StringBuilder stringBuilder = new StringBuilder();
 
-        ResultSet rs = statement.executeQuery("SELECT e1.Wort, sum(e1.Vektor) as e1" +
+        ResultSet rs = statement.executeQuery("SELECT e1.Wort, e1.Vektor, e1.Jahr" +
                 " FROM " + TABLE + " e1"+
-                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1+
-                " GROUP BY e1.Wort" +
-                " ORDER BY e1.Wort ASC" +
-                " LIMIT 50 ");
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1);
 
         while (!rs.isLast()) {
             if (rs.next()) {
+                i++;
                 wort = rs.getString(1);
                 sim = rs.getString(2);
-                stringBuilder.append(wort + ", ").append(sim).append("\n");
+                j = rs.getString(3);
+                stringBuilder.append(i+". "+wort+", "+ j + ", ").append(sim).append("\n");
             }
         }
 
@@ -257,20 +281,21 @@ public class CreateDB {
         Statement statement = connection.createStatement();
         String wort = null;
         String sim = null;
+        String j = null;
+        int i = 0;
         StringBuilder stringBuilder = new StringBuilder();
 
-        ResultSet rs = statement.executeQuery("SELECT e2.Wort, sum(e2.Vektor) as e2" +
+        ResultSet rs = statement.executeQuery("SELECT e2.Wort, e2.Vektor, e2.Jahr" +
                 " FROM " + TABLE + " e2" +
-                " WHERE e2.Wort='"+ wort1 + "' AND e2.Jahr=" + jahr1 +
-                " GROUP BY e2.Wort" +
-                " ORDER BY e2.Wort ASC" +
-                " LIMIT 50 ");
+                " WHERE e2.Wort='"+ wort1 + "' AND e2.Jahr=" + jahr1 );
 
         while (!rs.isLast()) {
             if (rs.next()) {
+                i++;
                 wort = rs.getString(1);
                 sim = rs.getString(2);
-                stringBuilder.append(wort + ", ").append(sim).append("\n");
+                j = rs.getString(3);
+                stringBuilder.append(i+". "+wort+", "+ j + ", ").append(sim).append("\n");
             }
         }
 
