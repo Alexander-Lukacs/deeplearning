@@ -42,7 +42,7 @@ public class Word2VecTest {
         new Word2VecTest().start();
     }
 
-    private String word = "president";
+    private String word = "telephone";
 
     private void start() {
         /*try {
@@ -69,16 +69,22 @@ public class Word2VecTest {
 
                 //System.out.println("----------"+ jahr +"---"+ (jahr+5) +"----------");
                 try {
-                    createDB.createConnection();
+                    //createDB.createConnection();
                     //createDB.indexing();
-                    //word2Vec(jahr);
-                    System.out.println(createDB.selectEuklidisch(word,jahr,jahr));
+                    word2Vec(jahr);
+                    /*if(jahr==2001)
+                    {
+                        System.out.println("Das Wort "+word+" existiert im Jahr " +jahr +" nicht");
+                    /else {
+                        System.out.println(createDB.selectEuklidisch(word, jahr, jahr));
+                        //System.out.println(createDB.selectCosinus(word, jahr, jahr));
+                    }*/
                     //System.out.println(createDB.select1(word,2000));
                     //System.out.println(createDB.select2(word,2002));
                     //System.out.println(createDB.selectVeränderung(jahr,(jahr+5)));
                     //createDB.createView();
                     //System.out.println(createDB.selectCosinus(word, 2005, jahr));
-                    createDB.closeConnection();
+                    //createDB.closeConnection();
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
@@ -148,7 +154,7 @@ public class Word2VecTest {
         System.out.println("10 Words closest to '" + word + "' on 1st run: { " + lst + " }");
 
 
-        System.out.println("Werte in Datenbank speichern:");
+        /*System.out.println("Werte in Datenbank speichern:");
 
         VocabCache<VocabWord> v = vec.getVocab();
         System.out.println(v.vocabWords().size());
@@ -160,7 +166,7 @@ public class Word2VecTest {
                 createDB.insert(jahr, w.getWord(), i, r[i]);
             }
         }
-        createDB.closeConnection();
+        createDB.closeConnection();*/
 
         log.info("10 Words closest to '" + word + "': {}", lst);
 

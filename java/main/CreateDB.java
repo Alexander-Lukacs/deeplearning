@@ -7,8 +7,8 @@ public class CreateDB {
     private Connection connection;
 
     private String DIM = "100";
-    private String TABLE = "embeddings_"+ DIM;
-    private String VIEW = "Liste_Laenge_"+ DIM;
+    private String TABLE = "embeddings_" + DIM;
+    private String VIEW = "Liste_Laenge_" + DIM;
     private String INDEX = "INDEX_ALL";
 
     static {
@@ -124,6 +124,7 @@ public class CreateDB {
         Statement statement = connection.createStatement();
         statement.executeUpdate("CREATE INDEX INDEX_ALL ON " + TABLE + "(Jahr,Wort,Dimension,Vektor)");
     }
+
     /*
     SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim
     FROM embeddings_100 e1, embeddings_100 e2
@@ -137,6 +138,14 @@ public class CreateDB {
     GROUP BY e2.Wort ORDER BY sim ASC LIMIT 50;
 
      */
+
+            /*ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
+                " FROM " + TABLE + " e1 , " + TABLE + " e2" +
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension = e2.Dimension" +
+                " GROUP BY e2.Wort" +
+                " ORDER BY sim ASC" +
+                " LIMIT 50 ");*/
+
     public String selectEuklidisch(String wort1, int jahr1, int jahr2) throws SQLException {
         Statement statement = connection.createStatement();
         String wort = null;
@@ -144,35 +153,29 @@ public class CreateDB {
         int i = 0;
         StringBuilder stringBuilder = new StringBuilder();
 
-        /*ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
-                " FROM " + TABLE + " e1 , " + TABLE + " e2" +
-                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Dimension = e2.Dimension" +
-                " GROUP BY e2.Wort" +
-                " ORDER BY sim ASC" +
-                " LIMIT 50 ");*/
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor - e2.Vektor,2))) as sim" +
-                " FROM embeddings_100 e1, embeddings_100 e2" +
-                " WHERE e1.Wort='"+wort1+"' AND e1.Jahr="+jahr1+ " AND e2.Jahr="+ jahr2 +
+                " FROM " + TABLE + " e1, " + TABLE + " e2" +
+                " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 +
                 " AND e1.Dimension=e2.Dimension AND" +
                 " (e2.Wort LIKE 'a%' OR e2.Wort LIKE 'b%' OR e2.Wort LIKE 'c%' OR e2.Wort LIKE 'd%' OR e2.Wort LIKE 'e%' OR e2.Wort LIKE 'f%'" +
                 " OR e2.Wort LIKE 'g%' OR e2.Wort LIKE 'h%' OR e2.Wort LIKE 'i%' OR e2.Wort LIKE 'j%' OR e2.Wort LIKE 'k%' OR e2.Wort LIKE 'l%'" +
                 " OR e2.Wort LIKE 'm%' OR e2.Wort LIKE 'n%' OR e2.Wort LIKE 'o%' OR e2.Wort LIKE 'p%' OR e2.Wort LIKE 'q%' OR e2.Wort LIKE 'r%'" +
                 " OR e2.Wort LIKE 's%' OR e2.Wort LIKE 't%' OR e2.Wort LIKE 'u%' OR e2.Wort LIKE 'v%' OR e2.Wort LIKE 'w%' OR e2.Wort LIKE 'x%'" +
                 " OR e2.Wort LIKE 'y%' OR e2.Wort LIKE 'z%')" +
-                " GROUP BY e2.Wort ORDER BY sim ASC LIMIT 550");
+                " GROUP BY e2.Wort ORDER BY sim ASC LIMIT 1000");
         while (!rs.isLast()) {
             if (rs.next()) {
                 i++;
                 wort = rs.getString(1);
                 sim = rs.getString(2);
-                stringBuilder.append(i +". "+wort + ", ").append(sim).append("\n");
+                stringBuilder.append(i + ". " + wort + ", ").append(sim).append("\n");
             }
         }
 
         return stringBuilder.toString();
     }
 
-    public String selectVeränderung(int jahr1, int jahr2)throws SQLException {
+    public String selectVeränderung(int jahr1, int jahr2) throws SQLException {
         Statement statement = connection.createStatement();
         String wort = null;
         String sum = null;
@@ -182,7 +185,7 @@ public class CreateDB {
 
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor-e2.Vektor,2))) AS sum" +
                 " FROM " + TABLE + " e1, " + TABLE + " e2" +
-                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort=e2.Wort AND e1.Dimension=e2.Dimension"+
+                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort=e2.Wort AND e1.Dimension=e2.Dimension" +
                 " GROUP BY e2.Wort" +
                 " ORDER BY sum DESC" +
                 " LIMIT 10");
@@ -205,7 +208,7 @@ public class CreateDB {
 
         ResultSet rs2 = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor-e2.Vektor,2))) AS sum" +
                 " FROM " + TABLE + " e1, " + TABLE + " e2" +
-                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort=e2.Wort AND e1.Dimension=e2.Dimension"+
+                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort=e2.Wort AND e1.Dimension=e2.Dimension" +
                 " GROUP BY e2.Wort" +
                 " ORDER BY sum ASC" +
                 " LIMIT 10");
@@ -221,7 +224,7 @@ public class CreateDB {
         return stringBuilder.toString();
     }
 
-    public String selectPräsident(String name, int jahr1, int jahr2)throws SQLException {
+    public String selectPräsident(String name, int jahr1, int jahr2) throws SQLException {
         Statement statement = connection.createStatement();
         String wort = null;
         String sum = null;
@@ -230,7 +233,7 @@ public class CreateDB {
 
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, sqrt(sum(pow(e1.Vektor-e2.Vektor,2))) AS sum" +
                 " FROM " + TABLE + " e1, " + TABLE + " e2" +
-                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort='"+name+"' AND e1.Dimension=e2.Dimension"+
+                " WHERE e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 + " AND e1.Wort='" + name + "' AND e1.Dimension=e2.Dimension" +
                 " GROUP BY e2.Wort" +
                 " ORDER BY sum ASC" +
                 " LIMIT 50");
@@ -240,19 +243,19 @@ public class CreateDB {
                 i++;
                 wort = rs.getString(1);
                 sum = rs.getString(2);
-                stringBuilder.append(i+". "+wort + ", ").append(sum).append("\n");
+                stringBuilder.append(i + ". " + wort + ", ").append(sum).append("\n");
             }
         }
 
         return stringBuilder.toString();
     }
 
-    public void dropIndex() throws SQLException{
+    public void dropIndex() throws SQLException {
         Statement statement = connection.createStatement();
-        statement.executeUpdate("ALTER TABLE "+ TABLE +" DROP INDEX "+INDEX);
+        statement.executeUpdate("ALTER TABLE " + TABLE + " DROP INDEX " + INDEX);
     }
 
-    public String select1(String wort1, int jahr1) throws SQLException{
+    public String select1(String wort1, int jahr1) throws SQLException {
         Statement statement = connection.createStatement();
         String wort = null;
         String sim = null;
@@ -261,7 +264,7 @@ public class CreateDB {
         StringBuilder stringBuilder = new StringBuilder();
 
         ResultSet rs = statement.executeQuery("SELECT e1.Wort, e1.Vektor, e1.Jahr" +
-                " FROM " + TABLE + " e1"+
+                " FROM " + TABLE + " e1" +
                 " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1);
 
         while (!rs.isLast()) {
@@ -270,14 +273,14 @@ public class CreateDB {
                 wort = rs.getString(1);
                 sim = rs.getString(2);
                 j = rs.getString(3);
-                stringBuilder.append(i+". "+wort+", "+ j + ", ").append(sim).append("\n");
+                stringBuilder.append(i + ". " + wort + ", " + j + ", ").append(sim).append("\n");
             }
         }
 
         return stringBuilder.toString();
     }
 
-    public String select2(String wort1, int jahr1) throws SQLException{
+    public String select2(String wort1, int jahr1) throws SQLException {
         Statement statement = connection.createStatement();
         String wort = null;
         String sim = null;
@@ -287,7 +290,7 @@ public class CreateDB {
 
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, e2.Vektor, e2.Jahr" +
                 " FROM " + TABLE + " e2" +
-                " WHERE e2.Wort='"+ wort1 + "' AND e2.Jahr=" + jahr1 );
+                " WHERE e2.Wort='" + wort1 + "' AND e2.Jahr=" + jahr1);
 
         while (!rs.isLast()) {
             if (rs.next()) {
@@ -295,7 +298,7 @@ public class CreateDB {
                 wort = rs.getString(1);
                 sim = rs.getString(2);
                 j = rs.getString(3);
-                stringBuilder.append(i+". "+wort+", "+ j + ", ").append(sim).append("\n");
+                stringBuilder.append(i + ". " + wort + ", " + j + ", ").append(sim).append("\n");
             }
         }
 
@@ -305,10 +308,10 @@ public class CreateDB {
     public void createView() throws SQLException {
         Statement statement = connection.createStatement();
         statement.executeUpdate("CREATE VIEW Liste_Laenge_50 ( Jahr, Wort, Laenge ) AS SELECT Jahr, Wort, sqrt(sum(Vektor * Vektor)) as Laenge" +
-                " FROM embeddings_50"+
+                " FROM embeddings_50" +
                 " GROUP BY Jahr, Wort");
         statement.executeUpdate("CREATE VIEW Liste_Laenge_100 ( Jahr, Wort, Laenge ) AS SELECT Jahr, Wort, sqrt(sum(Vektor * Vektor)) as Laenge" +
-                " FROM embeddings_100"+
+                " FROM embeddings_100" +
                 " GROUP BY Jahr, Wort");
     }
 
@@ -317,21 +320,27 @@ public class CreateDB {
         StringBuilder stringBuilder = new StringBuilder();
         String wort = null;
         String cos = null;
-
+        int i = 0;
 
         ResultSet rs = statement.executeQuery("SELECT e2.Wort, sum(e1.Vektor * e2.Vektor) / (l1.Laenge * l2.Laenge) as cos" +
                 " FROM " + TABLE + " e1 , " + TABLE + " e2 , " + VIEW + " l1 , " + VIEW + " l2" +
                 " WHERE e1.Wort='" + wort1 + "' AND e1.Jahr=" + jahr1 + " AND e2.Jahr=" + jahr2 +
                 " AND e1.Dimension=e2.Dimension AND e1.jahr=l1.jahr AND e2.jahr=l2.jahr AND l1.Wort=e1.Wort AND l2.Wort=e2.Wort" +
+                " AND (e2.Wort LIKE 'a%' OR e2.Wort LIKE 'b%' OR e2.Wort LIKE 'c%' OR e2.Wort LIKE 'd%' OR e2.Wort LIKE 'e%' OR e2.Wort LIKE 'f%'" +
+                " OR e2.Wort LIKE 'g%' OR e2.Wort LIKE 'h%' OR e2.Wort LIKE 'i%' OR e2.Wort LIKE 'j%' OR e2.Wort LIKE 'k%' OR e2.Wort LIKE 'l%'" +
+                " OR e2.Wort LIKE 'm%' OR e2.Wort LIKE 'n%' OR e2.Wort LIKE 'o%' OR e2.Wort LIKE 'p%' OR e2.Wort LIKE 'q%' OR e2.Wort LIKE 'r%'" +
+                " OR e2.Wort LIKE 's%' OR e2.Wort LIKE 't%' OR e2.Wort LIKE 'u%' OR e2.Wort LIKE 'v%' OR e2.Wort LIKE 'w%' OR e2.Wort LIKE 'x%'" +
+                " OR e2.Wort LIKE 'y%' OR e2.Wort LIKE 'z%')" +
                 " GROUP BY e2.Wort" +
-                " ORDER BY cos DESC"+
-                " LIMIT 100 ");
+                " ORDER BY cos DESC" +
+                " LIMIT 1000 ");
 
         while (!rs.isLast()) {
             if (rs.next()) {
+                i++;
                 wort = rs.getString(1);
                 cos = rs.getString(2);
-                stringBuilder.append(wort + ", ").append(cos).append("\n");
+                stringBuilder.append(i + ". " + wort + ", ").append(cos).append("\n");
             }
         }
         return stringBuilder.toString();
